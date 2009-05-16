@@ -5,20 +5,51 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="imagetoolbar" content="no" />
     <link rel="shortcut icon" href="/media/img/fav.png" />
+    <link href="/media/css/stil.css" rel="stylesheet" type="text/css" />
     {% block extrahead %}{% endblock %}
 </head>
 <body>
-<div id="wrapper">
-    <div id="header">
-        {% include "header.html" %}
-    </div>
-    <div id="content">
-        {% block content %}
-        {% endblock %}
-    </div>
-    <div id="footer">
-        {% include "footer.html" %}
-    </div>
+<div class="header"> <a class="parduslogo" href="#"></a>
+  <div class="menu">
+    <div class="linkler"> <a class="mUrun" href="#"></a> <a class="mHizmet" href="#"></a> <a class="mHakkinda" href="#"></a> <a class="mBasin" href="#"></a> </div>
+    <a class="mDil" href="#"></a> </div>
 </div>
+<div id="wrapper">
+<div id="container">
+  <div class="main">
+{% block content %}
+{% endblock %}
+  </div>
+  <div class="sidebar"><img src="/media/resimler/sidebar/indirdownload.png" /><br />
+    <div class="search">
+      <div class="aramabg"></div>
+    </div>
+    <div class="features">
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/destek.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik">Destek Alın</span><br/>
+          <span class="ftext">Free documentation and community support, or buy professional support</span> </div>
+      </div>
+      <div class="fayrac"></div>
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/destek.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik">Destek Alın</span><br/>
+          <span class="ftext">Free documentation and community support, or buy professional support</span> </div>
+      </div>
+      <div class="fayrac"></div>
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/destek.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik">Destek Alın</span><br/>
+          <span class="ftext">Free documentation and community support, or buy professional support</span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="linksbar"><img src="/media/resimler/linkler/hepsi.png" width="929" height="71" /></div>
+  <div class="footer">
+    <div class="copy">Copyright 2006 Ulusal Elektronik ve Kriptoloji Araştırma Enstitüsü. Tüm Hakkı Saklıdır.<span class="footerNav">Ürünler   /   Hizmetler   /   Hakkında   /   Basın</span></div>
+    <div class="adres">TÜBİTAK - UEKAE, PK.74 41470, Gebze / Kocaeli. &nbsp;&nbsp;&nbsp;&nbsp; Kullanım Şartları&nbsp;&nbsp;&nbsp;&nbsp;Gizlilik Politikası</div>
+  </div>
+  </div>
 </body>
 </html>

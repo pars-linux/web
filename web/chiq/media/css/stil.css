@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+body, td, th {
+	color: #7a7a7a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+}
+body {
+	background-color: white;
+	background-image: url(/media//media/resimler/bg.png);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#container {
+	width: 930px;
+	overflow:hidden;
+}
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width:930px;
+}
+.header {
+	width: 958px;
+	height:74px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(/media/resimler/header.png);
+	background-repeat: no-repeat;
+}
+.sidebar {
+	float: right;
+	width: 182px;
+}
+.main {
+	float: left;
+	width: 742px;
+	margin-right: 5px;
+}
+.footerNav {
+	margin-left:315px;
+}
+.footer {
+	background-image: url(/media/resimler/footerarkaplan.png);
+	background-repeat: repeat-x;
+	margin-bottom:20px;
+}
+.part {
+	float: left;
+	width: 244px;
+	margin-right: 5px;
+	margin-top: 23px;
+}
+.partEnd {
+	float: left;
+	width: 244px;
+}
+.haberpic {
+	float: left;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+.rhaberHeader {
+	font-weight: bold;
+	color: #4d4e53;
+	display: block;
+}
+.linksbar {
+	float:none;
+	margin-bottom:30px;
+	margin-top:50px;
+}
+.aligner {
+	width: 230px;
+	margin-left: 10px;
+}
+.fbaslik {
+	font-weight: bold;
+	color: #3f5c57;
+	float: left;
+	width: 128px;
+	margin-left: 10px;
+}
+.haber {
+	margin-top: 14px;
+	width: 186px;
+	float: right;
+	display: block;
+}
+.fayrac {
+	height: 26px;
+	width: 100%;
+	background-repeat: repeat-x;
+	display: block;
+	clear: both;
+	background-image: url(/media/resimler/sidebar/bgayrac.png);
+}
+.ftext {
+	float: left;
+	width: 128px;
+	margin-left: 10px;
+	margin-top: 11px;
+}
+.aramabg {
+	background-image: url(/media/resimler/sidebar/arama.png);
+	height: 32px;
+	width: 183px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.habertext {
+	display: block;
+	margin-top: 8px;
+}
+.habercontain {
+	display: block;
+	width: 244px;
+	clear:both;
+}
+.featurePic {
+	float: left;
+	height: 50px;
+	width: 40px;
+	margin-left: 2px;
+}
+.parduslogo {
+	background-image: url(/media/resimler/menu/parduslogo.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 28px;
+	width: 255px;
+	margin-left: 27px;
+	margin-top: 21px;
+}
+.menu {
+	float: left;
+	margin-top: 14px;
+	margin-right: 60px;
+	margin-left: 120px;
+}
+.linkler {
+	float: left;
+}
+.mUrun, .mHakkinda, .mBasin, .mHizmet {
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 89px;
+	float: left;
+	margin-right: 8px;
+}
+.mUrun {
+	background-image: url(/media/resimler/menu/urunler_01.png);
+}
+.mHizmet {
+	background-image: url(/media/resimler/menu/hizmetler_01.png);
+}
+.mHakkinda {
+	background-image: url(/media/resimler/menu/hakkinda_01.png);
+}
+.mBasin {
+	background-image: url(/media/resimler/menu/basin_01.png);
+}
+.mUrun:hover {
+	background-image: url(/media/resimler/menu/urunler_02.png);
+}
+.mHizmet:hover {
+	background-image: url(/media/resimler/menu/hizmetler_02.png);
+}
+.mHakkinda:hover {
+	background-image: url(/media/resimler/menu/hakkinda_02.png);
+}
+.mBasin:hover {
+	background-image: url(/media/resimler/menu/basin_02.png);
+}
+.mDil {
+	height: 11px;
+	width: 36px;
+	background-image: url(/media/resimler/menu/english.png);
+	background-repeat: no-repeat;
+	margin-top: 19px;
+	float: right;
+	margin-left: 70px;
+}
+.copy {
+	padding-bottom:10px;
+}
+.adres {
+}
+.footerDil {
+	float:right;
+	margin-top:-24px;
+	padding:0;
+}
