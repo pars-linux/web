@@ -6,6 +6,7 @@
 # See the file http://www.gnu.org/copyleft/gpl.txt.
 
 from django.db import models
+from chiq.upload.models import Image
 
 class Tag(models.Model):
     name = models.CharField('Etiket', max_length=32, blank=False, unique=True)
@@ -32,3 +33,26 @@ class OtherFile(models.Model):
     class Meta:
         verbose_name = "Dosya"
         verbose_name_plural = "Dosyalar"
+
+class News(models.Model):
+    title = models.CharField('Başlık', max_length=32, blank=False)
+    slug = models.SlugField('SEF Başlık', help_text="Haberin bağlantısını oluşturacak başlık (haber başlığıyla aynı olmalı fakat sadece küçük harf ve - içermelidir)", unique=True)
+    image = models.ForeignKey(Image, verbose_name="Açılış Görseli", blank=True, null=True, help_text="Görselin 310x205 boyutlarında olmasına dikkat edin! Yeni görsel eklemek için + düğmesine tıklayın.")
+    sum = models.TextField('Özet', blank=False, help_text="Açılış görseli haber özetine otomatik eklenecektir.")
+    text = models.TextField('Metin', blank=False)
+    date = models.DateTimeField()
+    is_published = models.BooleanField('Yayında', blank=True)
+    tags = models.ManyToManyField(Tag)
+
+    def __unicode__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return "/haber/%s/" % self.slug
+
+    def get_printable_url(self):
+        return "/haber/%s/yazdir/" % self.slug
+
+    class Meta:
+        verbose_name = "Haber"
+        verbose_name_plural = "Haberler"
