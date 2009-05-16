@@ -1,19 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-<img src="/media/resimler/haber/26mart.png" />
+{% for news in mainnews %}
+<img src="{{ news.image.file.url }}" alt="{{ news.title }}"/>
+{% endfor %}
 <div class="part">1</div>
 <div class="part">
   <div class="mbaslik"><img src="/media/resimler/mbaslik/haberler.png"/></div>
+{% for news in news %}
   <div class="habercontain">
-    <div class="haberpic"><img src="/media/resimler/rhaberler/001.png" width="48" height="48" /></div>
-    <div class="haber"><span class="rhaberHeader">Pakistani police battle defiant protesters</span><br />
-      <span class="habertext">Police in Pakistan fight running battles with stone-throwing protesters who had defied a government  » </span></div>
+      <div class="haberpic"><img src="{{ news.image.file.url }}" width="48" height="48" alt="{{ news.title }}" /></div>
+<div class="haber"><span class="rhaberHeader">{{ news.title }}</span><br />
+    <span class="habertext">{{ news.sum|safe }}</span></div>
   </div>
-  <div class="habercontain">
-    <div class="haberpic"><img src="/media/resimler/rhaberler/001.png" width="48" height="48" /></div>
-    <div class="haber"><span class="rhaberHeader">Pakistani police battle defiant protesters</span><br />
-      <span class="habertext">Police in Pakistan fight running battles with stone-throwing protesters who had defied a government  » </span></div>
-  </div>
+{% endfor %}
 </div>
 <div class="partEnd">
   <div class="aligner"> <img src="/media/resimler/basari/sgk.png" width="229" height="81" /><br />
