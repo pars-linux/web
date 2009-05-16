@@ -1,4 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
+<img src="/media/resimler/haber/26mart.png" />
+<div class="part">1</div>
+<div class="part">
+  <div class="mbaslik"><img src="/media/resimler/mbaslik/haberler.png"/></div>
+  <div class="habercontain">
+    <div class="haberpic"><img src="/media/resimler/rhaberler/001.png" width="48" height="48" /></div>
+    <div class="haber"><span class="rhaberHeader">Pakistani police battle defiant protesters</span><br />
+      <span class="habertext">Police in Pakistan fight running battles with stone-throwing protesters who had defied a government  » </span></div>
+  </div>
+  <div class="habercontain">
+    <div class="haberpic"><img src="/media/resimler/rhaberler/001.png" width="48" height="48" /></div>
+    <div class="haber"><span class="rhaberHeader">Pakistani police battle defiant protesters</span><br />
+      <span class="habertext">Police in Pakistan fight running battles with stone-throwing protesters who had defied a government  » </span></div>
+  </div>
+</div>
+<div class="partEnd">
+  <div class="aligner"> <img src="/media/resimler/basari/sgk.png" width="229" height="81" /><br />
+    <span class="habertext">Recently, the site received a surge in traffic from a high-profile Japanese blog and the number of visitors doubled for one day.<br />
+    <br />
+    If the site were hosted on a dedicated server, it's very likely the site would have been largely inaccessible, if not very slow to respond. <br />
+    <br />
+    Devam »</span> </div>
+</div>
 {% for page in pages %}<a href="{{ page.get_absolute_url }}">{{ page.title }}</a>{% endfor %}
 {% endblock %}
