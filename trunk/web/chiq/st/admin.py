@@ -20,14 +20,14 @@ class FileAdmin(admin.ModelAdmin):
     search_fields = ['file', 'desc']
 
 class NewsAdmin(admin.ModelAdmin):
-    list_display = ('title', 'is_published', 'date')
+    list_display = ('title', 'is_main', 'is_published', 'date')
     list_filter = ('date',)
     ordering = ('date',)
     search_fields = ('title', 'text', 'sum', 'tag__name')
     prepopulated_fields = {'slug': ("title",)}
 
     fieldsets = (
-            ('Genel', {'fields': ('title', 'image', 'sum', 'text', 'tags', 'date', "is_published")}),
+            ('Genel', {'fields': ('title', 'image', 'sum', 'text', 'tags', 'date', 'is_main', 'is_published')}),
             ('Diğer', {'fields': ('slug',), 'classes': 'collapse'}),
             )
 

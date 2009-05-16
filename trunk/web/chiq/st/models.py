@@ -40,9 +40,10 @@ class News(models.Model):
     image = models.ForeignKey(Image, verbose_name="Açılış Görseli", blank=True, null=True, help_text="Görselin 310x205 boyutlarında olmasına dikkat edin! Yeni görsel eklemek için + düğmesine tıklayın.")
     sum = models.TextField('Özet', blank=False, help_text="Açılış görseli haber özetine otomatik eklenecektir.")
     text = models.TextField('Metin', blank=False)
-    date = models.DateTimeField()
+    date = models.DateTimeField("Tarih")
+    is_main = models.BooleanField('Ana Haber', blank=True)
     is_published = models.BooleanField('Yayında', blank=True)
-    tags = models.ManyToManyField(Tag)
+    tags = models.ManyToManyField(Tag, verbose_name="Etiketler")
 
     def __unicode__(self):
         return self.title
