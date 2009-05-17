@@ -141,5 +141,5 @@ To uninstall our applet we use ``plasmapkg`` again with its ``-r`` option::
 
 .. rubric:: Footnotes
 .. [#] http://techbase.kde.org/Projects/Plasma/PIG
-.. [#] http://svn.pardus.org.tr/uludag/branches/kde4-managers/tutorial/hello-world
-.. [#] http://svn.pardus.org.tr/uludag/branches/kde4-managers/service-manager/plasmoid/systemservices/contents/code/mkplasma
+.. [#] http://svn.pardus.org.tr/uludag/trunk/kde4/tutorial/hello-world
+.. [#] http://svn.pardus.org.tr/uludag/trunk/kde4/service-manager/plasmoid/systemservices/contents/code/mkplasma
