@@ -57,3 +57,26 @@ class News(models.Model):
     class Meta:
         verbose_name = "Haber"
         verbose_name_plural = "Haberler"
+
+class SuccessStory(models.Model):
+    title = models.CharField('Başlık', max_length=32, blank=False)
+    slug = models.SlugField('SEF Başlık', help_text="Makalenin bağlantısını oluşturacak başlık (makale başlığıyla aynı olmalı fakat sadece küçük harf ve - içermelidir)", unique=True)
+    sum = models.TextField('Özet', blank=False)
+    text = models.TextField('Metin', blank=False)
+    date = models.DateTimeField("Tarih")
+    is_main = models.BooleanField('Ana Sayfada', blank=True)
+    is_published = models.BooleanField('Yayında', blank=True)
+    tags = models.ManyToManyField(Tag, verbose_name="Etiketler")
+
+    def __unicode__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return "/basarioykusu/%s/" % self.slug
+
+    def get_printable_url(self):
+        return "/basarioykusu/%s/yazdir/" % self.slug
+
+    class Meta:
+        verbose_name = "Başarı Öyküsü"
+        verbose_name_plural = "Başarı Öyküleri"
