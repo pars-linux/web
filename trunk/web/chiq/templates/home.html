@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 {% for news in mainnews %}
-<img src="{{ news.image.file.url }}" alt="{{ news.title }}"/>
+<a href="{{ news.get_absolute_url }}"><img src="{{ news.image.file.url }}" alt="{{ news.title }}"/></a>
 {% endfor %}
 <div class="part">1</div>
 <div class="part">
