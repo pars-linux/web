@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 img { border:none }
+a { text-decoration:none }
 body, td, th {
 	color: #7a7a7a;
 	font-family: Arial, Helvetica, sans-serif;
@@ -69,7 +70,6 @@ body {
 	font-weight: bold;
 	color: #4d4e53;
 	display: block;
-	text-decoration: none;
 }
 .linksbar {
 	float:none;
@@ -80,7 +80,7 @@ body {
 	width: 230px;
 	margin-left: 10px;
 }
-.fbaslik {
+.fbaslik a {
 	font-weight: bold;
 	color: #3f5c57;
 	float: left;
@@ -198,6 +198,5 @@ body {
 	padding:0;
 }
 .footer a {
-	text-decoration: none;
 	color: #7a7a7a;
 }
