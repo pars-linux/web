@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+{{ news.title }}
+{{ news.text|safe }}
+<p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
+{% endblock %}
