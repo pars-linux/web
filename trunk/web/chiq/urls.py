@@ -32,6 +32,8 @@ urlpatterns = patterns('',
 
     #Django
     (r'^$', 'chiq.st.views.home'),
+    (r'^haber/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
+    (r'^haber/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
     (r'^admin/upload/image/tinymce/$', 'chiq.upload.views.image_upload'),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/(.*)', admin.site.root),
