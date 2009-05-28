@@ -1,9 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="haber_tumu">
 {% for news in news %}
-<img src="{{ news.image.file.url }}" alt="{{ news.title }}" />
-{{ news.title }}
-{{ news.text|safe }}
-<p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
+<div class="haber_liste">
+    <div class="haber_resim"><img src="{{ news.image.file.url }}" alt="{{ news.title }}" /></div>
+    <h2>{{ news.title }}</h2>
+    <div class="haber_tarih">{{ news.date|date:"d F, l" }}</div>
+    <div class="haber_metin">{{ news.text|safe }}</div>
+    <p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
+</div>
 {% endfor %}
+</div>
+<div class="icerik_sutun">
+Lorem ipsum dolor sit amet.
+</div>
 {% endblock %}
