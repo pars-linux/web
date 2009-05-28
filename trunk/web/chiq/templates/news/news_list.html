@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+{% for news in news %}
+<img src="{{ news.image.file.url }}" alt="{{ news.title }}" />
+{{ news.title }}
+{{ news.text|safe }}
+<p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
+{% endfor %}
+{% endblock %}

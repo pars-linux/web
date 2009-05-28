@@ -9,15 +9,24 @@ from django.shortcuts import get_object_or_404
 
 from chiq.flatpages.models import FlatPage
 from chiq.st.wrappers import render_response
-from chiq.st.models import News
+from chiq.st.models import News, SuccessStory
 
 def robots(request):
     return render_response(request, 'robots.txt')
 
 def home(request):
     mainnews = News.objects.filter(is_main=True, is_published=True).order_by("date")[:1]
+    stories = SuccessStory.objects.filter(is_main=True, is_published=True).order_by("date")[:1]
     news = News.objects.filter(is_main=False, is_published=True).order_by("date")[:2]
     return render_response(request, 'home.html', locals())
+
+def story_list(request):
+    stories = SuccessStory.objects.filter(is_published=True).order_by("date")
+    return render_response(request, 'successstory/successstory_list.html', locals())
+
+def news_list(request):
+    news = News.objects.filter(is_published=True, is_main=False).order_by("date")
+    return render_response(request, 'news/news_list.html', locals())
 
 def news_detail(request, slug):
     news = get_object_or_404(News, slug=slug)
