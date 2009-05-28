@@ -2,6 +2,10 @@
 /* CSS Document */
 img { border:none }
 a { text-decoration:none }
+h2, h2 a {
+    color: #4D4E53;
+    font-size: 14px;
+}
 body, td, th {
 	color: #7a7a7a;
 	font-family: Arial, Helvetica, sans-serif;
@@ -199,4 +203,33 @@ body {
 }
 .footer a {
 	color: #7a7a7a;
+}
+.haber_tarih {
+    margin-top: -5px;
+    margin-left: 2px;
+}
+.haber_resim img {
+    width: 210px;
+    height: 140px;
+    padding: 2px;
+}
+.haber_resim {
+    width: 216px;
+    border: 1px #4D4E53 solid;
+    float: left;
+    margin-right: 10px;
+}
+.haber_liste {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.haber_tumu {
+    width: 550px;
+    float: left;
+}
+.icerik_sutun {
+    float: right;
+    width: 183px;
+    overflow: hidden;
 }
