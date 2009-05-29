@@ -226,6 +226,10 @@ body {
     width: 550px;
     float: left;
 }
+.haber_ozet {
+    color: #54898F;
+    font-style: italic;
+}
 .icerik_sutun {
     float: right;
     width: 183px;
