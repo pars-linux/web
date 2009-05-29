@@ -7,7 +7,6 @@
     <h2>{{ news.title }}</h2>
     <div class="haber_tarih">{{ news.date|date:"d F, l" }}</div>
     <div class="haber_metin">{{ news.sum|safe }}</div>
-    <p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
 </div>
 {% endfor %}
 </div>
