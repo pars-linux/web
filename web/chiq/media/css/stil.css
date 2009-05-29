@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 img { border:none }
-a { text-decoration:none }
+a {
+    text-decoration:none;
+    color:#588DC3;
+}
 h2, h2 a {
     color: #4D4E53;
     font-size: 14px;
