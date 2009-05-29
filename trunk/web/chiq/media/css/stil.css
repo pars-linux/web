@@ -170,9 +170,6 @@ body {
 .mHakkinda {
 	background-image: url(/media/resimler/menu/hakkinda_01.png);
 }
-.mBasin {
-	background-image: url(/media/resimler/menu/basin_01.png);
-}
 .mUrun:hover {
 	background-image: url(/media/resimler/menu/urunler_02.png);
 }
@@ -182,9 +179,6 @@ body {
 .mHakkinda:hover {
 	background-image: url(/media/resimler/menu/hakkinda_02.png);
 }
-.mBasin:hover {
-	background-image: url(/media/resimler/menu/basin_02.png);
-}
 .mDil {
 	height: 11px;
 	width: 36px;
@@ -192,7 +186,7 @@ body {
 	background-repeat: no-repeat;
 	margin-top: 19px;
 	float: right;
-	margin-left: 70px;
+	margin-left: 159px;
 }
 .copy {
 	padding-bottom:10px;
