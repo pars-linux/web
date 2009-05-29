@@ -3,6 +3,7 @@
 <div class="haber_liste">
     <h1>{{ news.title }}</h1>
     <div class="haber_tarih">{{ news.date|date:"d F, l" }}</div>
+    <div class="haber_ozet">{{ news.sum|safe }}</div>
     <div class="haber_metin">{{ news.text|safe }}</div>
 </div>
 <p><a href="{{ news.get_printable_url }}">Yazdır</a></p>
