@@ -4,7 +4,7 @@
 {% for news in news %}
 <div class="haber_liste">
     <div class="haber_resim"><img src="{{ news.image.file.url }}" alt="{{ news.title }}" /></div>
-    <h2>{{ news.title }}</h2>
+    <h2><a href="{{ news.get_absolute_url }}">{{ news.title }}</a></h2>
     <div class="haber_tarih">{{ news.date|date:"d F, l" }}</div>
     <div class="haber_metin">{{ news.sum|safe }}</div>
 </div>
