@@ -263,3 +263,22 @@ body {
     width: 100%;
     height: 100%;
 }
+.indir {
+    background-image: url(/media/resimler/indir/bg.png);
+    width: 742px;
+    height: 373px;
+    overflow: hidden;
+}
+.indirbasliklar {
+    font: 22px arial bold;
+    color: #d4c5ca;
+    margin-top: 45px;
+    margin-left: 27px;
+}
+.indirbasliklar .selected {
+    color: white;
+}
+.indirbaslik {
+    float: left;
+    margin-right: 40px;
+}
