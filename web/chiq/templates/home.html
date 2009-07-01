@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block extrahead %}
+<script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/media/js/home.js"></script>
+{% endblock %}
 {% block content %}
 {% for news in mainnews %}
 <a href="{{ news.get_absolute_url }}"><img src="{{ news.image.file.url }}" alt="{{ news.title }}"/></a>
@@ -6,10 +10,10 @@
 <div class="part kutudis">
     <div class="kutuic">
         <div class="kutuliste">
-            <img src="/media/resimler/kutu/metin_kurumsal02.png" alt="Kurumsal" />
-            <img src="/media/resimler/kutu/metin_bireysel01.png" alt="Bireysel" />
-            <img src="/media/resimler/kutu/metin_gelistirici01.png" alt="Geliştirici" />
-            <img src="/media/resimler/kutu/metin_cozumortaklari01.png" alt="Çözüm Ortakları" />
+            <a href="/kurumsal/"><img id="kutu1" src="/media/resimler/kutu/metin_kurumsal02.png" alt="Kurumsal" /></a>
+            <a href="/bireysel/"><img id="kutu2" src="/media/resimler/kutu/metin_bireysel01.png" alt="Bireysel" /></a>
+            <a href="/gelistirici/"><img id="kutu3" src="/media/resimler/kutu/metin_gelistirici01.png" alt="Geliştirici" /></a>
+            <a href="/cozum-ortaklari/"><img id="kutu4" src="/media/resimler/kutu/metin_cozumortaklari01.png" alt="Çözüm Ortakları" /></a>
         </div>
     </div>
 </div>

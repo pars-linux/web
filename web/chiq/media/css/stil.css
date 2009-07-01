@@ -257,3 +257,9 @@ body {
     clear: left;
     margin: 10px;
 }
+.kutuic {
+    background-image: url(/media/resimler/kutu/kurumsal.png);
+    background-repeat: none;
+    width: 100%;
+    height: 100%;
+}
