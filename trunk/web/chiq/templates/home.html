@@ -3,7 +3,16 @@
 {% for news in mainnews %}
 <a href="{{ news.get_absolute_url }}"><img src="{{ news.image.file.url }}" alt="{{ news.title }}"/></a>
 {% endfor %}
-<div class="part">1</div>
+<div class="part kutudis">
+    <div class="kutuic">
+        <div class="kutuliste">
+            <img src="/media/resimler/kutu/metin_kurumsal02.png" alt="Kurumsal" />
+            <img src="/media/resimler/kutu/metin_bireysel01.png" alt="Bireysel" />
+            <img src="/media/resimler/kutu/metin_gelistirici01.png" alt="Geliştirici" />
+            <img src="/media/resimler/kutu/metin_cozumortaklari01.png" alt="Çözüm Ortakları" />
+        </div>
+    </div>
+</div>
 <div class="part">
   <div class="mbaslik"><img src="/media/resimler/mbaslik/haberler.png"/></div>
 {% for news in news %}

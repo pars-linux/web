@@ -236,3 +236,24 @@ body {
     overflow: hidden;
 }
 .linksbar img { float:left;}
+.kutudis {
+    background-image: url(/media/resimler/kutu/4lu_bg.png);
+    background-repeat: none;
+    width: 242px;
+    height: 200px;
+}
+.kutuliste {
+    float: right;
+    background-image: url(/media/resimler/kutu/4lu_listebg.png);
+    background-repeat: none;
+    width: 92px;
+    height: 116px;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.kutuliste img {
+    display: block;
+    clear: left;
+    margin: 10px;
+}
