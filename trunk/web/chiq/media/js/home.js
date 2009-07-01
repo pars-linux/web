@@ -1,16 +1,28 @@
-var intval=""
-$(function() {
-            intval = setInterval(function () {
-                change_news(1)
-            }, 10000)
-        });
-
-function change_news(direction) {
-    nc = $("#news_count").html();
-    $("#news_" + nc).hide();
-    if (nc == '1' && direction == -1) nc = 6;
-    if (nc == '5' && direction == 1) nc = 0;
-    nc = parseInt(nc) + direction;
-    $("#news_" + nc).fadeIn();
-    $("#news_count").html(nc);
+function kutusec(kutu){
+    if (kutu == 1) $("#kutu1").attr("src", "/media/resimler/kutu/metin_kurumsal02.png");
+    else $("#kutu1").attr("src", "/media/resimler/kutu/metin_kurumsal01.png");
+    if (kutu == 2) $("#kutu2").attr("src", "/media/resimler/kutu/metin_bireysel02.png");
+    else $("#kutu2").attr("src", "/media/resimler/kutu/metin_bireysel01.png");
+    if (kutu == 3) $("#kutu3").attr("src", "/media/resimler/kutu/metin_gelistirici02.png");
+    else $("#kutu3").attr("src", "/media/resimler/kutu/metin_gelistirici01.png");
+    if (kutu == 4) $("#kutu4").attr("src", "/media/resimler/kutu/metin_cozumortaklari02.png");
+    else $("#kutu4").attr("src", "/media/resimler/kutu/metin_cozumortaklari01.png");
 }
+$(document).ready(function() {
+    $("#kutu1").mouseover(function(){
+        $(".kutuic").css("background-image","url(/media/resimler/kutu/kurumsal.png)");
+        kutusec(1);
+    });
+    $("#kutu2").mouseover(function(){
+        $(".kutuic").css("background-image","url(/media/resimler/kutu/bireysel.png)");
+        kutusec(2);
+    });
+    $("#kutu3").mouseover(function(){
+        $(".kutuic").css("background-image","url(/media/resimler/kutu/gelistirici.png)");
+        kutusec(3);
+    });
+    $("#kutu4").mouseover(function(){
+        $(".kutuic").css("background-image","url(/media/resimler/kutu/cozumortaklari.png)");
+        kutusec(4);
+    });
+});
