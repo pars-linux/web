@@ -274,6 +274,8 @@ body {
     color: #d4c5ca;
     margin-top: 45px;
     margin-left: 27px;
+    width: 100%;
+    overflow: hidden;
 }
 .indirbasliklar .selected {
     color: white;
@@ -281,4 +283,31 @@ body {
 .indirbaslik {
     float: left;
     margin-right: 40px;
+}
+.ustaciklama {
+    margin-left: 27px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.aciklama {
+    font: 11px arial;
+    color: white;
+}
+.surum {
+    margin-left: 17px;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 14px;
+    width: 691px;
+    cursor: pointer;
+}
+.surumbaslik {
+    font: 18px arial bold;
+    color: white;
+}
+.surum:hover {
+    background-image: url(/media/resimler/indir/indirbuton.png);
+}
+.gizli {
+    display: none;
 }
