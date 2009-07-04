@@ -314,3 +314,66 @@ body {
 .gizli {
     display: none;
 }
+.iletisim {
+    font-size: 13px;
+}
+.iletisim_baslik {
+    color: #3f5c57;
+    font-weight: bold;
+    font-family: arial;
+}
+.iletisim {
+    width: 100%;
+    overflow: hidden;
+}
+.iletisim_sol {
+    margin-top: 20px;
+    float: left;
+}
+.iletisim_sag {
+    float: right;
+    margin-right: 20px;
+}
+.iletisim_seciciler {
+    color: #3f5c57;
+    font-size: 14px;
+    font-family: arial;
+    width: 100%;
+    overflow: hidden;
+}
+.iletisim_secili {
+    font-weight: bold;
+}
+.iletisim_secici {
+    float: left;
+    margin-right: 30px;
+}
+.iletisim_aciklama {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.iletisim_form_kucuk_alan {
+    width: 220px;
+    margin-right: 10px;
+    float: left;
+    clear: none !important;
+}
+.iletisim_form_alan {
+    clear: left;
+}
+.iletisim_form_alan_alan input {
+    background-image: url(/media/resimler/iletisim/textalani.png);
+    margin-bottom: 10px;
+    width: 205px;
+    height: 22px;
+    padding: 4px;
+    border: none;
+}
+.iletisim_form_alan_alan textarea {
+    background-image: url(/media/resimler/iletisim/textalanibuyuk.png);
+    width: 665px;
+    height: 92px;
+    padding: 4px;
+    border: none;
+}
