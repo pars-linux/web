@@ -347,6 +347,7 @@ body {
 .iletisim_secici {
     float: left;
     margin-right: 30px;
+    cursor: pointer;
 }
 .iletisim_aciklama {
     font-size: 12px;
