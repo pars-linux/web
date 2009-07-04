@@ -1,21 +1,21 @@
 {% extends "base.html" %}
+{% block extrahead %}
+<script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/media/js/indir.js"></script>
+{% endblock %}
 {% block content %}
 <div class="indir">
     <div class="indirbasliklar">
-        <div class="indirbaslik selected">Kurulan CD</div>
-        <div class="indirbaslik">Çalışan CD</div>
+        <div class="indirbaslik kurulan selected">Kurulan CD</div>
+        <div class="indirbaslik calisan">Çalışan CD</div>
     </div>
     <div class="aciklama ustaciklama">Bir sürüm seçin</div>
-    <div class="surum">
-        <div class="surumbaslik">Pardus 2009</div>
-        <div class="aciklama">2010'a kadar desteklenecek sürüm.</div>
+    {% for version in versions %}
+    <div class="surum{% ifequal version.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}">
+        <div class="surumbaslik">{{ version.title }}</div>
+        <div class="aciklama">{{ version.description }}</div>
     </div>
-    <div class="surum">
-        <div class="surumbaslik">Pardus 2009</div>
-        <div class="aciklama">2010'a kadar desteklenecek sürüm.</div>
-    </div>
-    <div class="surum gizli"></div>
-    <div class="surum gizli"></div>
+    {% endfor %}
     <div class="indiralt"></div>
 </div>
 {% endblock %}
