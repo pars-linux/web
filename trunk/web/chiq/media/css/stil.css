@@ -270,7 +270,8 @@ body {
     overflow: hidden;
 }
 .indirbasliklar {
-    font: 22px arial bold;
+    font: 22px arial;
+    font-weight: bold;
     color: #d4c5ca;
     margin-top: 45px;
     margin-left: 27px;
@@ -283,6 +284,7 @@ body {
 .indirbaslik {
     float: left;
     margin-right: 40px;
+    cursor: pointer;
 }
 .ustaciklama {
     margin-left: 27px;
@@ -302,7 +304,8 @@ body {
     cursor: pointer;
 }
 .surumbaslik {
-    font: 18px arial bold;
+    font: 18px arial;
+    font-weight: bold;
     color: white;
 }
 .surum:hover {
