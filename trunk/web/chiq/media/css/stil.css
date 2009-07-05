@@ -303,7 +303,7 @@ body {
     width: 691px;
     cursor: pointer;
 }
-.surumbaslik {
+.surumbaslik a {
     font: 18px arial;
     font-weight: bold;
     color: white;
@@ -362,6 +362,7 @@ body {
 }
 .iletisim_form_alan {
     clear: left;
+    margin-top: 20px;
 }
 .iletisim_form_alan_alan input {
     background-image: url(/media/resimler/iletisim/textalani.png);
