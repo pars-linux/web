@@ -8,6 +8,7 @@
 from django.conf.urls.defaults import patterns
 
 urlpatterns = patterns('basin.views',
+    (r'^$', 'lastyear'),
     (r'^(?P<year>\d{4})/$', 'main'),
     (r'^(?P<year>\d{4})/(?P<month>\d{2})/(?P<day>\d{2})/(?P<slug>[a-zA-Z\d_-]+)/(?P<page>\d+)/$', 'page'),
 )
