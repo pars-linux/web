@@ -7,11 +7,17 @@
 
 from django.contrib import admin
 
-from chiq.indir.models import Version
+from chiq.indir.models import Download, Version
 
 class VersionAdmin(admin.ModelAdmin):
-    list_display = ("title", "type")
-    ordering = ["-title"]
+    list_display = ("name", "status")
+    ordering = ["-name"]
+    search_fields = ["name", "release_notes"]
+
+class DownloadAdmin(admin.ModelAdmin):
+    list_display = ("title", "type", "status")
+    ordering = ["version"]
     search_fields = ["title", "description"]
 
 admin.site.register(Version, VersionAdmin)
+admin.site.register(Download, DownloadAdmin)
