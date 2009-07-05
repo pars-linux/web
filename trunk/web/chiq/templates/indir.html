@@ -10,12 +10,12 @@
         <div class="indirbaslik calisan">Çalışan CD</div>
     </div>
     <div class="aciklama ustaciklama">Bir sürüm seçin</div>
-    {% for version in versions %}
-    <div class="surum{% ifequal version.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}" onclick="location.href='{{ version.download_link }}'">
-        <div class="surumbaslik"><a href="{{ version.download_link }}">{{ version.title }}</a></div>
-        <div class="aciklama">{{ version.description }}</div>
+    {% for download in downloads %}
+    <div class="surum{% ifequal download.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}" onclick="location.href='{{ download.link }}'">
+        <div class="surumbaslik"><a href="{{ download.link }}">{{ download.title }}</a></div>
+        <div class="aciklama">{{ download.description }}</div>
     </div>
     {% endfor %}
-    <div class="indiralt"></div>
+    <div class="indiralt">{{ version.name }} sürümü hakkında bilgi almak için <a href="{{ version.get_release_notes_url }}">sürüm notları</a> belgesini okuyabilirsiniz.</div>
 </div>
 {% endblock %}
