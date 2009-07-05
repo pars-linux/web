@@ -33,6 +33,7 @@ urlpatterns = patterns('',
     #Django
     (r'^$', 'chiq.st.views.home'),
     (r'^haber/$', 'chiq.st.views.news_list'),
+    (r'^iletisim/$', 'chiq.st.views.contact'),
     (r'^indir/$', 'chiq.indir.views.main'),
     (r'^haber/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
     (r'^haber/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),

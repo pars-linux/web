@@ -6,10 +6,12 @@
 # See the file http://www.gnu.org/copyleft/gpl.txt.
 
 from django.shortcuts import get_object_or_404
+from django.core.mail import send_mail
 
 from chiq.flatpages.models import FlatPage
 from chiq.st.wrappers import render_response
 from chiq.st.models import News, SuccessStory
+from chiq.st.forms import ContactForm
 
 def robots(request):
     return render_response(request, 'robots.txt')
@@ -47,3 +49,12 @@ def tag_detail(request, tag):
     except Tag.DoesNotExist:
         raise Http404
     return render_response(request, 'tag/tag_detail.html', locals())
+
+def contact(request):
+    if request.method == "POST":
+        form = ContactForm(request.POST.copy())
+        if form.is_valid():
+            send_mail("Pardus.org.tr bilgi formu", form.cleaned_data["text"], "%s <%s>" % (form.cleaned_data["name"],form.cleaned_data["email"]), ["bilgi@pardus.org.tr"], fail_silently=True)
+            mail_sent = True
+            return render_response(request, "iletisim.html", locals())
+    return render_response(request, "iletisim.html", locals())
