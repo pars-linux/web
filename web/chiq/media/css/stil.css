@@ -379,3 +379,12 @@ body {
     padding: 4px;
     border: none;
 }
+.indiralt {
+    margin-left: 27px;
+    color: white;
+}
+.indiralt a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
