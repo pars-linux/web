@@ -8,8 +8,24 @@
 from django.db import models
 
 class Version(models.Model):
-    title = models.CharField(max_length=64)
-    type = models.IntegerField(choices=((0,"Kurulan"),(1,"Çalışan")))
-    description = models.CharField(max_length=256)
+    name = models.CharField(max_length=32)
+    slug = models.SlugField()
     release_notes = models.TextField()
-    download_link = models.CharField(max_length=256)
+    status = models.BooleanField()
+
+    def __unicode__(self):
+        return self.name
+
+    def get_release_notes_url(self):
+        return "/surum_notlari/%s/" % self.slug
+
+class Download(models.Model):
+    version = models.ForeignKey(Version)
+    title = models.CharField(max_length=32)
+    type = models.IntegerField(choices=((0,"Kurulan"),(1,"Çalışan")))
+    description = models.CharField(max_length=128)
+    link = models.CharField(max_length=256)
+    status = models.BooleanField()
+
+    def __unicode__(self):
+        return self.title
