@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+{% for year in years %}
+{{ year.date.year }},
+{% endfor %}
+{% for issue in issues %}
+{{ issue.date }}
+{% endfor %}
+{% endblock %}
