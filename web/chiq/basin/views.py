@@ -7,6 +7,8 @@
 
 import datetime
 
+from django.shortcuts import get_object_or_404
+
 from chiq.basin.models import *
 from chiq.st.wrappers import render_response
 
@@ -22,5 +24,5 @@ def main(request, year):
     return render_response(request, "basin/liste.html", locals())
 
 def page(request, year, month, day, slug, page):
-    page = get_object_or_404(Page, issue__date=datetime.date(year,month,day), issue__publication__slug=slug, number=page)
+    page = get_object_or_404(Page, issue__date=datetime.date(int(year),int(month),int(day)), issue__publication__slug=slug, number=int(page))
     return render_response(request, "basin/sayfa.html", locals())
