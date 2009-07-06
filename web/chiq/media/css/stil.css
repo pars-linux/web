@@ -388,3 +388,24 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+.basin_tepe {
+    border-top: 1px #3f5c57 solid;
+    border-bottom: 1px #3f5c57 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.basin_tepe p , .basin_baglanti {
+    margin-left: 10px;
+    color: #3f5c57;
+    font-weight: bold;
+    font-size: 12px;
+}
+.basin_sayfa {
+    font-weight: normal;
+    font-size: 11px;
+}
+.basin_baglanti {
+    font-size: 11px;
+}
