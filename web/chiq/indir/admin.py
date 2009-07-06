@@ -14,6 +14,9 @@ class VersionAdmin(admin.ModelAdmin):
     ordering = ["-name"]
     search_fields = ["name", "release_notes"]
 
+    class Media:
+        js = ("js/tinymce/tiny_mce.js", "js/tinymce/textareas.js")
+
 class DownloadAdmin(admin.ModelAdmin):
     list_display = ("title", "type", "status")
     ordering = ["version"]
