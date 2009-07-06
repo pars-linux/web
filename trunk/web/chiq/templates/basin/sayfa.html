@@ -1,4 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
+<a href="/basin/">« Basın Arşivi</a>
+<div>{{ page.issue.title }}</div>
+<div class="issue">{{ page.issue.publication }}, {{ page.issue.date }}</div>
+<div class="page_number">{{ page.number }}</div>
 <img src="{{ page.image.url }}" alt="{{ page }}"/>
 {% endblock %}
