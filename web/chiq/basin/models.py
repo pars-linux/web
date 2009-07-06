@@ -15,6 +15,7 @@ class Publication(models.Model):
         return self.title
 
 class Issue(models.Model):
+    title = models.CharField(max_length=32)
     publication = models.ForeignKey(Publication)
     date = models.DateField()
 
