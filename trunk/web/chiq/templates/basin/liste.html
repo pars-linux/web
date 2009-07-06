@@ -4,6 +4,9 @@
 {{ year.date.year }},
 {% endfor %}
 {% for issue in issues %}
-{{ issue.date }}
+    {{ issue.date }}
+    {% for page in issue.page_set.all %}
+        <a href="{{ page.get_absolute_url }}">{{ page.number }}</a>,
+    {% endfor %}
 {% endfor %}
 {% endblock %}
