@@ -12,13 +12,10 @@ from django.shortcuts import get_object_or_404
 from chiq.basin.models import *
 from chiq.st.wrappers import render_response
 
-def lastyear(request):
-    years = Issue.objects.all().distinct("date__year")
-    year = Issue.objects.order_by("-date")[0].date.year
-    issues = Issue.objects.filter(date__year=year)
-    return render_response(request, "basin/liste.html", locals())
+def main(request):
+    return render_response(request, "basin/bultenlervegorseller.html", locals())
 
-def main(request, year):
+def year(request, year):
     years = Issue.objects.all().distinct("date__year")
     issues = Issue.objects.filter(date__year=year)
     return render_response(request, "basin/liste.html", locals())
