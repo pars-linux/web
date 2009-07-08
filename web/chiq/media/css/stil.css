@@ -442,3 +442,17 @@ body {
 .basin_resim {
     max-width: 900px;
 }
+.gorsel_kutusu {
+    width: 224px;
+    background-image: url(/media/resimler/basin/saggorsellerbg.png);
+    padding: 10px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    float: right;
+}
+.gorsel_kutusu img {
+    float: left;
+}
+.gorsel_kutusu hr {
+    clear: both;
+}
