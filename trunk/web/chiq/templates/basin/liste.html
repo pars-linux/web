@@ -10,7 +10,7 @@
     <div class="basinsayi_yayin">{{ issue.publication }}, {{ issue.date }}</div>
     <div class="basinsayi_sayfalar">
     {% for page in issue.page_set.all %}
-        <a href="{{ page.get_absolute_url }}">Sayfa {{ page.number }}</a>{% if not forloop.last %},{% endif %}
+        <a href="{{ page.get_absolute_url }}">Sayfa{% if page.number %} {{ page.number }}{% endif %}</a>{% if not forloop.last %},{% endif %}
     {% endfor %}
     </div>
 </div>
