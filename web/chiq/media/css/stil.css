@@ -486,6 +486,9 @@ body {
 .basin_ust_baslik a {
     font-size: 20px;
     font-weight: bold;
+    color: #748985;
+}
+.basin_ust_baslik_secili a {
     color: #3f5c57;
 }
 .basin_ust_baslik {
