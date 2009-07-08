@@ -456,3 +456,21 @@ body {
 .gorsel_kutusu hr {
     clear: both;
 }
+.basin_bultenleri {
+    width: 490px;
+}
+.basin_bulteni_sol {
+    float: left;
+    width: 10px;
+    margin-top: 4px;
+}
+.basin_bulteni_sag {
+    float: left;
+}
+.basin_bulteni {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px #3f5c57 solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
