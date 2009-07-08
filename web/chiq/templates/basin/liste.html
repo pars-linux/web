@@ -3,10 +3,17 @@
 {% for year in years %}
 {{ year.date.year }},
 {% endfor %}
+<div class="basin_liste">
 {% for issue in issues %}
-    {{ issue.publication }} - {{ issue.title }} ({{ issue.date }})
+<div class="basinsayi {% cycle 'sutun1' 'sutun2' 'sutun3' %}">
+    <div class="basinsayi_baslik">{{ issue.title }}</div>
+    <div class="basinsayi_yayin">{{ issue.publication }}, {{ issue.date }}</div>
+    <div class="basinsayi_sayfalar">
     {% for page in issue.page_set.all %}
-        <a href="{{ page.get_absolute_url }}">Sayfa {{ page.number }}</a>,
+        <a href="{{ page.get_absolute_url }}">Sayfa {{ page.number }}</a>{% if not forloop.last %},{% endif %}
     {% endfor %}
+    </div>
+</div>
 {% endfor %}
+</div>
 {% endblock %}

@@ -409,3 +409,33 @@ body {
 .basin_baglanti {
     font-size: 11px;
 }
+.basin_liste {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+.basinsayi {
+    width: 224px;
+    height: 89px;
+    padding: 10px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    float: left;
+}
+.sutun1 {
+    background-image: url(/media/resimler/basin/basindaarsiv_alt.png);
+}
+.sutun2, .sutun3 {
+    background-image: url(/media/resimler/basin/basindaarsiv_sol_alt.png);
+}
+.basinsayi_baslik {
+    font-size: 17px;
+    height: 60px;
+}
+.basinsayi_yayin {
+    font-weight: bold;
+}
+.basinsayi_sayfalar a {
+    font-size: 11px;
+    color: #7a7a7a;
+}
