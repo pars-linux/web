@@ -389,8 +389,8 @@ body {
     text-decoration: underline;
 }
 .basin_tepe {
-    border-top: 1px #3f5c57 solid;
-    border-bottom: 1px #3f5c57 solid;
+    border-top: 1px #e5e5e5 solid;
+    border-bottom: 1px #e5e5e5 solid;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -455,6 +455,7 @@ body {
 }
 .gorsel_kutusu hr {
     clear: both;
+    color: #e5e5e5;
 }
 .basin_bultenleri {
     width: 490px;
@@ -470,7 +471,7 @@ body {
 .basin_bulteni {
     width: 100%;
     overflow: hidden;
-    border-bottom: 1px #3f5c57 solid;
+    border-bottom: 1px #e5e5e5 solid;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -478,4 +479,25 @@ body {
     float: left;
     margin-top: 20px;
     margin-left: 5px;
+}
+.basin_bulteni_baslik {
+    font-weight: bold;
+}
+.basin_ust_baslik a {
+    font-size: 20px;
+    color: #3f5c57;
+}
+.basin_ust_baslik {
+    width: 300px;
+    float: left;
+}
+.basin_ust {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.basin_bultenleri h2 {
+    font-size: 17px;
 }
