@@ -474,3 +474,8 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.gorsel_kutusu_sag {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
