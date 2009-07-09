@@ -80,9 +80,10 @@ body {
 	display: block;
 }
 .linksbar {
-	float:none;
 	margin-bottom:30px;
 	margin-top:50px;
+    overflow: hidden;
+    width: 100%;
 }
 .aligner {
 	width: 230px;
@@ -444,18 +445,18 @@ body {
 }
 .gorsel_kutusu {
     width: 224px;
-    background-image: url(/media/resimler/basin/saggorsellerbg.png);
     padding: 10px;
     padding-top: 20px;
     background-repeat: no-repeat;
-    float: right;
 }
 .gorsel_kutusu img {
     float: left;
 }
-.gorsel_kutusu hr {
+.gorsel_kutusu_satir {
+    width: 100%;
+    overflow: hidden;
     clear: both;
-    color: #e5e5e5;
+    border-bottom: 1px #e5e5e5 solid;
 }
 .basin_bultenleri {
     width: 490px;
@@ -504,4 +505,21 @@ body {
 }
 .basin_bultenleri h2 {
     font-size: 17px;
+}
+.altbolum_sag {
+    width: 140px;
+    float: left;
+    overflow: hidden;
+}
+.linksbar a {
+    display: block;
+    float: left;
+    overflow: hidden;
+    color: #7a7a7a;
+}
+.altbolum_resim {
+    float: left;
+}
+.altbolum_yazi {
+    clear: left;
 }
