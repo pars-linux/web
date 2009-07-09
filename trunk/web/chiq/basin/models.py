@@ -32,3 +32,23 @@ class Page(models.Model):
 
     def get_absolute_url(self):
         return "/basin/%s/%s/%d/" % (self.issue.date.strftime("%Y/%m/%d"), self.issue.publication.slug, self.number)
+
+class Bulletin(models.Model):
+    title = models.CharField('Başlık', max_length=32)
+    slug = models.SlugField('SEF Başlık', help_text="Makalenin bağlantısını oluşturacak başlık (makale başlığıyla aynı olmalı fakat sadece küçük harf ve - içermelidir)", unique=True)
+    text = models.TextField('Metin')
+    date = models.DateTimeField("Tarih")
+    is_published = models.BooleanField('Yayında', blank=True)
+
+    def __unicode__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return "/basin/bulten/%s/" % self.slug
+
+    def get_printable_url(self):
+        return "/basin/bulten/%s/yazdir/" % self.slug
+
+    class Meta:
+        verbose_name = "Baasın Bülteni"
+        verbose_name_plural = "Basın Bültenleri"
