@@ -485,6 +485,9 @@ body {
 .basin_bulteni_baslik {
     font-weight: bold;
 }
+.basin_bulteni_baslik a {
+    color: #7a7a7a;
+}
 .basin_ust_baslik a {
     font-size: 20px;
     font-weight: bold;

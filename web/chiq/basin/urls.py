@@ -11,4 +11,5 @@ urlpatterns = patterns('basin.views',
     (r'^$', 'main'),
     (r'^(?P<year>\d{4})/$', 'year'),
     (r'^(?P<year>\d{4})/(?P<month>\d{2})/(?P<day>\d{2})/(?P<slug>[a-zA-Z\d_-]+)/(?P<page>\d+)/$', 'page'),
+    (r'^bulten/(?P<slug>[a-zA-Z\d_-]+)/$', 'bulletin_detail'),
 )

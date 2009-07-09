@@ -50,5 +50,5 @@ class Bulletin(models.Model):
         return "/basin/bulten/%s/yazdir/" % self.slug
 
     class Meta:
-        verbose_name = "Baasın Bülteni"
+        verbose_name = "Basın Bülteni"
         verbose_name_plural = "Basın Bültenleri"
