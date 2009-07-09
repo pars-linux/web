@@ -38,7 +38,7 @@ class Bulletin(models.Model):
     slug = models.SlugField('SEF Başlık', help_text="Makalenin bağlantısını oluşturacak başlık (makale başlığıyla aynı olmalı fakat sadece küçük harf ve - içermelidir)", unique=True)
     text = models.TextField('Metin')
     date = models.DateTimeField("Tarih")
-    is_published = models.BooleanField('Yayında', blank=True)
+    is_published = models.BooleanField('Yayında', blank=True, default=True)
 
     def __unicode__(self):
         return self.title
