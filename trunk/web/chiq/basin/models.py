@@ -34,7 +34,7 @@ class Page(models.Model):
         return "/basin/%s/%s/%d/" % (self.issue.date.strftime("%Y/%m/%d"), self.issue.publication.slug, self.number)
 
 class Bulletin(models.Model):
-    title = models.CharField('Başlık', max_length=32)
+    title = models.CharField('Başlık', max_length=128)
     slug = models.SlugField('SEF Başlık', help_text="Makalenin bağlantısını oluşturacak başlık (makale başlığıyla aynı olmalı fakat sadece küçük harf ve - içermelidir)", unique=True)
     text = models.TextField('Metin')
     date = models.DateTimeField("Tarih")
