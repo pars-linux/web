@@ -17,7 +17,7 @@ def bulletin_detail(request, slug):
     return render_response(request, "basin/bulten.html", locals())
 
 def main(request):
-    bulletins = Bulletin.objects.filter(is_published=True)
+    bulletins = Bulletin.objects.filter(is_published=True).order_by("-date")
     return render_response(request, "basin/bultenlervegorseller.html", locals())
 
 def year(request, year):
