@@ -447,7 +447,6 @@ body {
     max-width: 900px;
 }
 .gorsel_kutusu {
-    width: 224px;
     padding: 10px;
     padding-top: 20px;
     background-repeat: no-repeat;
@@ -456,10 +455,9 @@ body {
     float: left;
 }
 .gorsel_kutusu_satir {
-    width: 100%;
+    width: 350px;
+    float: left;
     overflow: hidden;
-    clear: both;
-    border-bottom: 1px #e5e5e5 solid;
 }
 .basin_bultenleri {
     width: 490px;
