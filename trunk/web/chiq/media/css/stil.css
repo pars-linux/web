@@ -507,7 +507,7 @@ body {
     font-size: 17px;
 }
 .altbolum_sag {
-    width: 140px;
+    width: 135px;
     float: left;
     overflow: hidden;
 }
@@ -519,6 +519,7 @@ body {
 }
 .altbolum_resim {
     float: left;
+    margin-right: 6px;
 }
 .altbolum_yazi {
     clear: left;
