@@ -5,8 +5,8 @@
     <div class="basin_ust_baslik basin_ust_baslik_secili"><a href="/basin/2005/">Basında Pardus</a></div>
 </div>
 <div class="basin_yillar">
-{% for year in years %}
-{{ year.date.year }},
+{% for year_ in years %}
+<a href="../{{ year_.date.year }}/"{% ifequal year year_.date.year %} class="koyu"{% endifequal %}>{{ year_.date.year }}</a>{% if not forloop.last %} / {% endif %}
 {% endfor %}
 </div>
 <div class="basin_liste">
