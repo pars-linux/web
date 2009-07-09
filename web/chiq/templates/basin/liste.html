@@ -4,9 +4,11 @@
     <div class="basin_ust_baslik"><a href="/basin/">Bültenler ve Görseller</a></div>
     <div class="basin_ust_baslik basin_ust_baslik_secili"><a href="/basin/2005/">Basında Pardus</a></div>
 </div>
+<div class="basin_yillar">
 {% for year in years %}
 {{ year.date.year }},
 {% endfor %}
+</div>
 <div class="basin_liste">
 {% for issue in issues %}
 <div class="basinsayi {% cycle 'sutun1' 'sutun2' 'sutun3' %}">

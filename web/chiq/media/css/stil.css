@@ -527,3 +527,7 @@ body {
 .altbolum_yazi {
     clear: left;
 }
+.basin_yillar {
+    border-bottom: 1px #e5e5e5 solid;
+    padding-bottom: 10px;
+}
