@@ -12,7 +12,12 @@ from django.shortcuts import get_object_or_404
 from chiq.basin.models import *
 from chiq.st.wrappers import render_response
 
+def bulletin_detail(request, slug):
+    bulletin = get_object_or_404(Bulletin, slug=slug)
+    return render_response(request, "basin/bulten.html", locals())
+
 def main(request):
+    bulletins = Bulletin.objects.filter(is_published=True)
     return render_response(request, "basin/bultenlervegorseller.html", locals())
 
 def year(request, year):
