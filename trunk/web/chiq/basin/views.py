@@ -21,7 +21,8 @@ def main(request):
     return render_response(request, "basin/bultenlervegorseller.html", locals())
 
 def year(request, year):
-    years = Issue.objects.all().distinct("date__year")[:5]
+    #TODO: Dynamically populate years from database
+    years = ("2009","2008","2007","2006","2005")
     issues = Issue.objects.filter(date__year=year)
     return render_response(request, "basin/liste.html", locals())
 

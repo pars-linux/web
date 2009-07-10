@@ -6,7 +6,7 @@
 </div>
 <div class="basin_yillar">
 {% for year_ in years %}
-<a href="../{{ year_.date.year }}/"{% ifequal year year_.date.year %} class="koyu"{% endifequal %}>{{ year_.date.year }}</a>{% if not forloop.last %} / {% endif %}
+<a href="../{{ year_ }}/"{% ifequal year year_ %} class="koyu"{% endifequal %}>{{ year_ }}</a>{% if not forloop.last %} / {% endif %}
 {% endfor %}
 </div>
 <div class="basin_liste">
