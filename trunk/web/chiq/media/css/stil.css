@@ -184,7 +184,7 @@ body {
 .linkler {
 	float: left;
 }
-.mUrun, .mHakkinda, .mBasin, .mHizmet {
+.mUrun, .mHakkinda, .mBasin, .mHizmet, .mUrun_en, .mHakkinda_en, .mHizmet_en {
 	background-repeat: no-repeat;
 	height: 46px;
 	width: 89px;
