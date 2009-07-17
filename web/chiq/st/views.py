@@ -17,9 +17,10 @@ def robots(request):
     return render_response(request, 'robots.txt')
 
 def home(request):
-    mainnews = News.objects.filter(is_main=True, is_published=True).order_by("date")[:1]
-    stories = SuccessStory.objects.filter(is_main=True, is_published=True).order_by("date")[:1]
-    news = News.objects.filter(is_main=False, is_published=True).order_by("date")[:2]
+    mainnews = News.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
+    stories = SuccessStory.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
+    news = News.objects.filter(is_main=False, is_published=True).order_by("-date")[:2]
+    bignews = News.objects.filter(is_big=True, is_published=True).order_by("-date")[:1]
     return render_response(request, 'home.html', locals())
 
 def story_list(request):

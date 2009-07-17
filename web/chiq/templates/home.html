@@ -18,7 +18,7 @@
     </div>
 </div>
 <div class="part">
-  <div class="mbaslik"><img src="/media/resimler/mbaslik/haberler.png"/></div>
+    <div class="mbaslik"><a href="/haber/"<img src="/media/resimler/mbaslik/haberler.png"/></a></div>
 {% for news in news %}
   <div class="habercontain">
       <div class="haberpic"><img src="{{ news.image.file.url }}" width="48" height="48" alt="{{ news.title }}" /></div>
@@ -28,11 +28,8 @@
 {% endfor %}
 </div>
 <div class="partEnd">
-  <div class="aligner"> <img src="/media/resimler/basari/sgk.png" width="229" height="81" /><br />
-    <span class="habertext">Recently, the site received a surge in traffic from a high-profile Japanese blog and the number of visitors doubled for one day.<br />
-    <br />
-    If the site were hosted on a dedicated server, it's very likely the site would have been largely inaccessible, if not very slow to respond. <br />
-    <br />
-    Devam »</span> </div>
+    <div class="aligner"> <img src="{{ bignews.0.image.file.url }}" width="229" height="81" /><br />
+        <span class="habertext">{{ bignews.0.sum|safe }}<br />
+            <a href="{{ bignews.0.get_absolute_url }}">Devam »</a></span> </div>
 </div>
 {% endblock %}
