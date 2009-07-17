@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{% block title %}{% endblock %} :: Pardus :: TÜBİTAK/UEKAE ::</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <link rel="shortcut icon" href="/media/img/favicon.png" />
+    <link href="/media/css/stil.css" rel="stylesheet" type="text/css" />
+    {% block extrahead %}{% endblock %}
+</head>
+<body>
+<div class="header"> <a class="parduslogo" href="/"></a>
+  <div class="menu">
+    <div class="linkler"> <a class="mUrun" href="/products/"></a> <a class="mHizmet" href="#"></a> <a class="mHakkinda" href="/about/"></a> </div>
+    <a class="mDil" href="#"></a> </div>
+</div>
+<div id="wrapper">
+<div id="container">
+    <div class="main"{% block extramain %}{% endblock %}>
+{% block content %}
+{% endblock %}
+  </div>
+{% block sidebar %}
+  <div class="sidebar"><a href="/download/"><img src="/media/resimler/sidebar/indirdownload.png" /></a><br />
+    <div class="search">
+        <form method="POST" action="/search/">
+            <input type="text" name="term" />
+            <input type="submit" name="searchform" value="">
+        </form>
+    </div>
+    <div class="features">
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/destek.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik"><a href="/guide/">Installation Guide</a></span><br/>
+            <span class="ftext">Step by step installation and usage guide <br /> with screen shots.</span> </div>
+      </div>
+      <div class="fayrac"></div>
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/destek.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik"><a href="/support/">Get Support</a></span><br/>
+            <span class="ftext">You can make use of community sources for Pardus support.</span> </div>
+      </div>
+      <div class="fayrac"></div>
+      <div class="featuresList">
+        <div class="featurePic"><img src="/media/resimler/sidebar/features/tanit.png" width="40" height="50" /></div>
+        <div class="featureText"> <span class="fbaslik"><a href="/banner/">Spread Pardus</a></span><br/>
+            <span class="ftext">Banners and buttons for spreading Pardus</span> </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+</div>
+<div class="linksbar">
+    <a href="http://uekae.tubitak.gov.tr"><div class="altbolum_resim1"><img src="/media/resimler/altmenu/01.png" alt="TÜBİTAK/UEKAE" /></div><div class="altbolum_sag1"><div class="altbolum_baslik"><img src="/media/resimler/altmenu/tubitakuekae.png" alt="TÜBİTAK/UEKAE" /></div><div class="altbolum_yazi">About our<br />institution</div></div></a>
+    <a href="/press/"><div class="altbolum_resim2"><img src="/media/resimler/altmenu/02.png" alt="Press" /></div><div class="altbolum_sag2"><div class="altbolum_baslik"><img src="/media/resimler/altmenu/basin.png" alt="Press" /></div><div class="altbolum_yazi">Pardus news in press</div></div></a>
+    <a href="/career/"><div class="altbolum_resim3"><img src="/media/resimler/altmenu/03.png" alt="Career" /></div><div class="altbolum_sag3"><div class="altbolum_baslik"><img src="/media/resimler/altmenu/kariyer.png" alt="Career" /></div><div class="altbolum_yazi">To work <br />in Pardus</div></div></a>
+    <a href="/legal/"><div class="altbolum_resim4"><img src="/media/resimler/altmenu/04.png" alt="Legall" /></div><div class="altbolum_sag4"><div class="altbolum_baslik"><img src="/media/resimler/altmenu/yasal.png" alt="Legal" /></div><div class="altbolum_yazi">Privacy policy <br />and copyrights</div></div></a>
+    <a href="/contact/"><div class="altbolum_resim5"><img src="/media/resimler/altmenu/05.png" alt="İletişim" /></div><div class="altbolum_sag5"><div class="altbolum_baslik"><img src="/media/resimler/altmenu/iletisim.png" alt="Contact Us" /></div><div class="altbolum_yazi">How to contact with Pardus Project?</div></div></a>
+</div>
+  <div class="footer">
+      <div class="copy"><div class="adres">TÜBİTAK - UEKAE, PK.74 41470, Gebze / Kocaeli. &nbsp;&nbsp;&nbsp;&nbsp; <a href="/yasal/">Legal</a></div><span class="footerNav"><a href="/products/">Products</a>   /   <a href="/services/">Services</a>   /   <a href="/hakkinda/">About Us</a></span></div>
+  </div>
+  </div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct="UA-420484-9";urchinTracker();</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block extrahead %}
+<script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/media/js/iletisim.js"></script>
+{% endblock %}
+{% block content %}
+<div class="ana_baslik">Contact</div>
+<div class="iletisim_dis">
+    <div class="iletisim">
+        <div class="iletisim_sol">
+            <div class="iletisim_baslik">The National Research Institute of Electronics and Cryptology</div>
+            <div class="iletisim_adres">
+                TÜBİTAK<br/>
+                Gebze - Kocaeli 41470<br/>
+                E-mail: bilgi at pardus.org.tr
+            </div>
+        </div>
+        <div class="iletisim_sag"><img src="/media/resimler/iletisim/logoiletisim.png" alt="Pardus" /></div>
+    </div>
+    <div class="iletisim_seciciler">
+        <div class="iletisim_secici kurumsal_secici iletisim_secili">Enterprise Contact</div>
+        <div class="iletisim_secici soru_sorun_secici">Ask Questions</div>
+    </div>
+    <div class="iletisim_aciklama">
+        <div class="iletisim_baslik iletisim_aciklama_baslik">For your enterprise questions</div>
+        <div class="iletisim_aciklama_metin">You can ask your enterprise questions using here.</div>
+    </div>
+    <div class="iletisim_form">
+        <form method="POST" action="">
+            <div class="iletisim_form_alan iletisim_form_kucuk_alan">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">Name</div>
+                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_alan"><input name="name" type="text" /></div>
+            </div>
+            <div class="iletisim_form_alan iletisim_form_kucuk_alan">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">E-mail</div>
+                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_alan"><input name="email" type="text" /></div>
+            </div>
+            <div class="iletisim_form_alan iletisim_form_kucuk_alan sirket_alani">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">Company</div>
+                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_alan"><input name="company" type="text" /></div>
+            </div>
+            <div class="iletisim_form_alan">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">Your question</div>
+                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_alan"><textarea name="text"></textarea></div>
+            </div>
+            <input type="submit" value="Send" />
+        </form>
+    </div>
+</div>
+{% endblock %}
