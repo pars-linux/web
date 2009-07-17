@@ -15,14 +15,14 @@ SITE_DESC = 'PARDUS :: TÜBİTAK UEKAE'
 DEBUG = True
 TESTING = True
 TEMPLATE_DEBUG = DEBUG
-WEB_URL = 'http://127.0.0.1:8000'
-DOCUMENT_ROOT = '/home/jnmbk/public_html/web/chiq'
+WEB_URL = 'http://localhost/chiq'
+DOCUMENT_ROOT = '/home/eren/sourcebox/chiq'
 
 DATABASE_ENGINE = 'mysql'
 #DATABASE_ENGINE = "mysql"
 DATABASE_NAME = 'chiq'
-DATABASE_USER = 'chiq'
-DATABASE_PASSWORD = '******'
+DATABASE_USER = 'root'
+DATABASE_PASSWORD = ''
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = ''
 
