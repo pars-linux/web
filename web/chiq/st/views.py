@@ -11,7 +11,7 @@ from django.core.mail import send_mail
 from chiq.flatpages.models import FlatPage
 from chiq.st.wrappers import render_response
 from chiq.st.models import News, SuccessStory
-from chiq.st.forms import ContactForm
+from chiq.st.forms import ContactForm, SearchForm
 
 def robots(request):
     return render_response(request, 'robots.txt')
@@ -59,3 +59,12 @@ def contact(request):
             mail_sent = True
             return render_response(request, "iletisim.html", locals())
     return render_response(request, "iletisim.html", locals())
+
+def search(request):
+    if request.method == 'POST':
+        form = SearchForm(request.POST.copy())
+        if form.is_valid():
+            term = form.cleaned_data['term']
+    else:
+        form = SearchForm()
+    return render_response(request, "arama.html", locals())

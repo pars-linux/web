@@ -12,3 +12,6 @@ class ContactForm(forms.Form):
     email = forms.EmailField(label="E-posta")
     company = forms.CharField(label="Şirket", max_length=32, required=False)
     text = forms.CharField(label="Sorunuz", max_length=1024, widget=forms.Textarea)
+
+class SearchForm(forms.Form):
+    term = forms.CharField(label='Anahtar kelime', required=True, widget=forms.TextInput(attrs={'size': '40',}))
