@@ -7,6 +7,7 @@
 
 from django.shortcuts import get_object_or_404
 from django.core.mail import send_mail
+from django.db.models import Q
 
 from chiq.flatpages.models import FlatPage
 from chiq.st.wrappers import render_response
@@ -61,10 +62,14 @@ def contact(request):
     return render_response(request, "iletisim.html", locals())
 
 def search(request):
+    searched = False
     if request.method == 'POST':
         form = SearchForm(request.POST.copy())
         if form.is_valid():
             term = form.cleaned_data['term']
+            flatpage_list = FlatPage.objects.filter(Q(title__icontains=term)|Q(is_active=True)|Q(text__icontains=term)).order_by('-update')[:50]
+            news_list = News.objects.filter(Q(title__icontains=term)|Q(is_published=True)|Q(text__icontains=term)).order_by('-date')[:50]
+            searched = True
     else:
         form = SearchForm()
     return render_response(request, "arama.html", locals())
