@@ -284,6 +284,10 @@ body {
 }
 .indirbasliklar .selected {
     color: #364844;
+    background-image: url(/media/resimler/indir/tab-ok.png);
+    background-repeat: no-repeat;
+    background-position: 50px 24px;
+    padding-bottom: 15px;
 }
 .indirbaslik {
     float: left;
@@ -293,7 +297,7 @@ body {
 }
 .ustaciklama {
     margin-left: 27px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .aciklama {
