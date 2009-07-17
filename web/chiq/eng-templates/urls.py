@@ -23,27 +23,27 @@ tag_dict = {
 admin.autodiscover()
 urlpatterns = patterns('',
 
-    (r'%s/^robots.txt$' % root, 'chiq.st.views.robots'),
+    (r'^%s/robots.txt$' % root, 'chiq.st.views.robots'),
 
     #Tags
-    (r'%s/^tag/$', 'django.views.generic.list_detail.object_list', dict(tag_dict)),
-    (r'%s/^tag/(?P<tag>.*)/$', 'chiq.st.views.tag_detail'),
+    (r'^%s/tag/$' % root, 'django.views.generic.list_detail.object_list', dict(tag_dict)),
+    (r'^%s/tag/(?P<tag>.*)/$' % root, 'chiq.st.views.tag_detail'),
 
     #Webalizer
     url(r'^admin/webalizer/', include('webalizer.urls')),
 
     #Django
-    (r'%s/^$', 'chiq.st.views.home'),
-    (r'%s/^news/$', 'chiq.st.views.news_list'),
-    (r'%s/^contact/$', 'chiq.st.views.contact'),
-    (r'%s/^download/$', 'chiq.indir.views.main'),
-    (r'%s/^release_notes/(?P<slug>.*)/$', 'chiq.indir.views.release_notes'),
-    (r'%s/^news/(?P<slug>.*)/print/$', 'chiq.st.views.news_printable'),
-    (r'%s/^news/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
-    (r'%s/^press/', include('chiq.basin.urls')),
-    (r'%s/^search/', 'chiq.st.views.search'),
-    (r'%s/^admin/upload/image/tinymce/$', 'chiq.upload.views.image_upload'),
-    (r'%s/^admin/doc/', include('django.contrib.admindocs.urls')),
-    (r'%s/^admin/(.*)', admin.site.root),
-    (r'%s/^media/(.*)$', 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
+    (r'^%s/$' % root, 'chiq.st.views.home'),
+    (r'^%s/news/$' % root, 'chiq.st.views.news_list'),
+    (r'^%s/contact/$' % root, 'chiq.st.views.contact'),
+    (r'^%s/download/$' % root, 'chiq.indir.views.main'),
+    (r'^%s/release_notes/(?P<slug>.*)/$' % root, 'chiq.indir.views.release_notes'),
+    (r'^%s/news/(?P<slug>.*)/print/$' % root, 'chiq.st.views.news_printable'),
+    (r'^%s/news/(?P<slug>.*)/$' % root, 'chiq.st.views.news_detail'),
+    (r'^%s/press/' % root, include('chiq.basin.urls')),
+    (r'^%s/search/' % root, 'chiq.st.views.search'),
+    (r'^%s/admin/upload/image/tinymce/$' % root, 'chiq.upload.views.image_upload'),
+    (r'^%s/admin/doc/' % root, include('django.contrib.admindocs.urls')),
+    (r'^%s/admin/(.*)' % root, admin.site.root),
+    (r'^%s/media/(.*)$' % root, 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
 )
