@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Arama {% endblock %}
+{% block content %}
+<form method="POST" action="">
+    Aranacak Sözcük: {{ form.term }}<br /><br />
+    <input type="submit" value="Ara" />
+</form>
+{% endblock %}
