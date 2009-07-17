@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="basin_ust">
+    <div class="basin_ust_baslik"><a href="/basin/">Bültenler ve Görseller</a></div>
+    <div class="basin_ust_baslik basin_ust_baslik_secili"><a href="/basin/2009/">Basında Pardus</a></div>
+</div>
+<img src="/media/resimler/basin/ok.png" alt="v" style="margin-top:-11px;margin-left:370px" />
+<div class="basin_yillar">
+{% for year_ in years %}
+<a href="../{{ year_ }}/"{% ifequal year year_ %} class="koyu"{% endifequal %}>{{ year_ }}</a>{% if not forloop.last %} / {% endif %}
+{% endfor %}
+</div>
+<div class="basin_liste">
+{% for issue in issues %}
+<div class="basinsayi {% cycle 'sutun1' 'sutun2' 'sutun3' %}">
+    <div class="basinsayi_baslik">{{ issue.title }}</div>
+    <div class="basinsayi_yayin">{{ issue.publication }}, {{ issue.date }}</div>
+    <div class="basinsayi_sayfalar">
+    {% for page in issue.page_set.all %}
+        <a href="{{ page.get_absolute_url }}">Sayfa{% if page.number %} {{ page.number }}{% endif %}</a>{% if not forloop.last %},{% endif %}
+    {% endfor %}
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
