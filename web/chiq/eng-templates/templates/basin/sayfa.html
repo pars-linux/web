@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<a href="/basin/" class="basin_baglanti">« Basın Arşivi</a>
+<div class="basin_tepe">
+    <p>{{ page.issue.title }}<br/><br/>
+    {{ page.issue.publication }}, {{ page.issue.date }}<br/>
+    {% if page.number %}<span class="basin_sayfa">{{ page.number }}. sayfa</span>{% endif %}
+    </p>
+</div>
+<img src="{{ page.image.url }}" alt="{{ page }}" class="basin_resim" />
+{% endblock %}
+{% block sidebar %}{% endblock %}
+{% block extramain %}style="width:930px"{% endblock %}

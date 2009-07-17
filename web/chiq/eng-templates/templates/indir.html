@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block extrahead %}
+<script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/media/js/indir.js"></script>
+{% endblock %}
+{% block content %}
+<div class="indir">
+    <div class="indirbasliklar">
+        <div class="indirbaslik kurulan selected">Kurulan CD</div>
+        <div class="indirbaslik calisan">Çalışan CD</div>
+    </div>
+    <div class="aciklama ustaciklama">Bir sürüm seçin</div>
+    {% for download in downloads %}
+    <div class="surum{% ifequal download.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}" onclick="location.href='{{ download.link }}'">
+        <div class="surumbaslik"><a href="{{ download.link }}">{{ download.title }}</a></div>
+        <div class="aciklama">{{ download.description }}</div>
+    </div>
+    {% endfor %}
+    <div class="indiralt">{{ version.name }} sürümü hakkında bilgi almak için <a href="{{ version.get_release_notes_url }}">sürüm notları</a> belgesini okuyabilirsiniz.</div>
+</div>
+{% endblock %}

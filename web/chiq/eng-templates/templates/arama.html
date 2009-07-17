@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Arama {% endblock %}
+{% block content %}
+<form method="POST" action="">
+    Aranacak Sözcük: {{ form.term }}
+    <input type="submit" value="Ara" />
+</form>
+{% if searched %}
+
+{% if news_list %}
+<h2>Haberler</h2>
+<ul>
+    {% for object in news_list %}
+    <li><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if flatpage_list %}
+<h2>Sabit Sayfalar</h2>
+<ul>
+    {% for object in flatpage_list %}
+    <li><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% else %}
+{% endif %}
+{% endblock %}
