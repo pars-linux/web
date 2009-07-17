@@ -26,22 +26,22 @@ urlpatterns = patterns('',
     (r'%s/^robots.txt$' % root, 'chiq.st.views.robots'),
 
     #Tags
-    (r'%s/^etiket/$', 'django.views.generic.list_detail.object_list', dict(tag_dict)),
-    (r'%s/^etiket/(?P<tag>.*)/$', 'chiq.st.views.tag_detail'),
+    (r'%s/^tag/$', 'django.views.generic.list_detail.object_list', dict(tag_dict)),
+    (r'%s/^tag/(?P<tag>.*)/$', 'chiq.st.views.tag_detail'),
 
     #Webalizer
     url(r'^admin/webalizer/', include('webalizer.urls')),
 
     #Django
     (r'%s/^$', 'chiq.st.views.home'),
-    (r'%s/^haber/$', 'chiq.st.views.news_list'),
-    (r'%s/^iletisim/$', 'chiq.st.views.contact'),
-    (r'%s/^indir/$', 'chiq.indir.views.main'),
-    (r'%s/^surum_notlari/(?P<slug>.*)/$', 'chiq.indir.views.release_notes'),
-    (r'%s/^haber/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
-    (r'%s/^haber/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
-    (r'%s/^basin/', include('chiq.basin.urls')),
-    (r'%s/^arama/', 'chiq.st.views.search'),
+    (r'%s/^news/$', 'chiq.st.views.news_list'),
+    (r'%s/^contact/$', 'chiq.st.views.contact'),
+    (r'%s/^download/$', 'chiq.indir.views.main'),
+    (r'%s/^release_notes/(?P<slug>.*)/$', 'chiq.indir.views.release_notes'),
+    (r'%s/^news/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
+    (r'%s/^news/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
+    (r'%s/^press/', include('chiq.basin.urls')),
+    (r'%s/^search/', 'chiq.st.views.search'),
     (r'%s/^admin/upload/image/tinymce/$', 'chiq.upload.views.image_upload'),
     (r'%s/^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'%s/^admin/(.*)', admin.site.root),
