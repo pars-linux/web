@@ -117,7 +117,6 @@ body {
 	margin-top: 11px;
 }
 .aramabg {
-	background-image: url(/media/resimler/sidebar/arama.png);
 	height: 32px;
 	width: 183px;
 	margin-top: 12px;
@@ -130,14 +129,23 @@ body {
 }
 
 .search input {
-    width: 183px;
+    width: 128px;
+    float: left;
     height: 32px;
     border: none;
-    background-image: url(/media/arama.png);
+    background-image: url(/media/resimler/sidebar/arama-yarim.png);
     background-repeat: no-repeat;
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 16px;
-    padding-top: 8px;
+    padding-top: 12px;
+}
+
+.search input[type="submit"] {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    background-image: url(/media/resimler/sidebar/arama-simge.png);
 }
 
 .habertext {
