@@ -11,6 +11,8 @@ from chiq.settings import WEB_URL, DOCUMENT_ROOT, TAG_PER_PAGE
 from chiq.st.models import Tag
 from django.contrib import admin
 
+root = "/".join(WEB_URL.split("/")[3:])
+
 tag_dict = {
             'queryset': Tag.objects.all().order_by('name'),
             'template_name': 'tag/tag_main.html',
@@ -21,27 +23,27 @@ tag_dict = {
 admin.autodiscover()
 urlpatterns = patterns('',
 
-    (r'^robots.txt$', 'chiq.st.views.robots'),
+    (r'%s/^robots.txt$' % root, 'chiq.st.views.robots'),
 
     #Tags
-    (r'^etiket/$', 'django.views.generic.list_detail.object_list', dict(tag_dict)),
-    (r'^etiket/(?P<tag>.*)/$', 'chiq.st.views.tag_detail'),
+    (r'%s/^etiket/$', 'django.views.generic.list_detail.object_list', dict(tag_dict)),
+    (r'%s/^etiket/(?P<tag>.*)/$', 'chiq.st.views.tag_detail'),
 
     #Webalizer
     url(r'^admin/webalizer/', include('webalizer.urls')),
 
     #Django
-    (r'^$', 'chiq.st.views.home'),
-    (r'^haber/$', 'chiq.st.views.news_list'),
-    (r'^iletisim/$', 'chiq.st.views.contact'),
-    (r'^indir/$', 'chiq.indir.views.main'),
-    (r'^surum_notlari/(?P<slug>.*)/$', 'chiq.indir.views.release_notes'),
-    (r'^haber/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
-    (r'^haber/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
-    (r'^basin/', include('chiq.basin.urls')),
-    (r'^arama/', 'chiq.st.views.search'),
-    (r'^admin/upload/image/tinymce/$', 'chiq.upload.views.image_upload'),
-    (r'^admin/doc/', include('django.contrib.admindocs.urls')),
-    (r'^admin/(.*)', admin.site.root),
-    (r'^media/(.*)$', 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
+    (r'%s/^$', 'chiq.st.views.home'),
+    (r'%s/^haber/$', 'chiq.st.views.news_list'),
+    (r'%s/^iletisim/$', 'chiq.st.views.contact'),
+    (r'%s/^indir/$', 'chiq.indir.views.main'),
+    (r'%s/^surum_notlari/(?P<slug>.*)/$', 'chiq.indir.views.release_notes'),
+    (r'%s/^haber/(?P<slug>.*)/yazdir/$', 'chiq.st.views.news_printable'),
+    (r'%s/^haber/(?P<slug>.*)/$', 'chiq.st.views.news_detail'),
+    (r'%s/^basin/', include('chiq.basin.urls')),
+    (r'%s/^arama/', 'chiq.st.views.search'),
+    (r'%s/^admin/upload/image/tinymce/$', 'chiq.upload.views.image_upload'),
+    (r'%s/^admin/doc/', include('django.contrib.admindocs.urls')),
+    (r'%s/^admin/(.*)', admin.site.root),
+    (r'%s/^media/(.*)$', 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
 )
