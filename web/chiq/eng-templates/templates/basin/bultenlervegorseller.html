@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="basin_ust">
+    <div class="basin_ust_baslik basin_ust_baslik_secili"><a href="/basin/">Bulletins and Images</a></div>
+    <div class="basin_ust_baslik"><a href="/basin/2009/">Pardus in Press</a></div>
+</div>
+<img src="/media/resimler/basin/ok.png" alt="v" style="margin-top:-11px;margin-left:100px" />
+<div class="gorsel_kutusu">
+    <div class="gorsel_kutusu_satir">
+    <img src="/media/resimler/basin/logotescil.png" alt="pardus logo" />
+    <div class="gorsel_kutusu_sag">
+        <b>Pardus Patented Logos</b><br />
+        (JPG, EPS, PNG, SVG, AI)
+    </div>
+    </div>
+    <div class="gorsel_kutusu_satir">
+    <img src="/media/resimler/basin/cd2009gobek.png" alt="pardus 2009" />
+    <div class="gorsel_kutusu_sag">
+        <b>Pardus 2009 CD Stickers</b><br /><br />
+        <b>Installation CD</b><br />
+        <p>(<a href="/media/dosya/gobek2009.jpg">JPG</a>, <a href="/media/dosya/gobek2009.eps">EPS</a>, <a href="/media/dosya/gobek2009.png">PNG</a>, <a href="/media/dosya/gobek2009.pdf">PDF</a>, <a href="/media/dosya/gobek2009_kurulan.ai">AI</a>)</p>
+        <b>Live CD</b><br />
+        <p>(JPG, EPS, PNG, SVG, AI)</p>
+    </div>
+    </div>
+    <div class="gorsel_kutusu_satir" style="padding-top:10px;">
+        <img src="/media/resimler/basin/banner.png" alt="pardus banner" />
+        <div style="clear:both;padding-top:10px;">
+        <p>Pardus Banners and Buttons</p>
+        <b>For Your Web Site</b>
+        </div>
+    </div>
+</div>
+<div class="basin_bultenleri">
+    <h2>Pardus Press Releases</h2>
+    {% for bulletin in bulletins %}
+    <div class="basin_bulteni">
+        <div class="basin_bulteni_sol"><img src ="/media/resimler/basin/bultenler_ok.png"  alt="->" /></div>
+        <div class="basin_bulteni_sag">
+            <div class="basin_bulteni_baslik"><a href="{{ bulletin.get_absolute_url }}">{{ bulletin.title }}</a></div>
+            <div class="basin_bulteni_tarih">{{ bulletin.date|date:"d.m.Y" }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

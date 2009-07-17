@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block extrahead %}
+<script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/media/js/home.js"></script>
+{% endblock %}
+{% block content %}
+{% for news in mainnews %}
+<a href="{{ news.get_absolute_url }}"><img src="{{ news.image.file.url }}" alt="{{ news.title }}"/></a>
+{% endfor %}
+<div class="part kutudis">
+    <div class="kutuic">
+        <div class="kutuliste">
+            <a href="#"><img id="kutu1" src="/media/resimler/kutu/metin_kurumsal02.png" alt="Enterprise" /></a>
+            <a href="#"><img id="kutu2" src="/media/resimler/kutu/metin_bireysel01.png" alt="Personal" /></a>
+            <a href="#"><img id="kutu3" src="/media/resimler/kutu/metin_gelistirici01.png" alt="Developer" /></a>
+            <a href="#"><img id="kutu4" src="/media/resimler/kutu/metin_cozumortaklari01.png" alt="Business Partner" /></a>
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="mbaslik"><a href="/news/"<img src="/media/resimler/mbaslik/haberler.png"/></a></div>
+{% for news in news %}
+  <div class="habercontain">
+      <div class="haberpic"><img src="/media/resimler/mbaslik/news-icon.png" width="24" height="24" alt="{{ news.title }}" /></div>
+      <div class="haber"><span class="rhaberHeader"><a href="{{ news.get_absolute_url }}">{{ news.title }}</a></span><br />
+    <span class="habertext">{{ news.sum|safe }}</span></div>
+  </div>
+{% endfor %}
+</div>
+<div class="partEnd">
+    <div class="aligner"> <img src="{{ bignews.0.image.file.url }}" width="229" /><br />
+        <span class="habertext">{{ bignews.0.sum|safe }}<br />
+            <a href="{{ bignews.0.get_absolute_url }}">Continue »</a></span> </div>
+</div>
+{% endblock %}
