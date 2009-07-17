@@ -514,21 +514,67 @@ body {
 .basin_bultenleri h2 {
     font-size: 17px;
 }
-.altbolum_sag {
-    width: 135px;
+.altbolum_sag1 {
+    width: 106px;
     float: left;
     overflow: hidden;
 }
+
+.altbolum_sag2 {
+    width: 124px;
+    float: left;
+    overflow: hidden;
+}
+.altbolum_sag3 {
+    width: 91px;
+    float: left;
+    overflow: hidden;
+}
+.altbolum_sag4 {
+    width: 92px;
+    float: left;
+    overflow: hidden;
+}
+.altbolum_sag5 {
+    width: 116px;
+    float: left;
+    overflow: hidden;
+}
+
 .linksbar a {
     display: block;
     float: left;
     overflow: hidden;
     color: #7a7a7a;
 }
-.altbolum_resim {
+
+
+.altbolum_resim1 {
     float: left;
     margin-right: 6px;
 }
+.altbolum_resim2 {
+    float: left;
+    margin-right: 6px;
+    padding-left: 29px;
+}
+.altbolum_resim3 {
+    float: left;
+    margin-right: 6px;
+    padding-left: 31px;
+}
+.altbolum_resim4 {
+    float: left;
+    margin-right: 6px;
+    padding-left: 40px;
+}
+
+.altbolum_resim5 {
+    float: left;
+    margin-right: 6px;
+    padding-left: 38px;
+}
+
 .altbolum_yazi {
     clear: left;
 }
