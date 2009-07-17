@@ -7,7 +7,7 @@
 
 from django.conf.urls.defaults import patterns
 
-urlpatterns = patterns('basin.views',
+urlpatterns = patterns('chiq.basin.views',
     (r'^$', 'main'),
     (r'^(?P<year>\d{4})/$', 'year'),
     (r'^(?P<year>\d{4})/(?P<month>\d{2})/(?P<day>\d{2})/(?P<slug>[a-zA-Z\d_-]+)/(?P<page>\d+)/$', 'page'),
