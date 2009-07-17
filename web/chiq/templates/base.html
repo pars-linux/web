@@ -23,7 +23,9 @@
 {% block sidebar %}
   <div class="sidebar"><a href="/indir/"><img src="/media/resimler/sidebar/indirdownload.png" /></a><br />
     <div class="search">
-      <div class="aramabg"></div>
+        <form method="POST" action="/arama/">
+            <input type="text" name="term" />
+        </form>
     </div>
     <div class="features">
       <div class="featuresList">
