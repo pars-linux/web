@@ -18,10 +18,11 @@ def flatpage(request, url):
         flatpage
             `flatpages.flatpages` object
     """
-    if not url.startswith('/'):
-        url = "/" + url
-    if not url.endswith('/'):
-        return HttpResponseRedirect(url + "/")
+    url = url.lstrip('/')
+
+    if '.' in url or url.endswith('/'):
+        url = url.rstrip('/')
+
     f = get_object_or_404(FlatPage, url__exact=url)
     # If registration is required for accessing this page, and the user isn't
     # logged in, redirect to the login page.
