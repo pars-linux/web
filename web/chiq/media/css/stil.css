@@ -200,6 +200,24 @@ body {
 .mHakkinda {
 	background-image: url(/media/resimler/menu/hakkinda_01.png);
 }
+.mUrun_en {
+	background-image: url(/media/resimler/menu/products_01.png);
+}
+.mHizmet_en {
+	background-image: url(/media/resimler/menu/services_01.png);
+}
+.mHakkinda_en {
+	background-image: url(/media/resimler/menu/about_01.png);
+}
+.mUrun_en:hover {
+	background-image: url(/media/resimler/menu/products_02.png);
+}
+.mHizmet_en:hover {
+	background-image: url(/media/resimler/menu/services_02.png);
+}
+.mHakkinda_en:hover {
+	background-image: url(/media/resimler/menu/about_02.png);
+}
 .mUrun:hover {
 	background-image: url(/media/resimler/menu/urunler_02.png);
 }
@@ -209,7 +227,7 @@ body {
 .mHakkinda:hover {
 	background-image: url(/media/resimler/menu/hakkinda_02.png);
 }
-.mDil {
+.mDil, .mDil_en {
 	height: 11px;
 	width: 36px;
 	background-image: url(/media/resimler/menu/english.png);
@@ -217,6 +235,9 @@ body {
 	margin-top: 19px;
 	float: right;
 	margin-left: 159px;
+}
+.mDil_en {
+	background-image: url(/media/resimler/menu/turkish.png);
 }
 .copy {
 	padding-bottom:10px;
