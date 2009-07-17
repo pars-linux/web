@@ -29,9 +29,6 @@ urlpatterns = patterns('',
     (r'^%s/tag/$' % root, 'django.views.generic.list_detail.object_list', dict(tag_dict)),
     (r'^%s/tag/(?P<tag>.*)/$' % root, 'chiq.st.views.tag_detail'),
 
-    #Webalizer
-    url(r'^admin/webalizer/', include('webalizer.urls')),
-
     #Django
     (r'^%s/$' % root, 'chiq.st.views.home'),
     (r'^%s/news/$' % root, 'chiq.st.views.news_list'),
