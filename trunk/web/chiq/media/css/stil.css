@@ -123,6 +123,23 @@ body {
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
+
+.search {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.search input {
+    width: 183px;
+    height: 32px;
+    border: none;
+    background-image: url(/media/resimler/sidebar/arama.png);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
 .habertext {
 	display: block;
 	margin-top: 8px;
