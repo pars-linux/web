@@ -42,6 +42,7 @@ class News(models.Model):
     text = models.TextField('Metin', blank=False)
     date = models.DateTimeField("Tarih")
     is_main = models.BooleanField('Ana Haber', blank=True)
+    is_big = models.BooleanField('Büyük Haber', blank=True)
     is_published = models.BooleanField('Yayında', blank=True)
     tags = models.ManyToManyField(Tag, verbose_name="Etiketler")
 
