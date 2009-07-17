@@ -98,7 +98,7 @@ body {
 }
 .haber {
 	margin-top: 14px;
-	width: 186px;
+	width: 210px;
 	float: right;
 	display: block;
 }
@@ -133,7 +133,7 @@ body {
     width: 183px;
     height: 32px;
     border: none;
-    background-image: url(/media/resimler/sidebar/arama.png);
+    background-image: url(/media/arama.png);
     background-repeat: no-repeat;
     font-size: 14px;
     padding-left: 16px;
