@@ -19,7 +19,7 @@ def robots(request):
 def home(request):
     mainnews = News.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
     stories = SuccessStory.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
-    news = News.objects.filter(is_main=False, is_published=True).order_by("-date")[:2]
+    news = News.objects.filter(is_main=False, is_published=True, is_big=False).order_by("-date")[:2]
     bignews = News.objects.filter(is_big=True, is_published=True).order_by("-date")[:1]
     return render_response(request, 'home.html', locals())
 
