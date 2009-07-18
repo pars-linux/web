@@ -44,4 +44,5 @@ urlpatterns = patterns('',
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/(.*)', admin.site.root),
     (r'^media/(.*)$', 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
+    (r'^banner/(.*)$', 'django.views.static.serve', {'document_root': '%s/media/banner' % DOCUMENT_ROOT, 'show_indexes': True}),
 )
