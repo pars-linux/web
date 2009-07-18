@@ -18,7 +18,7 @@ def flatpage(request, url):
         flatpage
             `flatpages.flatpages` object
     """
-    url = url.lstrip('/').rstrip('/')
+    url = url.lstrip('/').lstrip('eng').lstrip('/').rstrip('/')
 
     f = get_object_or_404(FlatPage, url__exact=url)
     # If registration is required for accessing this page, and the user isn't
