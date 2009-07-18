@@ -316,6 +316,9 @@ body {
     width: 100%;
     height: 100%;
 }
+.kutuic_en {
+    background-image: url(/media/resimler/kutu/corporate.png);
+}
 .indir {
     background-image: url(/media/resimler/indir/bg.png);
     width: 742px;
