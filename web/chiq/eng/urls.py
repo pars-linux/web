@@ -7,7 +7,7 @@
 
 from django.conf.urls.defaults import *
 
-from chiq.settings import WEB_URL, DOCUMENT_ROOT, TAG_PER_PAGE
+from chiq.settings import WEB_URL, DOCUMENT_ROOT, TAG_PER_PAGE, MEDIA_ROOT
 from chiq.st.models import Tag
 from django.contrib import admin
 
@@ -43,4 +43,5 @@ urlpatterns = patterns('',
     (r'^%s/admin/doc/' % root, include('django.contrib.admindocs.urls')),
     (r'^%s/admin/(.*)' % root, admin.site.root),
     (r'^%s/media/(.*)$' % root, 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
+    (r'^%s/banner/(.*)$' % root, 'django.views.static.serve', {'document_root': '%s/banner' % MEDIA_ROOT, 'show_indexes': True}),
 )
