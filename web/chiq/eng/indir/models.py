@@ -17,7 +17,7 @@ class Version(models.Model):
         return self.name
 
     def get_release_notes_url(self):
-        return "/release-notes/%s/" % self.slug
+        return "/eng/release_notes/%s/" % self.slug
 
 class Download(models.Model):
     version = models.ForeignKey(Version)
