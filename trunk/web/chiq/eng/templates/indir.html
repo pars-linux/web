@@ -11,7 +11,7 @@
     </div>
     <div class="aciklama ustaciklama">Choose a version</div>
     {% for download in downloads %}
-    <div class="surum{% ifequal download.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}" onclick="location.href='{{ download.link }}'">
+    <div class="surum surum_en{% ifequal download.type 1 %} gizli calisanindir{% else %} kurulanindir{% endifequal %}" onclick="location.href='{{ download.link }}'">
         <div class="surumbaslik"><a href="{{ download.link }}">{{ download.title }}</a></div>
         <div class="aciklama">{{ download.description }}</div>
     </div>
