@@ -407,6 +407,7 @@ body {
     font-family: "DejaVu Sans Condensed", Arial;
     width: 100%;
     overflow: hidden;
+    border-bottom: 1px #e5e5e5 solid;
 }
 .iletisim_secili {
     font-weight: bold;
@@ -420,6 +421,7 @@ body {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 10px;
+    border-bottom: 1px #e5e5e5 solid;
 }
 .iletisim_form_kucuk_alan {
     width: 220px;
