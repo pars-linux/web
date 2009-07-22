@@ -654,7 +654,11 @@ body {
 .eg_ust {
     overflow: hidden;
 }
-.eg_geri, .eg_baslik {
+.eg_geri {
+    margin-top: 10px;
+    float: left;
+}
+.eg_baslik {
     float: left;
 }
 .eg_baslik {
@@ -663,6 +667,8 @@ body {
 }
 .eg_ileri {
     float: right;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 .eg_alt {
     width: 100%;
