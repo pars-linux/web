@@ -651,3 +651,29 @@ body {
 .koyu {
     font-weight: bold;
 }
+.eg_ust {
+    overflow: hidden;
+}
+.eg_geri, .eg_baslik {
+    float: left;
+}
+.eg_baslik {
+    width: 600px;
+    text-align: center;
+}
+.eg_ileri {
+    float: right;
+}
+.eg_alt {
+    width: 100%;
+    text-align: center;
+}
+.eg_tanim {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 600px;
+}
+.eg_goruntu img {
+    width:640px;
+}

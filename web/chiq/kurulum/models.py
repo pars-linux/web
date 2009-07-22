@@ -8,10 +8,13 @@
 from django.db import models
 
 class ScreenShot(models.Model):
-    step = models.IntegerField()
+    step = models.IntegerField(unique=True)
     title = models.CharField(max_length=64)
     description = models.TextField()
     image = models.ImageField(upload_to="upload/image/")
 
     def __unicode__(self):
         return "%s - %s" % (self.id, self.title)
+
+    def get_absolute_url(self):
+        return "/kurulum/ekran-goruntuleri/%d/" % self.step
