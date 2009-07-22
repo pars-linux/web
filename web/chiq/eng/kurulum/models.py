@@ -17,4 +17,4 @@ class ScreenShot(models.Model):
         return "%s - %s" % (self.id, self.title)
 
     def get_absolute_url(self):
-        return "/install/screenshots/%d/" % self.step
+        return "/eng/install/screenshots/%d/" % self.step
