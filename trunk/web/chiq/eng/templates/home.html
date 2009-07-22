@@ -21,7 +21,7 @@
     <div class="mbaslik"><a href="/eng/news/"<img src="/media/resimler/mbaslik/news.png"/></a></div>
 {% for news in news %}
   <div class="habercontain">
-      <div class="haberpic"><img src="/media/resimler/mbaslik/news-icon.png" width="24" height="24" alt="{{ news.title }}" /></div>
+      <div class="haberpic"><img src="/media/resimler/mbaslik/news-icon.png" alt="{{ news.title }}" /></div>
       <div class="haber"><span class="rhaberHeader"><a href="{{ news.get_absolute_url }}">{{ news.title }}</a></span><br />
     <span class="habertext">{{ news.sum|safe }}</span></div>
   </div>
