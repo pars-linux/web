@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+{{ screenshot.id }} - {{ screenshot.title }}
+<div>
+    {{ screenshot.description }}
+    <img src="{{ screenshot.image.url }}" alt="{{ screenshot.title }}" />
+</div>
+{% endblock %}
