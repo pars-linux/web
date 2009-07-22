@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-{{ screenshot.id }} - {{ screenshot.title }}
-<div>
-    {{ screenshot.description }}
-    <img src="{{ screenshot.image.url }}" alt="{{ screenshot.title }}" />
+<div class="eg_ust">
+    <div class="eg_geri">{% if previous %}<a href="{{ previous.get_absolute_url }}">Önceki</a>{% else %}Önceki{% endif %}</div>
+    <div class="eg_baslik"><h1>{{ screenshot }}</h1></div>
+    <div class="eg_ileri">{% if next %}<a href="{{ next.get_absolute_url }}">Sonraki</a>{% else %}Sonraki{% endif %}</div>
+</div>
+<div class="eg_alt">
+    <div class="eg_tanim">{{ screenshot.description }}</div>
+    <div class="eg_goruntu"><img src="{{ screenshot.image.url }}" alt="{{ screenshot.title }}" /></div>
 </div>
 {% endblock %}

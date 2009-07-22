@@ -8,5 +8,5 @@
 from django.conf.urls.defaults import patterns
 
 urlpatterns = patterns('chiq.kurulum.views',
-    (r'^ekran-goruntuleri/(?P<id>\d+)/$', 'screenshot_detail'),
+    (r'^ekran-goruntuleri/(?P<step>\d+)/$', 'screenshot_detail'),
 )
