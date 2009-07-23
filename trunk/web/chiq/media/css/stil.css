@@ -563,12 +563,14 @@ body {
 }
 .basin_ust_baslik {
     width: 300px;
+    height: 17px;
+    padding-top: 6px;
     float: left;
 }
 .basin_ust {
     width: 100%;
     overflow: hidden;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin-bottom: 10px;
     border-bottom: 1px #e5e5e5 solid;
 }
