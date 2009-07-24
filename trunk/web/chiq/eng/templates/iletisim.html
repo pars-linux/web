@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block extrahead %}
 <script type="text/javascript" src="/media/js/jquery-1.2.6.min.js"></script>
-<script type="text/javascript" src="/media/js/iletisim_en.js"></script>
 {% endblock %}
 {% block content %}
 <div class="ana_baslik">Contact</div>
@@ -18,13 +17,21 @@
         <div class="iletisim_sag"><img src="/media/resimler/iletisim/logoiletisim.png" alt="Pardus" /></div>
     </div>
     <div class="iletisim_seciciler">
-        <div class="iletisim_secici kurumsal_secici iletisim_secili">Enterprise Contact</div>
-        <div class="iletisim_secici soru_sorun_secici">Ask Questions</div>
+        <div class="iletisim_secici kurumsal_secici iletisim_secili">Ask Your Question</div>
     </div>
     <img id="ok" src="/media/resimler/basin/ok.png" alt="v" style="margin-top:-1px;margin-left:60px" />
     <div class="iletisim_aciklama">
-        <div class="iletisim_baslik iletisim_aciklama_baslik">For your enterprise questions</div>
-        <div class="iletisim_aciklama_metin">You can ask your enterprise questions using here.</div>
+        <div class="iletisim_aciklama_metin">
+            You can get Pardus 2009 CD images at <a href="http://www.pardus.org.tr/eng/download/">http://www.pardus.org.tr/eng/download/</a>.
+
+            If you need detailed technical information on anything related to Pardus, or if you need the solution to a problem you came across when using Pardus, you will find a huge archieve of documentation and information at http://en.pardus-wiki.org/Main_Page. In case you can't find what you were looking for there, you may ask your questions to the pardus-users mailing list at <a href="http://liste.pardus.org.tr/mailman/listinfo/pardus-kullanicilari">http://liste.pardus.org.tr/mailman/listinfo/pardus-kullanicilari</a>.
+
+            If you happen to come across an error in Pardus, <a href="http://bugs.pardus.org.tr">http://bugs.pardus.org.tr</a> is the address to report the error. Prior to that, of course, you must make sure the error is caused by and specific to Pardus, and you must be prepared to provide data our developers ask of you. Otherwise, mailing lists and forums might be a better choice.
+
+            If you are a university, college, high school or NGO and you would like a seminar or similar organized or if you need support for such an event, get in touch with seminer@pardus.org.tr. If you an IT company and would like to develop products, solutions or businesses, or would like to be make use of one of our logo programmes, you can get in touch with the related department at is-ortagi@pardus.org.tr.
+
+            For any other questions, you may use the form below.
+        </div>
     </div>
     <div class="iletisim_form">
         <form method="POST" action="">
@@ -37,11 +44,6 @@
                 <div class="iletisim_baslik iletisim_form_alan_baslik">E-mail</div>
                 <div class="iletisim_form_alan_aciklama"></div>
                 <div class="iletisim_form_alan_alan"><input name="email" type="text" /></div>
-            </div>
-            <div class="iletisim_form_alan iletisim_form_kucuk_alan sirket_alani">
-                <div class="iletisim_baslik iletisim_form_alan_baslik">Company</div>
-                <div class="iletisim_form_alan_aciklama"></div>
-                <div class="iletisim_form_alan_alan"><input name="company" type="text" /></div>
             </div>
             <div class="iletisim_form_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">Your question</div>
