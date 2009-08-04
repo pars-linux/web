@@ -129,9 +129,7 @@ body {
     overflow: hidden;
 }
 .search_term {
-    /* ie hack */
-    width: 127px !important;
-    width: 111px;
+    width: 122px;
     float: left;
     height: 32px;
     border: none;
