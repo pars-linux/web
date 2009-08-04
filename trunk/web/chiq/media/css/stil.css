@@ -126,10 +126,10 @@ body {
 .search {
     margin-top: 15px;
     margin-bottom: 5px;
+    overflow: hidden;
 }
-
-.search input {
-    width: 128px;
+.search_term {
+    width: 127px;
     float: left;
     height: 32px;
     border: none;
@@ -139,15 +139,14 @@ body {
     padding-left: 16px;
     padding-top: 12px;
 }
-
-.search input[type="submit"] {
-    width: 38px;
+.search_button {
+    width: 39px;
     height: 38px;
     cursor: pointer;
     background-color: #FFFFFF;
     background-image: url(/media/resimler/sidebar/arama-simge.png);
+    border:none;
 }
-
 .habertext {
 	display: block;
 	margin-top: 8px;
@@ -684,4 +683,16 @@ body {
 }
 .eg_goruntu img {
     width:640px;
+}
+.captcha {
+    float: left;
+    margin: 6px;
+}
+#id_captcha_1 {
+    float: left;
+    margin: 5px;
+}
+.iletisim_form_captcha {
+    overflow: hidden;
+    clear: both;
 }
