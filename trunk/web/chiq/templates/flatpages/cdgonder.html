@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ flatpage.title }} {% endblock %}
+{% block content %}
+<div class="basin_ust">
+    <div class="basin_ust_baslik"><a href="/tanitin/">Pardus'u Tanıtın</a></div>
+    <div class="basin_ust_baslik basin_ust_baslik_secili"><a href="/cdgonder/">CD Gönder Kampanyası</a></div>
+</div>
+<img src="/media/resimler/basin/ok.png" alt="v" style="margin-top:-11px;margin-left:410px" />
+{{ flatpage.text|safe }}
+{% endblock %}
