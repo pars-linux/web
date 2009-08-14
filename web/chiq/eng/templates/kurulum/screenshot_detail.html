@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="eg_ust">
-    <div class="eg_geri">{% if previous %}<a href="{{ previous.get_absolute_url }}">Previous</a>{% else %}Previous{% endif %}</div>
+    <div class="eg_geri">{% if previous %}<a href="{{ previous.get_absolute_url }}"><img src="/media/resimler/kurulum/geri.png" alt="Previous" /></a>{% else %}<img src="/media/resimler/kurulum/geri.png" alt="Previous" />{% endif %}</div>
     <div class="eg_baslik"><h1>{{ screenshot }}</h1></div>
-    <div class="eg_ileri">{% if next %}<a href="{{ next.get_absolute_url }}">Next</a>{% else %}Next{% endif %}</div>
+    <div class="eg_ileri">{% if next %}<a href="{{ next.get_absolute_url }}"><img src="/media/resimler/kurulum/ileri.png" alt="Next" /></a>{% else %}<img src="/media/resimler/kurulum/ileri.png" alt="Next" />{% endif %}</div>
 </div>
 <div class="eg_alt">
     <div class="eg_tanim">{{ screenshot.description }}</div>
