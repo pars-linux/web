@@ -33,7 +33,7 @@ DEFAULT_FROM_EMAIL = 'noreply@pardus.org.tr'
 TAG_PER_PAGE = 10
 
 TIME_ZONE = 'Europe/Istanbul'
-LANGUAGE_CODE = 'tr'
+LANGUAGE_CODE = 'en'
 SITE_ID = 1
 
 MEDIA_ROOT = '%s/media/' % DOCUMENT_ROOT
