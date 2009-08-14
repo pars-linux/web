@@ -7,11 +7,14 @@
 
 from django import forms
 
+from chiq.captcha.fields import CaptchaField
+
 class ContactForm(forms.Form):
-    name = forms.CharField(label="İsim", max_length=32)
-    email = forms.EmailField(label="E-posta")
-    company = forms.CharField(label="Şirket", max_length=32, required=False)
-    text = forms.CharField(label="Sorunuz", max_length=1024, widget=forms.Textarea)
+    name = forms.CharField(label="Name", max_length=32)
+    email = forms.EmailField(label="E-mail")
+    company = forms.CharField(label="Company", max_length=32, required=False)
+    text = forms.CharField(label="Your code", max_length=1024, widget=forms.Textarea)
+    captcha = CaptchaField(label="Security code")
 
 class SearchForm(forms.Form):
     term = forms.CharField(label='Anahtar kelime', required=True, widget=forms.TextInput(attrs={'size': '40',}))

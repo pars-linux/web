@@ -83,4 +83,5 @@ INSTALLED_APPS = (
     'chiq.indir',
     'chiq.basin',
     'chiq.kurulum',
+    'chiq.captcha',
 )

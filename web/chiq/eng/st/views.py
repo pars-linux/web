@@ -59,6 +59,8 @@ def contact(request):
             send_mail("Pardus.org.tr bilgi formu", form.cleaned_data["text"], "%s <%s>" % (form.cleaned_data["name"],form.cleaned_data["email"]), ["bilgi@pardus.org.tr"], fail_silently=True)
             mail_sent = True
             return render_response(request, "iletisim.html", locals())
+    else:
+        form = ContactForm()
     return render_response(request, "iletisim.html", locals())
 
 def search(request):
