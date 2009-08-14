@@ -22,7 +22,7 @@
     <img id="ok" src="/media/resimler/basin/ok.png" alt="v" style="margin-top:-1px;margin-left:60px" />
     <div class="iletisim_aciklama">
         <div class="iletisim_aciklama_metin">
-        
+
        Pardus'la ilk kez karşılaştıysanız ve merak ettikleriniz en temel konular  ise, işe <a href="http://www.ozgurlukicin.com/ia/">http://www.ozgurlukicin.com/ia/</a> adresinden başlayabilir ve ilk bilgilerinizi buradan edinebilirsiniz. Pardus'u nasıl edinip nasıl kuracağınız konusunda sorularınız varsa <a href="http://www.pardus.org.tr/belgeler/kurulum_nasil.html">http://www.pardus.org.tr/belgeler/kurulum_nasil.html</a> adresi size yardımcı olacaktır.<br /><br />
 
        Pardus 2009 CD kalıplarına <a href="http://www.pardus.org.tr/indir/">http://www.pardus.org.tr/indir/</a> adresinden erişebilirsiniz. Ayrıca <a href="http://www.ozgurlukicin.com/cdgonder/">http://www.ozgurlukicin.com/cdgonder/</a> adresinden ulaşacağınız elektronik formu doldurarak Pardus CD'nizin adresinize gönderilmesini talep edebilirsiniz.<br /><br />
@@ -40,24 +40,33 @@ Bunların dışında bir sorunuz varsa aşağıda yer alan form aracılığıyla
         </div>
     </div>
     <div class="iletisim_form">
+        {% if mail_sent %}
+        <h2>İletiniz ilgili kişilere gönderilmiştir.<h2>
+        {% else %}
         <form method="POST" action="">
             <div class="iletisim_form_alan iletisim_form_kucuk_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">İsim</div>
-                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.name.errors }}</div>
                 <div class="iletisim_form_alan_alan"><input name="name" type="text" /></div>
             </div>
             <div class="iletisim_form_alan iletisim_form_kucuk_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">E-posta</div>
-                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.email.errors }}</div>
                 <div class="iletisim_form_alan_alan"><input name="email" type="text" /></div>
             </div>
             <div class="iletisim_form_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">Sorunuz</div>
-                <div class="iletisim_form_alan_aciklama"></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.text.errors }}</div>
                 <div class="iletisim_form_alan_alan"><textarea name="text"></textarea></div>
+            </div>
+            <div class="iletisim_form_alan iletisim_form_captcha">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">{{ form.captcha.label }}</div>
+                <div class="iletisim_form_alan_aciklama">{{ form.captcha.errors }}</div>
+                <div class="iletisim_form_alan_alan">{{ form.captcha }}</div>
             </div>
             <input type="submit" value="Gönder" />
         </form>
+        {% endif %}
     </div>
 </div>
 {% endblock %}
