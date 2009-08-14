@@ -10,6 +10,6 @@
 
 from django.conf.urls.defaults import *
 
-urlpatterns = patterns('captcha.views',
+urlpatterns = patterns('chiq.captcha.views',
     url(r'image/(?P<key>\w+)/$','captcha_image',name='captcha-image'),
 )
