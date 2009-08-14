@@ -9,7 +9,7 @@
 # http://code.google.com/p/django-simple-captcha/
 
 import random
-from captcha.conf import settings
+from chiq.captcha.conf import settings
 
 def math_challenge():
     operators = ('+','*','-',)
