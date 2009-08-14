@@ -34,24 +34,33 @@
         </div>
     </div>
     <div class="iletisim_form">
+        {% if mail_sent %}
+        <h2>Your message has been delivered.<h2>
+        {% else %}
         <form method="POST" action="">
             <div class="iletisim_form_alan iletisim_form_kucuk_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">Name</div>
-                <div class="iletisim_form_alan_aciklama"></div>
-                <div class="iletisim_form_alan_alan"><input name="name" type="text" /></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.name.errors }}</div>
+                <div class="iletisim_form_alan_alan">{{ form.name }}</div>
             </div>
             <div class="iletisim_form_alan iletisim_form_kucuk_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">E-mail</div>
-                <div class="iletisim_form_alan_aciklama"></div>
-                <div class="iletisim_form_alan_alan"><input name="email" type="text" /></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.email.errors }}</div>
+                <div class="iletisim_form_alan_alan">{{ form.email }}</div>
             </div>
             <div class="iletisim_form_alan">
                 <div class="iletisim_baslik iletisim_form_alan_baslik">Your question</div>
-                <div class="iletisim_form_alan_aciklama"></div>
-                <div class="iletisim_form_alan_alan"><textarea name="text"></textarea></div>
+                <div class="iletisim_form_alan_aciklama">{{ form.text.errors }}</div>
+                <div class="iletisim_form_alan_alan">{{ form.text }}</div>
+            </div>
+            <div class="iletisim_form_alan iletisim_form_captcha">
+                <div class="iletisim_baslik iletisim_form_alan_baslik">{{ form.captcha.label }}</div>
+                <div class="iletisim_form_alan_aciklama">{{ form.captcha.errors }}</div>
+                <div class="iletisim_form_alan_alan">{{ form.captcha }}</div>
             </div>
             <input type="submit" value="Send" />
         </form>
+        {% endif %}
     </div>
 </div>
 {% endblock %}
