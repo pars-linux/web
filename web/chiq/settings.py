@@ -80,5 +80,7 @@ INSTALLED_APPS = (
     'chiq.flatpages',
     'chiq.st',
     'chiq.upload',
-    'chiq.webalizer',
+    'chiq.indir',
+    'chiq.basin',
+    'chiq.kurulum',
 )
