@@ -16,5 +16,5 @@ def main(request):
     return render_response(request, "indir.html", locals())
 
 def release_notes(request, slug):
-    version = get_object_or_404(Version, slug=slug, status=True)
+    version = get_object_or_404(Version, slug=slug)
     return render_response(request, "surum_notlari.html", locals())
