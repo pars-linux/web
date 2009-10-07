@@ -29,7 +29,7 @@ def story_list(request):
     return render_response(request, 'successstory/successstory_list.html', locals())
 
 def news_list(request):
-    news = News.objects.filter(is_published=True, is_main=False).order_by("date")
+    news = News.objects.filter(is_published=True, is_main=False).order_by("-date")
     return render_response(request, 'news/news_list.html', locals())
 
 def news_detail(request, slug):
