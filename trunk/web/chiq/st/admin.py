@@ -22,7 +22,7 @@ class FileAdmin(admin.ModelAdmin):
 class NewsAdmin(admin.ModelAdmin):
     list_display = ('title', 'is_published', 'is_main', 'is_big', 'date')
     list_filter = ('date',)
-    ordering = ('date',)
+    ordering = ('-date',)
     search_fields = ('title', 'text', 'sum', 'tag__name')
     prepopulated_fields = {'slug': ("title",)}
 
