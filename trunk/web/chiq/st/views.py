@@ -6,6 +6,7 @@
 # See the file http://www.gnu.org/copyleft/gpl.txt.
 
 from django.shortcuts import get_object_or_404
+from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
 from django.db.models import Q
 
@@ -18,6 +19,10 @@ def robots(request):
     return render_response(request, 'robots.txt')
 
 def home(request):
+    if "pardus.org.tr" not in request.META.get("HTTP_REFERER", ""):
+        if "tr" not in request.META.get("HTTP_ACCEPT_LANGUAGE", "en"):
+            return HttpResponseRedirect("http://www.pardus.org.tr/eng/")
+
     mainnews = News.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
     stories = SuccessStory.objects.filter(is_main=True, is_published=True).order_by("-date")[:1]
     news = News.objects.filter(is_main=False, is_published=True, is_big=False).order_by("-date")[:2]
