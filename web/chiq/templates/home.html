@@ -23,13 +23,13 @@
   <div class="habercontain">
       <div class="haberpic"><img src="/media/resimler/mbaslik/news-icon.png" alt="{{ news.title }}" /></div>
       <div class="haber"><span class="rhaberHeader"><a href="{{ news.get_absolute_url }}">{{ news.title }}</a></span><br />
-    <span class="habertext">{{ news.sum|safe }}</span></div>
+    <div class="habertext">{{ news.sum|safe }}</div></div>
   </div>
 {% endfor %}
 </div>
 <div class="partEnd">
     <div class="aligner"> <a href="{{ bignews.0.get_absolute_url }}"><img src="{{ bignews.0.image.file.url }}" alt="anahaber" /></a><br />
-        <span class="habertext">{{ bignews.0.sum|safe }}<br />
-            <a href="{{ bignews.0.get_absolute_url }}">Devam »</a></span> </div>
+        <div class="habertext">{{ bignews.0.sum|safe }}<br />
+            <a href="{{ bignews.0.get_absolute_url }}">Devam »</a></div></div>
 </div>
 {% endblock %}
