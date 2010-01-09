@@ -33,24 +33,26 @@ Email discussion among Pardus developers takes place on the `pardus-devel mailin
 
 The ``#pardus-devel`` channel on FreeNode IRC network is home to many Pardus developers for real-time communication.
 
-********************
 Areas to contribute
-********************
+====================
 
 In this section, we'll briefly cover the different areas to contribute.
 
+*********************
 Software development
-=====================
+*********************
 
 You can contribute your knowledge and labour on developing new softwares for Pardus or improving already written ones. For achieving this purpose, you should be familiar with different Pardus technologies like COMAR, PiSi, Mudur, Kaptan to understand how things work in Pardus Linux.
 
+**********
 Packaging
-==========
+**********
 
 If you're interested in preparing PiSi packages, but don't have much experience yet, you can read the :ref:`pisi-packaging-guide` to get involved in the packaging process.
 
+*************
 Localization
-=============
+*************
 
 Pardus officially supports 11 languages: Turkish, English, Dutch, French, German, Spanish, Catalan, Italian, Swedish, Polish and Brazilian Portuguese.
 
@@ -60,8 +62,9 @@ A collaborative meeting point for Pardus translators is the ``pardus-translators
 
 More information and statistics can be found in Pardus translation project's `website <http://www.pardus.org.tr/eng/projects/translation/>`_.
 
+***************************
 Bug reporting and triaging
-===========================
+***************************
 
 Pardus bug reports are tracked in bugzilla. You can examine bugs to determine whether or not they have enough information and feedback to be worked on and assign a priority/component/product to them as soon as possible.
 
@@ -73,8 +76,9 @@ In order to help triaging bugs, you have to be able to find them. You can find a
 
 Our bug tracking system can be reached via http://bugs.pardus.org.tr. Just create an account and you'll be immediately able to report new bugs and write comments to the existing bug reports. You don't need an account for browsing current bug reports.
 
+**************
 Documentation
-==============
+**************
 
 You can support the documentation of the ongoing projects and different development content. Along with the end user documents, you can also prepare *HOWTO* documents for the users/contributors/developers that have newly joined the project.
 
