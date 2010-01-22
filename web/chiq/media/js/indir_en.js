@@ -4,7 +4,7 @@ $(document).ready(function() {
         $(".calisan").addClass("selected");
         $(".calisanindir").show();
         $(".kurulanindir").hide();
-        $(".ustaciklama").text("Live CD will be announced soon.");
+        $(".ustaciklama").text("");
     });
     $(".kurulan").click(function(){
         $(".calisan").removeClass("selected");
