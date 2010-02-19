@@ -16,13 +16,13 @@ DEBUG = True
 TESTING = True
 TEMPLATE_DEBUG = DEBUG
 WEB_URL = 'http://localhost/chiq'
-DOCUMENT_ROOT = '/home/eren/sourcebox/chiq'
+DOCUMENT_ROOT = '/home/rcakirerk/workspace/svn.pardus.org.tr/chiq'
 
 DATABASE_ENGINE = 'mysql'
 #DATABASE_ENGINE = "mysql"
 DATABASE_NAME = 'chiq'
 DATABASE_USER = 'root'
-DATABASE_PASSWORD = ''
+DATABASE_PASSWORD = '12345'
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = ''
 
@@ -84,4 +84,5 @@ INSTALLED_APPS = (
     'chiq.basin',
     'chiq.kurulum',
     'chiq.captcha',
+    'chiq.atolye',
 )
