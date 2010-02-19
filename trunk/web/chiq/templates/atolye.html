@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+    <head>
+        <title>Atölye Kayıt Formu</title>
+
+        <style type="text/css">
+body
+{
+font-family: Verdana, sans-serif, Arial;
+font-size: 11px;
+margin:0px;
+padding:0px;
+background-image: url("http://cakirerk.org/artwork/formBG.png");
+background-repeat: no-repeat;
+background-position: center top;
+background-attachment: fixed;
+}
+
+.form{
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    border:1px solid #ffffff;
+    color: #404067;
+}
+
+.form th
+{
+padding:10px 20px 10px 20px;
+width: 200px;
+text-align: right;
+font-family: Verdana, sans-serif, Arial;
+font-weight: bold;
+font-size: 11px;
+background-color: #e7e7f2; 
+vertical-align: middle;
+}
+
+
+input, textarea {
+width: 250px;
+border:1px solid #bbbbbb;
+}
+
+.form li{
+    list-style: none;
+    margin-right:10px;
+    float:left;
+    width:90px;
+}
+
+.form ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form td
+{
+padding:10px 20px 10px 20px;
+width: 330px;
+text-align: left;
+font-family: Verdana, sans-serif, Arial;
+font-weight: normal;
+font-size: 11px;
+background-color: #f5f5ff; 
+vertical-align: middle;
+}
+
+.invalid{
+    float:left;
+    margin-left:10px;
+    vertical-align: middle
+}
+
+.header{
+    margin-top: 20px;
+    font-family: Verdana, sans-serif, Arial;
+    font-weight: normal;
+}
+
+.form .submit{
+    text-align: center;
+    border-top:2px solid #ffffff;
+}
+
+.header .logo{
+    padding-left:10px
+}
+
+.header{
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    background-image: url("http://cakirerk.org/artwork/gradient.png");
+    background-position: 0px -30px;
+    letter-spacing:-2px;
+    border: 1px solid white;
+    border-bottom:0px;
+    color:#3d5a55;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+
+.errorlist li {
+    color: red;
+    width:300px;
+}
+
+</style>
+
+    </head>
+    <body>
+        {% if errors %}
+            <ul>
+                {% for error in errors %}
+                <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+
+       <table width="550" class="header" align="center" cellpadding="5" cellspacing="0">
+            <tr>
+                <td class="logo"><img src="http://developer.pardus.org.tr/_static/icons/pardus_logo.png"></td>
+                <td class="title">Pardus Atölye Katılım Formu</td>
+            </tr>
+        </table>
+
+
+        <form id="form" action="/atolye/" method="post">
+            <table width="550" class="form" align="center" cellspacing="0" cellpadding="0">
+                {{ form.as_table }}
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td class="submit" colspan="2"><input type="submit" value="Gönder"></td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
