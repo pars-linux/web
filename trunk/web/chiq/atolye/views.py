@@ -51,8 +51,8 @@ class AtolyeForm(forms.Form):
     projects_done = forms.CharField(label = "Projeleriniz", widget=forms.Textarea, max_length=200, required=False)
     using_linux_since = forms.CharField(label = "Ne zamandır Linux kullanıyorsunuz?", max_length=50, widget = forms.TextInput, required=False)
     date = forms.ChoiceField(label="Tercih ettiğiniz atölye tarihi", choices=DATES)
-    comments = forms.CharField(label="Görüş ve Açıklamalar", max_length = 200, widget=forms.Textarea, required=False)
-    captcha = CaptchaField(label="Doğrulama Sorusu")
+    comments = forms.CharField(label="Açıklamalar", max_length = 200, widget=forms.Textarea, required=False)
+    captcha = CaptchaField(label="Doğrulama Metni")
 
 
 def showForm(request):
@@ -75,7 +75,7 @@ def showForm(request):
             date = form.cleaned_data['date']
             comments = form.cleaned_data['comments']
 
-            recipients = ['gokcen@pardus.org.tr']
+            recipients = ['gokcen@pardus.org.tr', 'renan@pardus.org.tr']
 
             message = """
 Ad                             : %s
