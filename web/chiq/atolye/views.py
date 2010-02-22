@@ -15,6 +15,9 @@ from chiq.atolye.models import Student, ProgrammingLanguagesAndFrameworks
 CHOICES = ( (u'Yes', u'Evet'),
             (u'No', u'Hayır'))
 
+DATES = ( (u'Cumartesi', u'Cumartesi 12:00 - 13:20'),
+        (u'Pazar', u'Pazar 11:15 - 12:45'))
+
 PROGRAMMING_LANGUAGES = ( (u'Python', u'Python'),
                           (u'C', u'C'),
                           (u'C++', u'C++'),
@@ -47,6 +50,7 @@ class AtolyeForm(forms.Form):
     is_using_pardus = forms.ChoiceField(CHOICES, label = "Öntanımlı işletim sisteminiz Pardus mu?")
     projects_done = forms.CharField(label = "Projeleriniz", widget=forms.Textarea, max_length=200, required=False)
     using_linux_since = forms.CharField(label = "Ne zamandır Linux kullanıyorsunuz?", max_length=50, widget = forms.TextInput, required=False)
+    date = forms.ChoiceField(label="Tercih ettiğiniz atölye tarihi", choices=DATES)
     comments = forms.CharField(label="Görüş ve Açıklamalar", max_length = 200, widget=forms.Textarea, required=False)
     captcha = CaptchaField(label="Doğrulama Sorusu")
 
@@ -68,27 +72,29 @@ def showForm(request):
             is_using_pardus = form.cleaned_data['is_using_pardus']
             projects_done = form.cleaned_data['projects_done']
             using_linux_since = form.cleaned_data['using_linux_since']
+            date = form.cleaned_data['date']
             comments = form.cleaned_data['comments']
 
             recipients = ['gokcen@pardus.org.tr']
 
             message = """
-Ad: %s
-Soyad: %s
-Eposta: %s
-Jabber: %s
-Websitesi: %s
-Okul: %s
-Bolum: %s
-Programlama Dilleri: %s
-Diger Programlama Dilleri: %s
-Pardus Kullanicisi: %s
-Projeler: %s
-Ne zamandir Pardus kullaniyor: %s
-Gorusler: %s
+Ad                             : %s
+Soyad                          : %s
+Eposta                         : %s
+Jabber                         : %s
+Websitesi                      : %s
+Okul                           : %s
+Bolum                          : %s
+Programlama Dilleri            : %s
+Diger Programlama Dilleri      : %s
+Pardus Kullanicisi             : %s
+Projeler                       : %s
+Ne zamandir Pardus kullaniyor  : %s
+Tercih edilen tarihi           : %s
+Gorusler                       : %s
 """
 
-            message = message % (name, surname, email, jabber, website, school, department, programming_languages_and_frameworks, other_programming_languages, is_using_pardus, projects_done, using_linux_since, comments)
+            message = message % (name, surname, email, jabber, website, school, department, programming_languages_and_frameworks, other_programming_languages, is_using_pardus, projects_done, using_linux_since, date, comments)
 
             from django.core.mail import send_mail
             send_mail("BİLMÖK ATÖLYE KAYIT: " + name + " " + surname, message, email, recipients)
