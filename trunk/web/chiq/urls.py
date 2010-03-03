@@ -47,6 +47,6 @@ urlpatterns = patterns('',
     (r'^admin/(.*)', admin.site.root),
     (r'^media/(.*)$', 'django.views.static.serve', {'document_root': '%s/media' % DOCUMENT_ROOT, 'show_indexes': True}),
     (r'^banner/(.*)$', 'django.views.static.serve', {'document_root': '%s/media/banner' % DOCUMENT_ROOT, 'show_indexes': True}),
-    (r'^atolye/$', 'chiq.atolye.views.showForm'),
-    (r'^atolye/ok$', 'chiq.atolye.views.showThanks'),
+    #(r'^atolye/$', 'chiq.atolye.views.showForm'),
+    #(r'^atolye/ok$', 'chiq.atolye.views.showThanks'),
 )
