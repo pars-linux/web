@@ -1,0 +1,254 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import datetime
+from django.shortcuts import render_to_response
+import MySQLdb
+from django.http import HttpResponseRedirect
+
+from django import forms
+
+from staj.form.models import Student, Mentor, Project, ProgrammingLanguagesAndFrameworks
+
+from staj.captcha.fields import CaptchaField
+
+from django.forms.util import ErrorList
+
+
+GENDER_CHOICES = (  (u'M', u'Bay'),
+                    (u'F', u'Bayan'))
+
+
+DATE_CHOICES = (  (u'21 Haziran - 16 Temmuz 2010', u'21 Haziran - 16 Temmuz 2010'),
+                  (u'2 Ağustos - 27 Eylül 2010', u'2 Ağustos - 27 Eylül 2010'))
+
+SCORE_CHOICES =  (  (u'1', u'1'),
+                    (u'2', u'2'),
+                    (u'3', u'3'),
+                    (u'4', u'4'),
+                    (u'5', u'5'),
+                    (u'6', u'6'),
+                    (u'7', u'7'),
+                    (u'8', u'8'),
+                    (u'9', u'9'),
+                    (u'10', u'10'),
+                    )
+
+class InternForm(forms.Form):
+    name = forms.CharField(max_length=50, label="Ad", widget=forms.TextInput)
+    surname = forms.CharField(max_length=50, label="Soyad", widget=forms.TextInput(attrs={'class':'required'}))
+    birthdate = forms.DateField(('%d/%m/%Y',), label="Doğum Tarihi", widget = forms.DateTimeInput(format='%d/%m/%Y', attrs={'class':'input required','readonly':'readonly','size':'15'}))
+    gender = forms.ChoiceField(GENDER_CHOICES,label="Cinsiyet")
+    id_number = forms.CharField(label="T.C. Kimlik No", max_length=11, widget=forms.TextInput(attrs={'class':'required'})) #YALNIZCA RAKAM JQUERY
+    address = forms.CharField(label="Ev Adresi", max_length=100, widget=forms.TextInput(attrs={'class':'required'}))
+    district = forms.CharField(label="Semt", max_length=50, widget=forms.TextInput(attrs={'class':'required'}))
+    city = forms.CharField(label="Şehir", max_length=50) # SEHIR LISTESI
+    email = forms.EmailField(label="E-posta Adresi", max_length=100, widget=forms.TextInput(attrs={'class':'required email'}))
+    website = forms.URLField(label="Web Sitesi", max_length=100, required=False)
+    school = forms.CharField(label="Üniversite Adı", max_length=100, widget=forms.TextInput(attrs={'class':'required'}))
+    department = forms.CharField(label="Bölüm", max_length=100, widget=forms.TextInput(attrs={'class':'required'}))
+    gpa = forms.CharField(label="Not Ortalaması", max_length=10, widget=forms.TextInput(attrs={'class':'required'}))
+    programming_languages_and_frameworks = forms.ModelMultipleChoiceField(
+            queryset = ProgrammingLanguagesAndFrameworks.objects.all(), 
+            label="Bildiğiniz programlama dilleri ve Frameworkler",
+            widget = forms.CheckboxSelectMultiple(attrs={'class':'required'})
+            )
+    other_programming_languages = forms.CharField(label = "Bildiğiniz diğer programlama dilleri", max_length = 100, required=False)
+    awards = forms.CharField(label = "Başarı ve Ödüller", widget = forms.Textarea, max_length=1000, required=False)
+    why_pardus = forms.CharField(label = "Neden Pardus'ta staj yapmak istediğinizi kısaca yazınız", max_length=1000, widget = forms.Textarea(attrs={'class':'required'}))
+    projects_done = forms.CharField(label = "Projeleriniz", widget=forms.Textarea, max_length=1000, required=False)
+    where_did_you_hear = forms.CharField(label = "Stajı nereden duydunuz?", max_length=1000, widget = forms.Textarea(attrs={'class':'required'}))
+    suitable_date = forms.ChoiceField(DATE_CHOICES, label = "Hangi tarih aralıklarında staj yapabileceğinizi belirtiniz") # TARIH ARALIKLARI
+
+    prefered_projects = forms.ModelMultipleChoiceField(queryset = Project.objects.all(),
+            label = "Staj sırasında üzerinde çalışmak istediğiniz projeler (CTRL tuşuna basılı tutarak birden çok proje seçebilirsiniz.)",
+            widget = forms.SelectMultiple(attrs={'class':'required'})
+            )
+
+
+    commited_before = forms.CharField(label="Daha önce Pardus'a katkıda bulundunuz mu? Açıklayınız.", max_length = 200)
+    cv_upload = forms.FileField(label="Özgeçmiş Yükleme")
+    captcha = CaptchaField(label="Doğrulama Metni")
+
+    def clean(self):
+        content_types = ('text/html', 'text/plain', 'application/pdf', 'application/vnd.oasis.opendocument.text')
+        file_exts = ('.odt', '.pdf', '.txt', '.html', '.htm')
+
+        cleaned_data = self.cleaned_data
+
+        id_number = cleaned_data.get("id_number")
+        cv = cleaned_data.get("cv_upload")
+
+        if id_number:
+            if not (id_number.isdigit() and len(id_number)==11):
+                self._errors["id_number"] = ErrorList(["Lütfen geçerli bir T.C kimlik numarası giriniz."])
+            else:
+                total = 0
+                for i in range(0,10):
+                    total += int(id_number[i])
+
+                total = str(total)
+
+                if not total.endswith(id_number[10]):
+                    self._errors["id_number"] = ErrorList(["Lütfen geçerli bir T.C kimlik numarası giriniz. no check"])
+
+            if not len(id_number) == 11:
+                self._errors["id_number"] = ErrorList(["Lütfen geçerli bir T.C kimlik numarası giriniz."])
+
+        if cv:
+            if not cv.content_type in content_types:
+                self._errors["cv_upload"] = ErrorList(["Yüklediğiniz dosya odt, pdf, txt ya da html formatında olmalıdır."])
+
+            if not cv.name.endswith(file_exts):
+                self._errors["cv_upload"] = ErrorList(["Yüklediğiniz dosya odt, pdf, txt ya da html formatında olmalıdır."])
+
+            if cv.size > 1024 * 1024:
+                self._errors["cv_upload"] = ErrorList(["Yüklediğiniz dosyanın boyutu 1 Mb'den küçük olmalıdır."])
+
+        return cleaned_data
+
+
+
+class MentorForm(forms.Form):
+    name = forms.CharField(label="Proje Adı")
+    objective = forms.CharField(widget=forms.Textarea, label="Amaç")
+    todo = forms.CharField(widget=forms.Textarea, label="Yapılacaklar")
+    prerequisites = forms.CharField(widget=forms.Textarea, label="Ön Şartlar")
+    references = forms.CharField(widget=forms.Textarea, label="Referanslar")
+    score = forms.ChoiceField(SCORE_CHOICES, label="Zorluk Derecesi")
+    mentors = forms.ModelMultipleChoiceField(queryset=Mentor.objects.all(), label="Mentors")
+
+
+
+ext = { 'application/pdf':'pdf', 'text/html':'html', 'application/vnd.oasis.opendocument.text':'odt', 'text/plain':'txt'}
+
+def intern_form(request):
+
+    title = "Pardus Stajyer Aday Formu"
+
+    if request.method == 'POST': # If the form has been submitted...
+        form = InternForm(request.POST, request.FILES) # A form bound to the POST data
+        if form.is_valid(): # All validation rules pass
+
+            name = form.cleaned_data['name']
+            surname = form.cleaned_data['surname']
+            birthdate = form.cleaned_data['birthdate']
+            gender = form.cleaned_data['gender']
+            id_number = form.cleaned_data['id_number']
+            address = form.cleaned_data['address']
+            district = form.cleaned_data['district']
+            city = form.cleaned_data['city']
+            email = form.cleaned_data['email']
+            website = form.cleaned_data['website']
+            school = form.cleaned_data['school']
+            department = form.cleaned_data['department']
+            gpa = form.cleaned_data['gpa']
+            programming_languages_and_frameworks = form.cleaned_data['programming_languages_and_frameworks']
+            other_programming_languages = form.cleaned_data['other_programming_languages']
+            awards = form.cleaned_data['awards']
+            why_pardus = form.cleaned_data['why_pardus']
+            projects_done = form.cleaned_data['projects_done']
+            where_did_you_hear = form.cleaned_data['where_did_you_hear']
+            suitable_date = form.cleaned_data['suitable_date']
+            prefered_projects = form.cleaned_data['prefered_projects']
+            commited_before = form.cleaned_data['commited_before']
+            cv = form.cleaned_data['cv_upload']
+
+            name = name.split()
+            name = " ".join(name)
+            surname = surname.split()
+            surname = " ".join(surname)
+
+            filename = "%s_%s_%s.%s" % (name.lower().replace(" ","_"), surname.lower().replace(" ", "_"), id_number, ext[cv.content_type])
+            save_cv(cv, filename)
+
+            s = Student(name=name,
+                        surname=surname,
+                        birthdate=birthdate,
+                        gender=gender,
+                        id_number=id_number,
+                        address=address,
+                        district=district,
+                        city=city,
+                        email=email,
+                        website=website,
+                        school=school,
+                        department=department,
+                        gpa=gpa,
+                        other_programming_languages=other_programming_languages,
+                        awards=awards,
+                        why_pardus=why_pardus,
+                        projects_done=projects_done,
+                        where_did_you_hear=where_did_you_hear,
+                        suitable_date=suitable_date,
+                        commited_before=commited_before,
+                        cv_upload = filename)
+            s.save()
+
+            for project in prefered_projects:
+                s.prefered_projects.add(project)
+
+            for pl in programming_languages_and_frameworks:
+                s.programming_languages_and_frameworks.add(pl)
+
+
+            return HttpResponseRedirect('/kayit/') # Redirect after POST
+    else:
+        form = InternForm(label_suffix=' ') # An unbound form
+
+    return render_to_response('form.html', {'form': form, 'title': title})
+
+
+def save_cv(cv, filename):
+    destination = open(filename, 'wb+')
+    for chunk in cv.chunks():
+        destination.write(chunk)
+    destination.close()
+
+
+def thanks(request):
+    return render_to_response('kayit.html', None)
+
+
+def mentor_form(request):
+
+    title = "Fikir Toplama Robotu"
+
+    if request.method == 'POST': # If the form has been submitted...
+        form = MentorForm(request.POST) # A form bound to the POST data
+        if form.is_valid(): # All validation rules pass
+            name = form.cleaned_data['name']
+            objective = form.cleaned_data['objective']
+            todo = form.cleaned_data['todo']
+            prerequisites = form.cleaned_data['prerequisites']
+            score = form.cleaned_data['score']
+            references = form.cleaned_data['references']
+            mentors = form.cleaned_data['mentors']
+
+
+            p = Project(name=name, objective=objective, todo=todo, prerequisites=prerequisites, score=score, references=references)
+            p.save()
+            for mentor in mentors:
+                p.mentors.add(mentor)
+
+            return HttpResponseRedirect('/mentor/done') # Redirect after POST
+    else:
+        form =MentorForm(label_suffix=' ') # An unbound form
+
+    return render_to_response('mentor.html', {'form': form, 'title': title})
+
+
+def mentor_done(request):
+    return render_to_response('mentor_done.html', None)
+
+def process_intern_form():
+    pass
+
+
+def projeler(request):
+    list = Project.objects.all()
+    details = "details"
+    return render_to_response('projects.html', {'list': list, 'details':details})
+
+
+
