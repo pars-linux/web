@@ -13,4 +13,4 @@ All of contents in Developer Base listed below.
     kaptan/index.rst
     bugs/index.rst
     howto/index.rst
-    newdeveloper/index.rst
+    newcontributor/index.rst
