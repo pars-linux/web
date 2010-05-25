@@ -73,7 +73,7 @@ Mentoring Process
     #. Related to junior jobs difficulty, one more jobs can be given to junior.
     #. At this stage playground svn permissions will be given to junior. (The mentor will send and an email to sys. Admin for giving permissions.)
     #. For giving svn permissions, mentor send a `Creating SVN Account Stock Response`_ comment to bugzilla and the applicant should send the needed information as a bug comment.
-    #. The owner of the packages that junor has done will be his/her mentor.
+    #. The owner of the packages that junior has done will be his/her mentor.
 #. If the junior might not have achieved to finish the junior job until the deadline, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. Mentor can also add the reapply time to the comment. (Reapply time is depended to mentor related to junior performance)(The mentor will send and an email to sys. Admin for removing permissions.)
 #. If junior has finished his/her jobs in time:
     #. The junior is called as "developer candidate"
