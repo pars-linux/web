@@ -26,7 +26,7 @@ During the development process, you should always be in *communication* with oth
 
 The process of development is completely transparent to the public, and open to any contributor who demonstrates the necessary skills and commitment to the project. 
 
-You can find in details :ref:`areas-to-contribute` and `how-to-be-contributor`.
+You can find in details :ref:`areas-to-contribute` and :ref:`how-to-be-contributor`.
 
 Responsibilities of a Contributor
 =====================================
