@@ -19,11 +19,14 @@ Packaging
 
 If you're interested in preparing PiSi packages, but don't have much experience yet, you can read the :ref:`pisi-packaging-guide` to get involved in the packaging process.
 
+For contributor applications: :ref:`how-to-be-contributor`
+
 ****
 Test
 ****
 
 Our project has a test team in order to test the new releases of Pardus distributions and also test packages which will go to stable repositories. For detail information `pardus-test-processes`.
+For contributor applications: :ref:`how-to-be-contributor`
 
 
 ***************************
