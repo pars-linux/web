@@ -4,7 +4,7 @@ How to be a Contributor?
 ========================
 
 ******************************
-Candidate Tracking on Bugzilla
+Applicant Tracking on Bugzilla
 ******************************
 
 - "Yeni Katkıcı / New Contributor" product is for this tracking process.
@@ -24,7 +24,7 @@ Application Request
 -------------------
 #. The applicant creates a `bugzilla <bugs.pardus.org.tr>`_ account if he/she has not yet.
 #. The applicant reports a bug for the related component of "Yeni Katkıcı / New Contributor" product.
-#. The summary of the bug likes "Testçi veya Geliştirici Adaylık Ad Soyad" "Tester veya Developer Candidate Name Surname".
+#. The summary of the bug likes "Testçi veya Geliştirici Adaylık Ad Soyad" "Tester veya Developer Applicant Name Surname".
 #. The bug details part should contains the answers of the following personal questions.
 
     #. What are the distributions that you use properly?
@@ -69,33 +69,32 @@ Assigning Mentor
 Mentoring Process
 -----------------
 #. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.)
-    #. At this stage the applicant called as junior (çırak).
-    #. Related to junior jobs difficulty, one more jobs can be given to junior.
-    #. At this stage playground svn permissions will be given to junior. (The mentor will send and an email to sys. Admin for giving permissions.)
+    #. Related to junior jobs difficulty, one more jobs can be given to applicant.
+    #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
     #. For giving svn permissions, mentor send a `Creating SVN Account Stock Response`_ comment to bugzilla and the applicant should send the needed information as a bug comment.
-    #. The owner of the packages that junior has done will be his/her mentor.
-#. If the junior might not have achieved to finish the junior job until the deadline, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. Mentor can also add the reapply time to the comment. (Reapply time is depended to mentor related to junior performance)(The mentor will send and an email to sys. Admin for removing permissions.)
-#. If junior has finished his/her jobs in time:
-    #. The junior is called as "developer candidate"
+    #. The owner of the packages that applicant has done will be his/her mentor.
+#. If the applicant might not have achieved to finish the applicant job until the deadline, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. Mentor can also add the reapply time to the comment. (Reapply time is depended to mentor related to applicant performance)(The mentor will send and an email to sys. Admin for removing permissions.)
+#. If applicant has finished his/her jobs in time:
+    #. The applicant is enters applicant progress observation period.
 
-Developer Candidate Process
----------------------------
-#. The candidate process finising time is related to the his/her mentor.
-#. The owner of the packages that candidate has done will be his/her mentor.
-#. All svn permissions excluding "stable" will be given to candidate. (The mentor will send and an email to sys. Admin for giving permissions.)
-#. Mentor will keep an eye on candidate, until the candidate reach a good level.
-    #. He/she joins the package review process of the packages that the candidate done.
-    #. He/she controls that the candidate fullfills the `responsibilities of the contributor <http://developer.pardus.org.tr/newcontributor/index.html#responsibilities-of-a-contributor>`_ like continuity, accuracy, determination, communication.
-#. If the candidate can not pass this process, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. (The mentor will send and an email to sys. Admin for removing permissions.)
-#. If the candidate can pass this process:
-    #. When the mentor has been satisfied by candidate, mentor sends a comment as he/she leaves the candidate and changes the bug status as RESOLVED/FIXED
-    #. The candidate is called as developer.
+Applicant Progress Observation
+------------------------------
+#. The applicant process finishing time is related to the his/her mentor.
+#. The owner of the packages that applicant has done will be his/her mentor.
+#. All svn permissions excluding "stable" will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
+#. Mentor will keep an eye on applicant, until the applicant reach a good level.
+    #. He/she joins the package review process of the packages that the applicant done.
+    #. He/she controls that the applicant fullfills the `responsibilities of the contributor <http://developer.pardus.org.tr/newcontributor/index.html#responsibilities-of-a-contributor>`_ like continuity, accuracy, determination, communication.
+#. If the applicant can not pass this process, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. (The mentor will send and an email to sys. Admin for removing permissions.)
+#. If the applicant can pass this process:
+    #. When the mentor has been satisfied by applicant, mentor sends a comment as he/she leaves the applicant and changes the bug status as RESOLVED/FIXED
+    #. The applicant is called as developer.
     #. All svn permissions will be given to new developer. (The mentor will send and an email to sys. Admin for giving permissions)
     #. All packages and works that the developer has done during his candidacy, are transfered to him/her
 
 Guiding Rules
 -------------
-#. Until a mentor has been assigned to applicant, the mentor coordinators will track the process. (Traking the candidate bugs, sending quiz, assign mentor etc.)
+#. Until a mentor has been assigned to applicant, the mentor coordinators will track the process. (Traking the applicant bugs, sending quiz, assign mentor etc.)
 #. After the mentor has assigned, the mentor is responsible for the applicant. (Tracking his/her applicants, sending necessary comments to bug and editing it etc. )
 
 ***************
