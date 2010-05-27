@@ -14,7 +14,7 @@ Candidate Tracking on Bugzilla
     - A mentoring group is created for product "Yeni Katkıcı / New Contributor"
     - The users out of the mentoring group can create contributor bugs, but can not edit bugs.
 
-    ..  image:: images/applicant_process.png
+    ..  image:: images/application_process.png
 
 ****************
 Tracking Process
