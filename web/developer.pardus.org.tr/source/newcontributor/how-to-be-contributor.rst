@@ -22,7 +22,7 @@ Tracking Process
 
 Application Request
 -------------------
-#. The applicant creates a `bugzilla <bugs.pardus.org.tr>`_ account if he/she has not yet.
+#. The applicant creates a `bugzilla <http://bugs.pardus.org.tr>`_ account if he/she has not yet.
 #. The applicant reports a bug for the related component of "Yeni Katkıcı / New Contributor" product.
 #. The summary of the bug likes "Testçi veya Geliştirici Adaylık Ad Soyad" "Tester veya Developer Applicant Name Surname".
 #. The bug details part should contains the answers of the following personal questions.
