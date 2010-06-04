@@ -28,6 +28,7 @@ Package Structure
 .. toctree::
 
     pisi-structure.rst
+    package-review-process.rst
 
 Download
 ========
