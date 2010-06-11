@@ -103,14 +103,22 @@ Stock Responses
 Rejection Stock Response
 ------------------------
     ::
+        Başvurunuz ilgili ekip tarafından incelenmiş, maalesef sorulara verdiğiniz
+        yanıtlar yeterli bulunmamıştır. Ayrıca başvurunuz hangi alanda Pardus'a katkı verebileceğinizi
+        ölçmemize yardımcı olabilecek örnek bir uygulama kodu, çözümüne katkıda bulunduğunuz bir hata,
+        yama, vb. gibi geçmiş katkı referansları da içermemektedir.
 
-        Başvurunuz olumsuz sonuçlanmıştır. Pardus'a katkı vermeye başladığınız ve kendinizi geliştirdiğiniz takdirde yaklaşık x ay sonra tekrar başvuruda bulunabilirsiniz.
+        Unutmayın ki, Pardus'u kullanmak, sorunlarınızı hata takip sistemine bildirmek,
+        listeleri takip edip listelerdeki yardım taleplerini yanıtlamak Pardus'a katkı
+        vermenin en güzel yollarından biridir. Moralinizi bozmayın ve bilgi birikiminizin
+        bizi ikna edecek düzeye geldiğini düşündüğünüzde tekrar başvurmaktan çekinmeyin.
+
+        Bol şanslar.
         --
         Pardus Mentor Koordinatörleri
 
     ::
 
-        Your application is unfavorable. You can reapply again after x months, if you continue to develop your self and start to contribute to Pardus.
         --
         Pardus Mentoring Coordinators
 
@@ -122,7 +130,6 @@ Quiz Sending Stock Response
 
        Öncelikle x adaylığınızı kutlar ve Pardus'a katkıda bulunmak istediğiniz için teşekkür ederiz.
 
-       x sürecinin ilk aşaması olan ve Pardus Linux Dağıtımı alt yapısı ve x süreçleri ile ilgili bilgilendirici nitelikte sorulara sahip olan sınavımızı ekte bulabilirsiniz.
 
 
        Kaynaklar,
