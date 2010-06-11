@@ -58,7 +58,7 @@ Sending Quiz to Applicant
 
 Assigning Mentor
 ----------------
-#. A mentor is assigned related to applicant responses.
+#. A mentor is assigned related to applicant responses or in alphabetical order.
     #. One mentor has maximum 3 applicants
     #. If all mentors has 3 applicants, the newest applicant should have to wait in the queue. It will be announced by mentoring coordinators with a `Waiting in the Queue Stock Response`_ comment.
     #. The mentor coordinators will be tracked:
@@ -71,7 +71,6 @@ Mentoring Process
 #. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.)
     #. Related to junior jobs difficulty, one more jobs can be given to applicant.
     #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
-    #. For giving svn permissions, mentor send a `Creating SVN Account Stock Response`_ comment to bugzilla and the applicant should send the needed information as a bug comment.
     #. The owner of the packages that applicant has done will be his/her mentor.
 #. If the applicant might not have achieved to finish the applicant job until the deadline, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. Mentor can also add the reapply time to the comment. (Reapply time is depended to mentor related to applicant performance)(The mentor will send and an email to sys. Admin for removing permissions.)
 #. If applicant has finished his/her jobs in time:
@@ -119,9 +118,12 @@ Quiz Sending Stock Response
 ---------------------------
     ::
 
-       Merhabalar,
-       Öncelikle x üyesi başvurunuzu kutlar ve Pardus'a katkıda bulunmak istediğiniz için teşekkür ederiz.
-       x ekibi üyeliği sürecinin ilk aşaması olan ve Pardus Linux Dağıtımı alt yapısı ve x süreçleri ile ilgili bilgilendirici nitelikte sorulara sahip olan sınavımızı ekte bulabilirsiniz.
+       Merhaba,
+
+       Öncelikle x adaylığınızı kutlar ve Pardus'a katkıda bulunmak istediğiniz için teşekkür ederiz.
+
+       x sürecinin ilk aşaması olan ve Pardus Linux Dağıtımı alt yapısı ve x süreçleri ile ilgili bilgilendirici nitelikte sorulara sahip olan sınavımızı ekte bulabilirsiniz.
+
 
        Kaynaklar,
        x
@@ -157,7 +159,7 @@ Tester Acceptence Stock Response
     ::
 
         Your application is favorable, the permissions about testçi@pardus.org.tr has been given. Thank you in advance for their generous contributions to make for Pardus.
-        -- 
+        --
         Pardus Mentoring Coordinators
 
 Waiting in the Queue Stock Response
@@ -183,37 +185,25 @@ Assigning Mentor Stock Response
 
     ::
 
-        Göndermiş olduğunuz cevaplar doğrultusunda size x kişisi mentor olarak atanmıştır. 
-        http://svn.pardus.org.tr/uludag/trunk/playground/ ve http://svn.pardus.org.tr/pardus/playground/ izinleriniz verilmiştir. Bu aşamada size mentor tarafından küçük iş(ler) verilecektir.
+        Göndermiş olduğunuz cevaplar doğrultusunda size x kişisi mentor olarak atanmıştır.
+
+        SVN hesabı açabilmemiz için, aşağıda bulunan bağlantı doğrultusunda elde ettiğiniz çıktıyı bize göndermeniz gerekmektedir [1]. Bu çıktıyı gönderdiğinizde http://svn.pardus.org.tr/uludag/trunk/playground/ ve http://svn.pardus.org.tr/pardus/playground/ dizinlerine yazma izinleri verilecektir. Bu aşamadan sonra size mentorunuz tarafından küçük görevler verilecektir.
 
         Bu aşamada yapacağınız çalışmalar için şimdiden kolaylıklar dileriz.
+
+        [1] http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
         --
         Pardus Mentor Koordinatörleri
     ::
 
         Related to your responses, x is assigned you as a mentor. 
-        The permissions for http://svn.pardus.org.tr/uludag/trunk/playground/ and http://svn.pardus.org.tr/pardus/playground/ will be given. During this period, your mentor will give you junior jobs.
+
+        In order to creating an svn account, you have to send the output that is mentioned below link [1].
+        When you send this output, the write permissions for http://svn.pardus.org.tr/uludag/trunk/playground/ and http://svn.pardus.org.tr/pardus/playground/ directories will be given. During this period, your mentor will give you junior jobs.
+
         Regards,
+
+        [1] http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
+
         -- 
         Pardus Mentoring Coordinators
-
-Creating SVN Account Stock Response
------------------------------------
-
-    ::
-
-        Merhabalar,
-
-        SVN hesabı açabilmemiz için, aşağıda bulunan bağlantı doğrultusunda elde ettiğiniz çıktıyı bize göndermeniz gerekmektedir
-
-        http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
-        Teşekkürler,
-
-    ::
-
-        Hi,
-
-        In order to creating an svn account, you have to send the output that is mentioned below link.
-
-        http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
-        Regards,
