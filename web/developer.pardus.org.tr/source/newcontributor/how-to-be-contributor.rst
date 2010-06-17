@@ -103,6 +103,7 @@ Stock Responses
 Rejection Stock Response
 ------------------------
     ::
+
         Başvurunuz ilgili ekip tarafından incelenmiş, maalesef sorulara verdiğiniz
         yanıtlar yeterli bulunmamıştır. Ayrıca başvurunuz hangi alanda Pardus'a katkı verebileceğinizi
         ölçmemize yardımcı olabilecek örnek bir uygulama kodu, çözümüne katkıda bulunduğunuz bir hata,
@@ -118,6 +119,18 @@ Rejection Stock Response
         Pardus Mentor Koordinatörleri
 
     ::
+
+        Your application has been reviewed and we are sorry to say that the
+        answers you have given were found inadequate. Furthermore your
+        application does not contain any code samples, patches, a reference to
+        a bug that you have solved or any other contribution that help us
+        determine your potential as a future developer.
+        Please note that using Pardus, reporting bugs, following and
+        habitually reading the mail lists and responding to any help demand is
+        also a good way to contribute.
+        Do not hesitate to reapply whenever you decide your contribution to
+        Pardus and knowledge is adequate for persuading the Pardus Application
+        Review Team.
 
         --
         Pardus Mentoring Coordinators
@@ -160,12 +173,14 @@ Tester Acceptence Stock Response
 
     ::
 
-        Başvurunuz olumlu sonuçlanmıştır,  testçi@pardus.org.tr için gerekli izinleriniz verilmiştir. Pardus'a yapacağınız katkılarda dolayı şimdiden size teşşekür ederiz.
+        Başvurunuz olumlu sonuçlanmıştır,  testçi@pardus.org.tr için gerekli izinleriniz verilmiştir.
+        Pardus'a yapacağınız katkılarda dolayı şimdiden size teşşekür ederiz.
         --
         Pardus Mentor Koordinatörleri
     ::
 
-        Your application is favorable, the permissions about testçi@pardus.org.tr has been given. Thank you in advance for their generous contributions to make for Pardus.
+        Your application is favorable, the permissions about testçi@pardus.org.tr has been given. 
+        Thank you in advance for their generous contributions to make for Pardus.
         --
         Pardus Mentoring Coordinators
 
@@ -173,8 +188,9 @@ Waiting in the Queue Stock Response
 -----------------------------------
     ::
 
-        Şu anda tüm mentor'larımızın slotları doludur, slot'ları uygun olan mentor'lar oluştuğunda size geri dönüş yapılacaktır.
-        Bu süre içerisinde Pardus'a yaptığınız katkılara devam edebilir ve kendinizi bu yönde daha fazla geliştirebilir ve mentor sürecinizi kısaltabilirsiniz.
+        Şu anda tüm mentor'larımızın slotları doludur, slot'ları uygun olan mentor'lar oluştuğunda
+        size geri dönüş yapılacaktır. Bu süre içerisinde Pardus'a yaptığınız katkılara devam edebilir 
+        ve kendinizi bu yönde daha fazla geliştirebilir ve mentor sürecinizi kısaltabilirsiniz.
 
         İyi günler,
         --
@@ -194,7 +210,9 @@ Assigning Mentor Stock Response
 
         Göndermiş olduğunuz cevaplar doğrultusunda size x kişisi mentor olarak atanmıştır.
 
-        SVN hesabı açabilmemiz için, aşağıda bulunan bağlantı doğrultusunda elde ettiğiniz çıktıyı bize göndermeniz gerekmektedir [1]. Bu çıktıyı gönderdiğinizde http://svn.pardus.org.tr/uludag/trunk/playground/ ve http://svn.pardus.org.tr/pardus/playground/ dizinlerine yazma izinleri verilecektir. Bu aşamadan sonra size mentorunuz tarafından küçük görevler verilecektir.
+        SVN hesabı açabilmemiz için, aşağıda bulunan bağlantı doğrultusunda elde ettiğiniz çıktıyı bize göndermeniz gerekmektedir [1].
+        Bu çıktıyı gönderdiğinizde http://svn.pardus.org.tr/uludag/trunk/playground/ ve http://svn.pardus.org.tr/pardus/playground/
+        dizinlerine yazma izinleri verilecektir. Bu aşamadan sonra size mentorunuz tarafından küçük görevler verilecektir.
 
         Bu aşamada yapacağınız çalışmalar için şimdiden kolaylıklar dileriz.
 
@@ -206,7 +224,8 @@ Assigning Mentor Stock Response
         Related to your responses, x is assigned you as a mentor. 
 
         In order to creating an svn account, you have to send the output that is mentioned below link [1].
-        When you send this output, the write permissions for http://svn.pardus.org.tr/uludag/trunk/playground/ and http://svn.pardus.org.tr/pardus/playground/ directories will be given. During this period, your mentor will give you junior jobs.
+        When you send this output, the write permissions for http://svn.pardus.org.tr/uludag/trunk/playground/
+        and http://svn.pardus.org.tr/pardus/playground/ directories will be given. During this period, your mentor will give you junior jobs.
 
         Regards,
 
