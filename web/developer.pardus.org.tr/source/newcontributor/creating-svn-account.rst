@@ -3,6 +3,8 @@
 Creating SVN Crypt Password
 ===========================
 
+To create an SVN password you should specify a user name. This user name must not include abusive or any malicious words.
+
 Creating a password with "htpasswd"
 -----------------------------------
 You can create your password and username by using htpasswd and you can attach the output file to your e-mail. To do this, you can use the command below:
@@ -35,4 +37,5 @@ You can do the same with python by using the command below:
   python -c "import crypt; print crypt.crypt('password', 'xy')" 
 
 In this case as well, just the shadowed form of your password will be given as output. In your e-mail you should mention the username you want to use. 
+
 
