@@ -64,7 +64,7 @@ Assigning Mentor
     #. The mentor coordinators will be tracked:
         #. The number of applicant on mentor.
         #. Send ping mails to mentor@pardus.org.tr in order to assign mentor to an applicant.
-    #. When a mentor is assigned to an applicant, the mentoring coordinators send `Assigning Mentor Stock Response`_ as a comment to the bug. The coordinator will also change the keyword as "MENTOR" and reassign the bug to related applicant mentor.
+    #. When a mentor is assigned to an applicant, the mentoring coordinators send `Assigning Mentor Stock Response`_ as a comment to the bug. The coordinator will also reassign the bug to related applicant mentor.
 
 Mentoring Process
 -----------------
