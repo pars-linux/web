@@ -3,7 +3,7 @@
 Creating SVN Crypt Password
 ===========================
 
-To create an SVN password you should specify a user name. This user name must not include abusive or any malicious words.
+To create an SVN password you should specify a user name. This user name must not include abusive or any malicious words. The username should not be offensive, discriminatory, or derogatory.
 
 Creating a password with "htpasswd"
 -----------------------------------
