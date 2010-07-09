@@ -1,5 +1,13 @@
 .. _newdeveloper-index:
 
+.. toctree::
+   :maxdepth: 2
+
+   areas-to-contribute.rst
+   creating-svn-account.rst
+   how-to-be-contributor.rst
+   introduction-to-translation.rst
+
 ##############################
 New Contributor's guide
 ##############################
@@ -9,7 +17,7 @@ In this document we'll try to explain the requirements to be a Pardus contributo
 Please feel free to browse the web pages of `Pardus <http://www.pardus.org.tr/eng>`_ for other information not included in this document.
 
 Who is a contributor?
-====================
+=====================
 
 To put it roughly, it is not wrong to say that the project should fulfill two types of mission. As it is the case for any distribution, gathering the software and preparing the infrastructure to enable this task and sustaining it, as well as developing new tools and technologies to form the soul of the distribution are among the required tasks.
 
@@ -70,6 +78,3 @@ About this document
 :Author: Ozan Çağlayan, Semen Cirit
 :Date: |today|
 
-
-.. toctree::
-   :maxdepth: 2
