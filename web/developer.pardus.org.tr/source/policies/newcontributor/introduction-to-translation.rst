@@ -1,6 +1,5 @@
 .. _introduction-to-translation:
 
-
 Quick Guide to Pardus Translations
 ==================================
 
@@ -67,7 +66,7 @@ Requesting Team Membership
      above, the language coordinator will approve you membership request and
      you'll be able to ready to translate.
 
-      ..  image:: images/join-this-team.png
+      .. image:: images/join-this-team.png
 
 **********************************
 Obtaining and Translating Projects
