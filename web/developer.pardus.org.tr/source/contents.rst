@@ -5,13 +5,9 @@ All of contents in Developer Base listed below.
 
 .. toctree::
 
-    comar/index.rst
-    pisi/index.rst
-    yali/index.rst
-    pardusman/index.rst
-    managers/index.rst
-    kaptan/index.rst
+    projects/index.rst
+    policies/index.rst
     bugs/index.rst
-    howto/index.rst
+    events/index.rst
+    guides/index.rst
     releases/index.rst
-    newcontributor/index.rst
