@@ -2,7 +2,7 @@ Projects
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    comar/index.rst
    kaptan/index.rst

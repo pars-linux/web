@@ -5,7 +5,7 @@ New Contributors
 ================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    new-contributor-guide.rst
    areas-to-contribute.rst
