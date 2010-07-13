@@ -1,7 +1,5 @@
-.. highlightlang:: rest
-
-reStructuredText Howto
-======================
+reStructuredText
+****************
 
 This section is a brief introduction to reStructuredText (reST) concepts and
 syntax, intended to provide authors with enough information to author documents
@@ -20,7 +18,6 @@ The paragraph is the most basic block in a reST document.  Paragraphs are simply
 chunks of text separated by one or more blank lines.  As in Python, indentation
 is significant in reST, so all lines of the same paragraph must be left-aligned
 to the same level of indentation.
-
 
 Inline markup
 -------------
@@ -91,7 +88,6 @@ Definition lists are created as follows::
 Paragraphs are quoted by just indenting them more than the surrounding
 paragraphs.
 
-
 Source Code
 -----------
 
@@ -118,7 +114,6 @@ The handling of the ``::`` marker is smart:
 
 That way, the second sentence in the above example's first paragraph would be
 rendered as "The next paragraph is a code sample:".
-
 
 Hyperlinks
 ----------
@@ -155,7 +150,6 @@ Of course, you are free to use your own marker characters (see the reST
 documentation), and use a deeper nesting level, but keep in mind that most
 target formats (HTML, LaTeX) have a limited supported nesting depth.
 
-
 Explicit Markup
 ---------------
 
@@ -168,7 +162,6 @@ whitespace and is terminated by the next paragraph at the same level of
 indentation.  (There needs to be a blank line between explicit markup and normal
 paragraphs.  This may all sound a bit complicated, but it is intuitive enough
 when you write it.)
-
 
 Directives
 ----------
@@ -193,7 +186,6 @@ arguments and indicated by the colons).
 
 The directive content follows after a blank line and is indented relative to the
 directive start.
-
 
 Images
 ------
@@ -227,7 +219,6 @@ the former, while the HTML builder would prefer the latter.
 .. versionchanged:: 0.4
    Added the support for file names ending in an asterisk.
 
-
 Footnotes
 ---------
 
@@ -245,7 +236,6 @@ like so::
 You can also explicitly number the footnotes (``[1]_``) or use auto-numbered
 footnotes without names (``[#]_``).
 
-
 Citations
 ---------
 
@@ -259,7 +249,6 @@ so::
 
 Citation usage is similar to footnote usage, but with a label that is not
 numeric or begins with ``#``.
-
 
 Substitutions
 -------------

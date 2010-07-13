@@ -7,12 +7,11 @@ How to be a Contributor?
 Applicant Tracking on Bugzilla
 ******************************
 
-- "Yeni Katkıcı / New Contributor" product is for this tracking process.
-- The compoenents of this product are "Geliştirici / Developer" and "Testçi / Tester".
-- The translator applications can be held from `Pardus translation website <http://translate.pardus.org.tr>`_.
-- The bugzilla permissions:
-    - A mentoring group is created for product "Yeni Katkıcı / New Contributor"
-    - The users out of the mentoring group can create contributor bugs, but can not edit bugs.
+- Developers and testers can follow this process in order to be a contributor.
+- For translators applications can be held from `Pardus translation website <http://translate.pardus.org.tr>`_. (See `Quick Guide to Pardus Translations <http://developer.pardus.org.tr/policies/newcontributor/introduction-to-translation.html>`_)
+- For bug triagers please see `Bug reporting and triaging <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#bug-reporting-and-triaging>`_
+- For content writers please see `Documentation <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#documentation>`_
+- For designers please see `Graphical design and multimedia <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#graphical-design-and-multimedia>`_
 
     ..  image:: images/application_process.png
 
@@ -83,7 +82,7 @@ Applicant Progress Observation
 #. All svn permissions excluding "stable" will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
 #. Mentor will keep an eye on applicant, until the applicant reach a good level.
     #. He/she joins the package review process of the packages that the applicant done.
-    #. He/she controls that the applicant fullfills the `responsibilities of the contributor <http://developer.pardus.org.tr/newcontributor/index.html#responsibilities-of-a-contributor>`_ like continuity, accuracy, determination, communication.
+    #. He/she controls that the applicant fullfills the `responsibilities of the contributor <http://developer.pardus.org.tr/policies/newcontributor/new-contributor-guide.html#responsibilities-of-a-contributor>`_ like continuity, accuracy, determination, communication.
 #. If the applicant can not pass this process, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. (The mentor will send and an email to sys. Admin for removing permissions.)
 #. If the applicant can pass this process:
     #. When the mentor has been satisfied by applicant, mentor sends a comment as he/she leaves the applicant and changes the bug status as RESOLVED/FIXED
@@ -216,7 +215,7 @@ Assigning Mentor Stock Response
 
         Bu aşamada yapacağınız çalışmalar için şimdiden kolaylıklar dileriz.
 
-        [1] http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
+        [1] http://developer.pardus.org.tr/policies/newcontributor/creating-svn-account.html
         --
         Pardus Mentor Koordinatörleri
     ::
@@ -229,7 +228,7 @@ Assigning Mentor Stock Response
 
         Regards,
 
-        [1] http://developer.pardus.org.tr/newcontributor/creating-svn-account.html
+        [1] http://developer.pardus.org.tr/policies/newcontributor/creating-svn-account.html
 
         -- 
         Pardus Mentoring Coordinators
