@@ -22,13 +22,12 @@ Some of its distinctive features:
 * Comprehensive CLI and a user-friendly qt GUI (distributed separately)
 * Extremely simple package construction
 
-Package Structure
-=================
+Contribute
+==========
 
 .. toctree::
 
-    pisi-structure.rst
-    package-review-process.rst
+    ../../guide/packaging/index.rst
 
 Download
 ========
