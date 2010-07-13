@@ -7,6 +7,6 @@ Releases
 
     :maxdepth: 1
 
-    2011/index
+    2011/index.rst
 
 

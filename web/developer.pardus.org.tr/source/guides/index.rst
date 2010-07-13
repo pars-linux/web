@@ -2,7 +2,7 @@ Guides
 ======
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    kde/index.rst
    rest/index.rst
