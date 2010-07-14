@@ -2,6 +2,6 @@ Packaging Guide
 ===============
 
 .. toctree::
-    maxdepth: 1
+    maxdepth: 2
 
     howto-create-pisi-package.rst
