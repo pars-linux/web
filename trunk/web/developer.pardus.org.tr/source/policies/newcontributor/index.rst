@@ -12,3 +12,4 @@ New Contributors
    how-to-be-contributor.rst
    creating-svn-account.rst
    introduction-to-translation.rst
+   newcontributor_mentors.rst
