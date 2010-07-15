@@ -67,7 +67,7 @@ Assigning Mentor
 
 Mentoring Process
 -----------------
-#. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.)
+#. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.) (see  `New contributor mentoring <http://developer.pardus.org.tr/policies/newcontributor/newcontributor_mentors.html>`_)
     #. Related to junior jobs difficulty, one more jobs can be given to applicant.
     #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
     #. The owner of the packages that applicant has done will be his/her mentor.
