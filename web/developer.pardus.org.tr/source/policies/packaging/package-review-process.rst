@@ -3,8 +3,30 @@
 Package Reviewing Process
 =========================
 
-The aim of the package reviewing process is to control that new packages are
-suitable for repository policy rules.
+Aim of Review
+-------------
+
+Package review is a must before it is added to Pardus repositories. The aim of this
+process is to be ensure the package satisfies packaging rules.
+
+
+New packages, package renaming need review process.
+
+.. Package Review Guidelines
+   -------------------------
+
+.. The person who want to put his package in review and add it to Pardus Repositories, he
+    should be a Pardus developer. (see `New Contributors <http://developer.pardus.org.tr/policies/newcontributor/index.html>`_
+    and `Developer Roles in Pardus`_)
+
+.. Package maintainer and the reviewer must follow the package review process and they
+   should pay attention that the package adheres to `package_naming_guidlines.rst`_,
+   `packaging_guidlines.rst`_ and `licensing_guidlines.rst`_.
+
+..  They also pay attention that the package in review has not in repositories already.
+
+Review Process
+--------------
 
 The package reviewing process steps on `Pardus Bug Tracking System
 <http://hata.pardus.org.tr>`_;
