@@ -15,7 +15,6 @@ language, this will not take too long.
 
 
 .. toctree::
-
     :maxdepth: 2
 
     howto-rst

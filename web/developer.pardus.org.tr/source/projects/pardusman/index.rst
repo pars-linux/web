@@ -1,9 +1,46 @@
-.. _pardusman-index:
+Pardusman
+~~~~~~~~~~~~
 
-######################
-  The CD Maker
-######################
+.. :Author: AUTHOR OF PAGE
 
-:Date: |today|
+.. Brief description for Pardusman
 
-Pardusman  rocks !
+Features
+--------
+
+* ...
+
+Source Code
+-----------
+
+.. Link to source code
+
+Requirements
+------------
+
+* ...
+
+Bugs
+----
+
+.. Links to bugzilla for following titles
+
+* Normal Priority Bug Reports
+* Wish Reports
+* Feature Requests
+
+Developed by
+------------
+
+.. AUTHORS OF Pardusman, Similar to AUTHORS File of project
+
+* ...
+
+License
+-------
+
+Pardusman is distributed under the terms of the `GNU General Public License (GPL), Version 2 <http://http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_.
+
+.. _Pisi: http://developer.pardus.org.tr/pisi
+.. _Python: http://www.python.org
+.. _WebSVN: http://websvn.pardus.org.tr
