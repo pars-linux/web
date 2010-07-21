@@ -1,7 +1,7 @@
 .. _yalicomponents:
 
-Yalı Components
-===============
+Components
+~~~~~~~~~~
 
 .. note::
 

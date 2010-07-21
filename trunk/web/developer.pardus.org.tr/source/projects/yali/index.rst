@@ -1,8 +1,7 @@
 .. _yali4-index:
 
-==================
-YALI Documentation
-==================
+YALI (Pardus Installer)
+~~~~~~~~~~~~~~~~~~~~~~~
 
 :Author: Gökmen GÖKSEL
 

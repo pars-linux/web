@@ -1,7 +1,7 @@
 .. _yaliscreens:
 
-Yalı Screens
-============
+Screens
+~~~~~~~
 
 .. note::
 

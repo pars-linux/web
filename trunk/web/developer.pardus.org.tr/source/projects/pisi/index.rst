@@ -1,8 +1,7 @@
 .. _pisi-index:
 
-########
-  PISI
-########
+PISI (Package Management)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :Date: |today|
 
@@ -27,7 +26,7 @@ Contribute
 
 .. toctree::
 
-    ../../guide/packaging/index.rst
+    ../../guides/packaging/index.rst
 
 Download
 ========

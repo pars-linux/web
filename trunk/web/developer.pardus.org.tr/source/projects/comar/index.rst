@@ -1,8 +1,7 @@
 .. _comar-index:
 
-##############################
-  COMAR Configuration Manager
-##############################
+COMAR (Configuration Manager)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 COMAR is COnfiguration MAnageR of Pardus Linux, which is a `DBus service <http://dbus.freedesktop.org/>`_ that 
 helps the installed software operate flawlessly. COMAR knows the tasks that can be provided by each application, 
@@ -16,3 +15,11 @@ Latest stable release is `2.0.5 <http://cekirdek.pardus.org.tr/~bahadir/comar/co
 You can also fetch code from `SVN repository <http://svn.pardus.org.tr/uludag/trunk/comar/comar/>`_.
 
 COMAR also has a development release, and can be downloaded from `development branch <http://svn.pardus.org.tr/uludag/branches/comar-3.0/>`_.
+
+.. highlightlang:: python
+
+
+.. toctree::
+
+    service-scripts.rst
+

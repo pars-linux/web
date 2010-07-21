@@ -1,9 +1,9 @@
-Kaptan (Desktop Greeter)
-~~~~~~~~~~~~~~~~~~~~~~~~
+History Manager
+~~~~~~~~~~~~~~~
 
 .. :Author: AUTHOR OF PAGE
 
-.. Brief description for Kaptan
+.. Brief description for History Manager
 
 Features
 --------
@@ -32,14 +32,14 @@ Bugs
 Developed by
 ------------
 
-.. AUTHORS OF Kaptan, Similar to AUTHORS File of project
+.. AUTHORS OF History Manager, Similar to AUTHORS File of project
 
 * ...
 
 License
 -------
 
-Kaptan is distributed under the terms of the `GNU General Public License (GPL), Version 2 <http://http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_.
+History Manager is distributed under the terms of the `GNU General Public License (GPL), Version 2 <http://http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_.
 
 .. _Pisi: http://developer.pardus.org.tr/pisi
 .. _Python: http://www.python.org
