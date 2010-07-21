@@ -6,8 +6,8 @@ body {
     font-family: sans-serif;
     font-size: 90%;
     margin:0px;
-    background-color: #EBEBEB;
-    color: #5B7C7E;
+    background-color: #EBEBEB
+    color: #1D2728;
     background: url("head.png") repeat-x;
 }
 
@@ -406,6 +406,18 @@ img.logo {
     margin-top: -8px;
     margin-right: -7px;
 }
+
+img.section {
+    float: left;
+    z-index: 100;
+    border: 0px;
+    margin-top: 4px;
+    margin-right: 7px;
+    height:48px;
+    width:48px;
+}
+
+
 
 h1:hover > a.headerlink,
 h2:hover > a.headerlink,
