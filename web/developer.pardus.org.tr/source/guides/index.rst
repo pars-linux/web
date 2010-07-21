@@ -2,8 +2,9 @@ Guides
 ======
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
+   newcontributor/index.rst
+   packaging/index.rst
    kde/index.rst
    rest/index.rst
-   packaging/index.rst

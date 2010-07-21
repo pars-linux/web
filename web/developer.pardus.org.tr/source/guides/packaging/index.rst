@@ -5,3 +5,4 @@ Packaging Guide
     :maxdepth: 2
 
     howto-create-pisi-package.rst
+    package-review-process.rst
