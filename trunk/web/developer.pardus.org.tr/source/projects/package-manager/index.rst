@@ -67,7 +67,7 @@ Developed by
 License
 -------
 
-Package Manager is distributed under the terms of the `GNU General Public License (GPL), Version 2 <http://http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_.
+Package Manager is distributed under the terms of the `GNU General Public License (GPL), Version 2 <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_.
 
 .. _Pisi: http://developer.pardus.org.tr/pisi
 .. _Python: http://www.python.org
