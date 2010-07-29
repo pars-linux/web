@@ -148,7 +148,7 @@ EOL Bug Triage
 For bugs filed against Pardus releases that have reached their End of Life (EOL):
 
     * If the bug appears to be occurring in a more recent (non-EOL) version, update the version number and leave the bug open,
-    * Otherwise, mark the bug CLOSED/WONTFIX and add the `EOL stock response <http://developer.pardus.org.tr/guides/newcontributor/bugtracking/stock_responses.html#end-of-life-eol-product>`_.
+    * Otherwise, mark the bug CLOSED/WONTFIX and add the `EOL stock response <http://developer.pardus.org.tr/guides/bugtracking/stock_responses.html#end-of-life-eol-product>`_.
 
 
 General Advice
@@ -161,6 +161,6 @@ General Advice
     * You can take help from `testing list <http://lists.pardus.org.tr/mailman/listinfo/testci>`_ 
     * Add yourself to the CC: list of bugs you triage.
     * Please read carefully, and think before you click.
-    * Use `<http://developer.pardus.org.tr/guides/newcontributor/bugtracking/stock_responses.html>`_ as appropriate.
+    * Use `Stock Responses <http://developer.pardus.org.tr/guides/newcontributor/bugtracking/stock_responses.html>`_ as appropriate.
 
 

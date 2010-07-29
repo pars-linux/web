@@ -51,9 +51,9 @@ Generally useful to check /var/log/messages and ~/.xsession-errors (for desktop 
 Start to file a bug
 -------------------
 
-You can file a bug report from `there <http://bugs.pardus.org.tr/enter_bug.cgi>_`.
+You can file a bug report from `there <http://bugs.pardus.org.tr/enter_bug.cgi>`_.
 
-You should read `bug writing guidelines <http://bugs.pardus.org.tr/page.cgi?id=bug-writing.html>_` carefully.
+You should read `bug writing guidelines <http://bugs.pardus.org.tr/page.cgi?id=bug-writing.html>`_ carefully.
 
 Please pay attention to give all informations about the bug and to use a clear expression. Comment like "This to be fixed!", "This is catastrophic!" are not good, this type of comments generally are seemed as hostile and attacking by developers, and this doesn't help them to fix the problem.
 
