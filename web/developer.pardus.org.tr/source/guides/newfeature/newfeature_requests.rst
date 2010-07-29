@@ -94,7 +94,7 @@ Process
     * After the deadline Release and Community Delegate group start to review new feature requests as stated above:
 
 
-a. New Features reported from Özgürlük İçin -> Beyin:
+a. New Features reported from For Freedom -> Brain:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
         ..  image:: images/feature_oi.png
@@ -107,7 +107,7 @@ a. New Features reported from Özgürlük İçin -> Beyin:
         #. If the request is suitable for `What is a Feature?`_ description, and reported completely and clearly,  Release and Community Delegate group;
             - open a new bug report under "Distribution Process -> New Feature" product at http://bugs.pardus.org.tr 
             - choose "newfeature" as the severity of the bug
-            - copy the details of the report to Özgürlük İçin -> Beyin forum as a comment.
+            - copy the details of the report to For Freedom -> Brain forum as a comment.
             - open new bugs for each new feature, if the report has multiple new feature request.
 
 
