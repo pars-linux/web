@@ -26,9 +26,8 @@ The first line of the output that you seek.
 
     For example::
 
-
-    $ which ssh
-    /usr/bin/ssh
+                $ which ssh
+                /usr/bin/ssh
 
 Which pisi package?
 -------------------
