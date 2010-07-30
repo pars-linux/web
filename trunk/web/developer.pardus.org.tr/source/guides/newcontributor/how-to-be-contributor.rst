@@ -60,7 +60,7 @@ Assigning Mentor
 #. A mentor is assigned related to applicant responses or in alphabetical order.
     #. One mentor has maximum 3 applicants
     #. If all mentors has 3 applicants, the newest applicant should have to wait in the queue. It will be announced by mentoring coordinators with a `Waiting in the Queue Stock Response`_ comment.
-    #. The mentor coordinators will be tracked:
+    #. The mentor coordinators will track:
         #. The number of applicant on mentor.
         #. Send ping mails to mentor@pardus.org.tr in order to assign mentor to an applicant.
     #. When a mentor is assigned to an applicant, the mentoring coordinators send `Assigning Mentor Stock Response`_ as a comment to the bug. The coordinator will also reassign the bug to related applicant mentor.
@@ -141,6 +141,8 @@ Quiz Sending Stock Response
        Merhaba,
 
        Öncelikle x adaylığınızı kutlar ve Pardus'a katkıda bulunmak istediğiniz için teşekkür ederiz.
+       Pardus Linux Dağıtımı ve x süreci hakkında bilgilendirici nitelikte olan sınavımızı ekte
+       bulabilirsiniz.
 
 
 
