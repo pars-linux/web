@@ -1,5 +1,5 @@
-Bug and Feature Requests
-========================
+Bug Requests
+============
 
 Bugzilla is bug tracking system that used for Pardus Linux Distribution. Thanks to this tool feedbacks can be taken from users and developers on bugs and Pardus can be improved more powerfully.
 
