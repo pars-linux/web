@@ -17,7 +17,7 @@ Many kernel developers consider that the proprietary drivers are harmful, becaus
 NVIDIA and ATI Accelerated Graphics Drivers
 -------------------------------------------
 
-They are proprietary drivers, Pardus only allows these drivers under `some circumstances <http://developer.pardus.org.tr/guides/liscensing/licensing_guidelines.html#binary-firmware>`_.
+They are proprietary drivers, Pardus only allows these drivers under `some circumstances <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html#binary-firmware>`_.
 
 Sun's Java
 ----------
@@ -27,7 +27,7 @@ Sun's Java has a `freely redistributable license <http://download.java.net/dlj/D
 Adobe/Macromedia Flash Player
 -----------------------------
 
-While it is a proprietary software, the open source alternatives are very weak. But it has a `license <http://www.adobe.com/products/eula/tools/flash_paper2.html>`_, therefore Pardus allows this software under `some circumstances <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.rst#binary-firmware>`_.
+While it is a proprietary software, the open source alternatives are very weak. But it has a `license <http://www.adobe.com/products/eula/tools/flash_paper2.html>`_, therefore Pardus allows this software under `some circumstances <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html#binary-firmware>`_.
 
 
 Adobe Acrobat Reader

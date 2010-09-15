@@ -5,6 +5,7 @@ configure
 ---------
 
 ::
+
     configure(parameters)
 
 Configures the kde packages according to the parameters given by the user and PISI's
@@ -13,6 +14,7 @@ Configures the kde packages according to the parameters given by the user and PI
 The default parameters: (You can see the these defaults from
 http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/configfile.py and
 http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/variables.py)
+
 ::
 
       --prefix

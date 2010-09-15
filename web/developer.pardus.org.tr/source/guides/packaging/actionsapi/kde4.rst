@@ -123,6 +123,7 @@ configure
 ---------
 
 ::
+
     configure(parameter)
 
 Configures the kde4 packages according to the parameters given by the user and PISI's
@@ -132,6 +133,7 @@ The default parameters:(You can see the assigned values from
 `<http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/kde4.py>`_)
 
 ::
+
        -DDATA_INSTALL_DIR:PATH
        -DINCLUDE_INSTALL_DIR:PATH
        -DCONFIG_INSTALL_DIR:PATH
@@ -143,12 +145,14 @@ The default parameters:(You can see the assigned values from
        -DLIB_INSTALL_DIR:PATH
 
 Examples:::
+
     kde4.configure()
 
 make
 ----
 
 ::
+
     make(parameter)
 
 Builds the kde4 packages according to the parameters given by the user.
@@ -157,6 +161,7 @@ install
 -------
 
 ::
+
     install(parameters = '', argument = 'install')
 
 Install the kde4 packages according to the parameters given by the user.

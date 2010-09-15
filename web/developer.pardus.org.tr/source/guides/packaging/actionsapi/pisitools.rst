@@ -5,6 +5,7 @@ dobin
 -----
 
 ::
+
     dobin(sourceFile, destinationDirectory = '/usr/bin')
 
 Moves the sourceFile' in work directory to destinationDirectory. The default

@@ -23,7 +23,7 @@ Legal concerns about Pardus Linux Distribution package licensing can be found be
 Licensing
 ^^^^^^^^^
 
-You should review `licensing guidelines <http://developer.pardus.org.tr/guides/licensing/licensing_guidelineshtml>`_ to ensure that your package is licensed appropriately.
+You should review `Licensing Guidelines <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html>`_ to ensure that your package is licensed appropriately.
 
 Proprietary Dependencies for Package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

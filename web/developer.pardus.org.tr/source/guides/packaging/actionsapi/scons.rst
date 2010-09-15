@@ -5,11 +5,13 @@ make
 ----
 
 ::
+
     make(parameters)
 
 Setup the package with scons construction tool.
 
 Examples:::
+
       scons.make("build=release \
                   build_id=%s \
                   install_prefix=/usr \
@@ -21,6 +23,7 @@ install
 -------
 
 ::
+
     install(parameters = 'install', prefix = get.installDIR(), argument='prefix')
 
 Install the package with scons construction tool. The default variables for
@@ -29,6 +32,7 @@ parameters is install, prefix is get.installDIR(), argument is prefix.
 It runs the "'scons %s=%s %s' % (argument, prefix, parameters)" for installation.
 
 Examples:::
+
     scons.install("PREFIX='%s/usr' swig_install install" % get.installDIR())
     scons.install("install prefix=/usr \
                    install_root=%s/usr \
