@@ -340,6 +340,7 @@ Different pspec.xml File Tags
 
         Each file should be added with the below format:
         ::
+
             <AdditionalFile owner="mpd" group="audio" permission="0640" target="/etc/mpd.conf">mpd.conf</AdditionalFile>
 
         The files is included under files directory of the pisi package.
