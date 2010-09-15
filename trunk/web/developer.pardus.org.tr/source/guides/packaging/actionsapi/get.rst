@@ -52,7 +52,7 @@ ENV
 
 Returns any given environ variable.
 
-Example:::
+Example::
 
     get.ENV("MAKE_DOC")
     get.ENV("LD_LIBRARY_PATH")

@@ -10,7 +10,7 @@ can_access_file
 
 Checks if the sourceFile is accessible.
 
-Examples:::
+Examples::
 
     shelltools.can_access_file("/usr/share/terminfo/%s" % termfile) 
     shelltools.can_access_file("%s/texk/%s/%s" % (get.curDIR(), dir, file))
@@ -26,7 +26,7 @@ can_access_directory
 Checks if the directory is accessible and test readability, writability and
 executablility of the directory.
 
-Examples:::
+Examples::
 
     shelltools.can_access_directory("%s/texk/%s" % (get.curDIR(), dir))
 
@@ -39,7 +39,7 @@ makedirs
 
 Creates the destinationDirectory.
 
-Examples:::
+Examples::
 
     shelltools.makedirs("%s/build" % get.workDIR())
     shelltools.makedirs("%s/build-default-i686-pc-linux-gnu-nptl" % get.workDIR())
@@ -54,7 +54,7 @@ echo
 
 Append the given content to the given file.
 
-Examples:::
+Examples::
 
     shelltools.echo('conf-cc',"%s %s -O1 -fomit-frame-pointer -malign-double -fPIC -DPIC" % (get.CC(),get.CFLAGS()))
     shelltools.echo("driver/ghc/Makefile","GHC_CFLAGS = %s -Wa,--noexecstack"  % get.CFLAGS())
@@ -70,7 +70,7 @@ chmod
 
 Changes permissions of sourceFile. The default mode parameter is "0755".
 
-Examples:::
+Examples::
 
     shelltools.chmod("config/config.sub")
     shelltools.chmod(get.installDIR() + "/lib/libz.so.*")
@@ -86,7 +86,7 @@ chown
 
 Changes the owner and group id of filePath with given  uid and gid.
 
-Examples:::
+Examples::
 
      shelltools.chown("%s/var/run/openct" % get.installDIR(), gid="pnp")
      shelltools.chown("%s/var/run/openct" % get.installDIR(), gid="pnp")
@@ -101,7 +101,7 @@ sym
 
 Crates symbolic link.
 
-Exampleas:::
+Examples::
 
     shelltools.sym("/usr/share/fonts/Type1/c059013l.pfb", "%s/usr/share/pokerth/data/fonts/c059013l.pfb" % get.installDIR())
     shelltools.sym("libcompface.so", "libcompface.so.1")
@@ -116,7 +116,7 @@ unlink
 
 Deletes the sourceFile.
 
-Examples:::
+Examples::
 
     shelltools.unlink(get.workDIR() + '/' + get.srcDIR() + "/missing") 
     shelltools.unlink("%s/%s/doc/auctex.info" % (get.workDIR(), get.srcDIR()))
@@ -132,7 +132,7 @@ unlinkDir
 
 Deletes the sourceDirectory and all subdirectories.
 
-Examples:::
+Examples::
 
     shelltools.unlinkDir(get.workDIR() + "/tmpbuild") 
     shelltools.unlinkDir("%s/e2fsprogs-%s/tests/f_ext_journal/" % (get.workDIR(), get.srcVERSION()))
@@ -147,7 +147,7 @@ move
 
 Recursively moves a "source" file or directory to "destination.
 
-Examples:::
+Examples::
 
     shelltools.move("ac-wrapper.sh", "%s/usr/lib/misc/" % get.installDIR())
     shelltools.move("proc/*.h", "%s/usr/include/proc/" % get.installDIR())
@@ -163,7 +163,7 @@ copy
 
 Recursively copies a "source" file or directory to "destination.
 
-Examples:::
+Examples::
 
     shelltools.copy("Makefile.pre.in", "%s/usr/lib/python2.3/config/" % get.installDIR())
     shelltools.copy("scripts/*", "%s/usr/bin/" % get.installDIR()) 
@@ -178,7 +178,7 @@ copytree
 
 Recursively copy an entire directory tree rooted at source.
 
-Example:::
+Example::
 
     shelltools.copytree("data/library/blpython/widgets", "%s/usr/share/cel-1.3/data/library/blpython/" % get.installDIR())
     shelltools.copytree("include/asm-generic/", "%s/usr/include/asm-generic/" % get.installDIR())
@@ -193,7 +193,7 @@ touch
 
 Changes the access time of the file(s), or creates it if it is not exist.
 
-Examples:::
+Examples::
 
     shelltools.touch(get.workDIR() + "aclocal.m4")
     shelltools.touch("gcc/c-gperf.h")
@@ -208,7 +208,7 @@ cd
 
 Changes the current working directory to directoryName.
 
-Examples:::
+Examples::
 
     shelltools.cd("%s/build-default-i686-pc-linux-gnu-nptl" % get.workDIR())
     shelltools.cd("../")
@@ -223,7 +223,7 @@ ls
 
 Returns a list of all files and directories in the source directory.
 
-Examples:::
+Examples::
 
     shelltools.ls("*.tex")
     shelltools.ls(get.installDIR() + "/lib/libncursesw.so*")
@@ -240,7 +240,7 @@ export
 
 Sets the environment variable value for key.
 
-Examples:::
+Examples::
 
     shelltools.export("CFLAGS", cflags)
     shelltools.export("CXXFLAGS", "%s -DPTYMODE=0620 -DPTYGROUP=5 -DUSE_PAM" % get.CXXFLAGS())
@@ -256,7 +256,7 @@ system
 
 Executes the command in the system shell.
 
-Examples:::
+Examples::
 
     shelltools.system("texi2dvi -q -c --language=latex ./glossaries.dtx")
     shelltools.system("cc -o bbox bbox.c")
@@ -272,7 +272,7 @@ isLink
 
 Returns "True" if the file refers to a symbolic link.
 
-Examples:::
+Examples::
 
     shelltools.isLink(get.installDIR() + '/maybe/link')
 
@@ -285,7 +285,7 @@ isFile
 
 Returns "True" if the file is an existing regular file.
 
-Examples:::
+Examples::
 
     shelltools.isFile("alsaaudio.o")
     shelltools.isFile("%s/etc/ld.so.cache" % get.installDIR())
@@ -300,7 +300,7 @@ isDirectory
 
 Returns True if the directory is an existing directory.
 
-Examples:::
+Examples::
 
     shelltools.isDirectory("%s/usr/share" % get.installDIR())
     shelltools.isDirectory("install")
@@ -314,7 +314,7 @@ isEmpty
 
 Returns True if the given path is an empty file or directory.
 
-Examples:::
+Examples::
 
     shelltools.isEmpty("%s/usr/share" % get.installDIR())
     shelltools.isEmpty("install")
@@ -329,7 +329,7 @@ realPath
 Returns the canonical path of the specified filename, eliminating any symbolic
 links encountered in the path
 
-Examples:::
+Examples::
 
     shelltools.realPath(get.installDIR() + link)
 
@@ -343,7 +343,7 @@ baseName
 
 Returns the base pathname of given file.
 
-Example:::
+Example::
 
     shelltools.baseName("%s/etc/ld.so.cache" % get.installDIR())
 
@@ -357,7 +357,7 @@ dirName
 
 Returns the directory of the given file.
 
-Example:::
+Example::
 
     HAL_FDI= "usr/share/hal/fdi/information/20thirdparty/10-camera-libgphoto2.fdi"
     shelltools.dirName(HAL_FDI)

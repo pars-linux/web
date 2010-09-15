@@ -10,7 +10,7 @@ configure
 
 Configures the source with the given cmake parameters.
 
-Examples:::
+Examples::
 
     cmaketools.configure()
     cmaketools.configure(installPrefix = "%s" % (get.kdeDIR()))
@@ -26,7 +26,7 @@ make
 
 Builds the source with the given parameters.
 
-Example:::
+Example::
 
     cmaketools.make()
     cmaketools.make("LIBS=%s" % get.LDFLAGS())
@@ -43,7 +43,7 @@ install
 Installs the source with the parameters given by the user and PISI's default
 parameters.
 
-Example:::
+Example::
 
     cmaketools.install()
     cmaketools.install("libdir=%s/usr/lib" % get.installDIR()) 
@@ -58,7 +58,7 @@ rawInstall
 
 Installs the source with the parameters given by the user.
 
-Example:::
+Example::
 
     cmaketools.rawInstall("PREFIX=%s" % get.installDIR()) 
 

@@ -11,7 +11,7 @@ dobin
 Moves the sourceFile' in work directory to destinationDirectory. The default
 value for destinationDirectory is /usr/bin.
 
-Examples:::
+Examples::
 
     pisitools.dobin("sed/sed", "/bin")
     pisitools.dobin("zipsplit")
@@ -25,7 +25,8 @@ dodir
     dodir(destinationDirectory)
 
 Creates a directory tree in the install path.
-Examples:::
+
+Examples::
 
     pisitools.dodir("/usr/include/awk")
     pisitools.dodir("/usr/" + get.HOST() + "/include")
@@ -41,7 +42,7 @@ dodoc
 
 Copies the sourceFiles into /usr/share/doc/PACKAGE under the install directory.
 
-Example:::
+Example::
 
     pisitools.dodoc("README")
     pisitools.dodoc("*.html")
@@ -58,7 +59,7 @@ doexe
 Copies the executable source file from work directory to destination directory
 under the install directory.
 
-Example:::
+Example::
 
     pisitools.doexe("extras/scsi-devfs.sh", "/etc/udev/scripts/")
     pisitools.doexe("etc/hotplug/*.rc", "/etc/hotplug/")
@@ -77,7 +78,7 @@ directory.
 The allowed extentions for html files are ".png, .gif, .html, .htm, .jpg, .css,
 .js"
 
-Examples:::
+Examples::
 
     pisitools.dohtml("index.html")
     pisitools.dohtml("doc/*") 
@@ -91,7 +92,7 @@ doinfo
 
 Copies the given info files into /usr/share/info under the install directory.
 
-Examples:::
+Examples::
 
     pisitools.doinfo("*.info")
 
@@ -105,7 +106,7 @@ dolib
 
 Copies the library files into /usr/lib under the install directory.
 
-Examples:::
+Examples::
 
     pisitools.dolib("libz.a")
     pisitools.dolib("lib/libpci.a")
@@ -122,7 +123,7 @@ dolib_a
 Copies the static library files into /usr/lib with permission 0644 under the
 install directory.
 
-Example:::
+Example::
 
     pisitools.dolib_a("lib/libpci.a")
     pisitools.dolib_a("libdb1.a") 
@@ -138,7 +139,7 @@ dolib_so
 Copies the shared library files into /usr/lib with permission 0755 under the
 install directory.
 
-Example:::
+Example::
 
     pisitools.dolib_so("libdb1.so.2") 
 
@@ -152,7 +153,7 @@ doman
 
 Copies the  manual files into /usr/share/man/ under the install directory.
 
-Examples:::
+Examples::
 
     pisitools.doman("logrotate.8")
     pisitools.doman("doc/bash.1", "doc/bashbug.1", "doc/builtins.1", "doc/rbash.1")
@@ -169,7 +170,7 @@ domo
 Makes a mo destinationFile for locale language from the sourceFile po file in
 /usr/share/locale/LOCALE/LC_MESSAGES.
 
-Example:::
+Example::
 
     pisitools.domo("po/tr.po", "tr", "pam_login.mo") 
 
@@ -183,7 +184,7 @@ domove
 
 Moves the source file to destination directory under install directory.
 
-Example:::
+Example::
 
     pisitools.domove("/usr/bin/passwd", "/bin/")
     pisitools.domove("/usr/bin/yacc", "/usr/bin", "yacc.bison")
@@ -199,7 +200,7 @@ dosed
 
 Replaces the findPattern to replacePattern in sourceFile via sed.
 
-Examples:::
+Examples::
 
     pisitools.dosed("gcc/version.c", "<URL:http://gcc.gnu.org/bugs.html>" , "<URL:http://bugs.uludag.org.tr>")
     pisitools.dosed("sshd_config", "(?m)(#UsePAM ).*", r"UsePAM yes")
@@ -219,7 +220,7 @@ dosbin
 Moves the sourceFile in work directory to destinationDirectory under install
 directory. The default value for destinationDirectory is /usr/sbin.
 
-Examples:::
+Examples::
 
     pisitools.dosbin("traceroute6")
     pisitools.dosbin("extras/scsi_id/scsi_id", "/sbin") 
@@ -234,7 +235,7 @@ dosym
 
 Creates a symbolic link from the sourceFile to destinationFile.
 
-Examples:::
+Examples::
 
     pisitools.dosym("gzip", "/bin/gunzip")
     pisitools.dosym("libdb1.so.2", "/usr/lib/libdb.so.2")
@@ -253,7 +254,7 @@ Copies a sourceFile into destinationDirectory as a destinationFile with same
 uid/guid/permissions'. destinationFile parameter is optional and it can be used
 when sourceFile name need to be changed.
 
-Examples:::
+Examples::
 
     pisitools.insinto("/opt/rar/bin", "rar")
     pisitools.insinto("/etc/", "doc/nanorc.sample", "nanorc")
@@ -268,7 +269,7 @@ newdoc
 
 Copies the sourceFile to /usr/share/doc/PACKAGE/ under installation directory.
 
-Examples:::
+Examples::
 
     pisitools.newdoc("extras/volume_id/README", "README_volume_id")
     pisitools.newdoc("gprof/ChangeLog.linux", "gprof/ChangeLog.linux")
@@ -285,7 +286,7 @@ newman
 Copies the sourceFile to /usr/share/man/manPREFIX/ with a new name under
 installation directory.
 
-Examples:::
+Examples::
 
     pisitools.newman("less.nro", "less.1") 
 
@@ -299,7 +300,7 @@ remove
 
 Deletes the sourceFile under the install directory.
 
-Example:::
+Example::
 
     pisitools.remove("/usr/lib/libdb_cxx.so")
 
@@ -313,7 +314,7 @@ rename
 
 Renames the sourceFile as destinationFile.
 
-Examples:::
+Examples::
 
     pisitools.rename("/usr/bin/bash", "bash.old") 
 
@@ -328,7 +329,7 @@ removeDir
 
 Deletes the 'destinationDirectory and all files inside.
 
-Examples:::
+Examples::
 
       pisitools.removeDir("/usr/lib")
 

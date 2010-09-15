@@ -79,7 +79,7 @@ installHeaders
 
 Installs the additional kernel headers needed to build out-of-tree kernel modules.
 
-Example:::
+Example::
 
     kerneltools.installHeaders(extra=["drivers/media/dvb/dvb-core",
                                       "drivers/media/dvb/frontends",
@@ -94,7 +94,7 @@ installLibcHeaders
 
 Installs the Linux-Libc-Headers exculuding the givens.
 
-Example:::
+Example::
 
     kerneltools.installLibcHeaders(excludes=["scsi"])
 

@@ -24,7 +24,7 @@ make
 
 Builds the perl source code with the given parameters.
 
-Example:::
+Example::
 
     perlmodules.make()
     perlmodules.make("test")
@@ -39,7 +39,7 @@ install
 
 Installs the perl source code with the given parameters.
 
-Example:::
+Example::
 
     perlmodules.install()
 

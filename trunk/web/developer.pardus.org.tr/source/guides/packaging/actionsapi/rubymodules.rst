@@ -12,7 +12,7 @@ get_config
 
 Get the value of given configure parameter.
 
-Examples:::
+Examples::
 
     get_config('ruby_version')
     get_config('rubylibdir')

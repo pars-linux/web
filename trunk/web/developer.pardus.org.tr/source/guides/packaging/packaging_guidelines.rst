@@ -62,7 +62,7 @@ Exceptions
 Creating a package from scratch
 -------------------------------
 
-When creating a package from scratch, you should follow the instructions of `Howto create pisi package <http://developer.pardus.org.tr/guides/packaging/howto_create_pisi_package.html>`_. You should put aside your own experiences about packaging and formats and try to conform to this document as much as possible.
+When creating a package from scratch, you should follow the instructions of `Howto create pisi package <http://developer.pardus.org.tr/guides/packaging/howto_create_pisi_packages.html>`_. You should put aside your own experiences about packaging and formats and try to conform to this document as much as possible.
 
 
 Modifying Existing Package
