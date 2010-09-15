@@ -16,7 +16,7 @@ prefix
 ^^^^^^^
 
 The default prefix is the default prefix of Pardus (see·
-`<http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_
+`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_
 
 libdir
 ^^^^^^
@@ -45,7 +45,7 @@ docdir
 ^^^^^^
 
 The default doc directory is the concatenation of default doc directory of
-Pardus and basename value. (see `<http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_)
+Pardus and basename value. (see `link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_)
 
 examplesdir
 ^^^^^^^^^^^

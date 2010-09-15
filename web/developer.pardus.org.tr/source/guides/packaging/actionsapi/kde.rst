@@ -28,7 +28,7 @@ http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/variables.py)
       --disable-dependency-tracking
       --disable-debug
 
-Example:::
+Example::
 
     kde.configure("--without-included-sqlite")
     kde.configure("--with-libsamplerate")
@@ -58,6 +58,6 @@ install
 Install the package according to the parameters given by the user and PISI's
 default parameters.
 
-Example:::
+Example::
 
     kde.install()

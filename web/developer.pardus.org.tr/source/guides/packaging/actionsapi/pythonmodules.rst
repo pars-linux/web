@@ -49,7 +49,7 @@ fixCompiledPy
 Cleans .py[co] from python packages. The default lookInto parameter is
 '/usr/lib/%s/' % get.curPYTHON().
 
-Example:::
+Example::
 
     pythonmodules.fixCompiledPy("/usr/kde/4/share/apps/frescobaldi/lib/frescobaldi_app")
     fixCompiledPy()

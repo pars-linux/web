@@ -26,7 +26,7 @@ http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/variables.py)
     --localstatedir
     --libexecdir
 
-Examples:::
+Examples::
 
     autotools.configure()
     autotools.configure("--with-libusb")
@@ -41,7 +41,7 @@ rawConfigure
 
 Configures the package according to the parameters given by the user.
 
-Examples:::
+Examples::
 
     autotools.rawConfigure()
     autotools.rawConfigure("--prefix=/usr --libdir=/usr/lib --with-doxywizard")
@@ -58,7 +58,7 @@ compile
 Compile the package with default GCC binutils, C flags and the parameters given
 by the user.
 
-Example:::
+Example::
 
     autotools.compile("-I/usr/include/dvdread -o dvdbackup src/dvdbackup.c -ldvdread")
 
@@ -72,7 +72,7 @@ make
 
 Builds the package according to the parameters given by the user.
 
-Examples:::
+Examples::
 
     autotools.make()
     autotools.make("local-all")
@@ -120,7 +120,7 @@ aclocal
 
 Creates an aclocal.m4 file according to the configure.in file.
 
-Examples:::
+Examples::
 
     autotools.aclocal("-I cmulocal -I config")
     autotools.aclocal("-I m4")
@@ -136,7 +136,7 @@ autoconf
 
 Creates the configure script, with given parameters.
 
-Example:::
+Example::
 
     autotools.autoconf()
 
@@ -164,7 +164,7 @@ automake
 
 Creates the makefile with given parameters.
 
-Examples:::
+Examples::
 
     autotools.automake("-afc")
     autotools.automake("--add-missing")
@@ -180,6 +180,6 @@ autoheader
 
 Creates the header file for the configure script.
 
-Examples:::
+Examples::
 
     autotools.autoheader()

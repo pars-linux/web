@@ -10,7 +10,7 @@ make
 
 Setup the package with scons construction tool.
 
-Examples:::
+Examples::
 
       scons.make("build=release \
                   build_id=%s \
@@ -31,7 +31,7 @@ parameters is install, prefix is get.installDIR(), argument is prefix.
 
 It runs the "'scons %s=%s %s' % (argument, prefix, parameters)" for installation.
 
-Examples:::
+Examples::
 
     scons.install("PREFIX='%s/usr' swig_install install" % get.installDIR())
     scons.install("install prefix=/usr \

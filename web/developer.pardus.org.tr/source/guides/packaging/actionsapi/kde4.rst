@@ -57,7 +57,7 @@ mandir
 ^^^^^^
 
 The default man dirrectory is the default man directory of Pardus (see 
-`<http://developer.pardus.org.tr/guides/packaging/actionsapi/get.htmlt#mandir>`_
+`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_
 
 sharedir
 ^^^^^^^^
@@ -104,7 +104,7 @@ docdir
 ^^^^^^
 
 The default doc directory is the concatenation of the default man directory of
-Pardus (see `<http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_) and basename value.
+Pardus (see `link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_) and basename value.
 
 htmldir
 ^^^^^^^
@@ -130,7 +130,7 @@ Configures the kde4 packages according to the parameters given by the user and P
 default parameters.
 
 The default parameters:(You can see the assigned values from
-`<http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/kde4.py>`_)
+`here <http://svn.pardus.org.tr/uludag/trunk/pisi/pisi/actionsapi/kde4.py>`_)
 
 ::
 
@@ -144,7 +144,7 @@ The default parameters:(You can see the assigned values from
        -DCMAKE_SKIP_RPATH:BOOL
        -DLIB_INSTALL_DIR:PATH
 
-Examples:::
+Examples::
 
     kde4.configure()
 
