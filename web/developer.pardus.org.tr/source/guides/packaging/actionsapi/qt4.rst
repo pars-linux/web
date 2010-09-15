@@ -16,7 +16,7 @@ prefix
 ^^^^^^^
 
 The default prefix is the default prefix of Pardus (see·
-`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_
+`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_)
 
 libdir
 ^^^^^^

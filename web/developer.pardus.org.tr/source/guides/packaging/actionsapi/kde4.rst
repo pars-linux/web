@@ -15,7 +15,7 @@ prefix
 ^^^^^^
 
 The default prefix is the default prefix of Pardus (see 
-`<http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_
+`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#defaultprefixdir>`_
 
 libdir
 ^^^^^^
@@ -57,7 +57,7 @@ mandir
 ^^^^^^
 
 The default man dirrectory is the default man directory of Pardus (see 
-`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_
+`link <http://developer.pardus.org.tr/guides/packaging/actionsapi/get.html#mandir>`_)
 
 sharedir
 ^^^^^^^^
