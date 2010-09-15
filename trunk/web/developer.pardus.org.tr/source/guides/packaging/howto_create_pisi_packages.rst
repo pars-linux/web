@@ -313,7 +313,7 @@ Different pspec.xml File Tags
     #. **<AnyDependency>:** This part is used when the package can have more than one dependency for a specific work. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#any-dependency>`_.
     #. **<Conflicts>:** This part is used for the packages that conflict with the prapared package. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#strict-dependencies>`_
 
-    #. **<Replaces>:** The packages that will be replaced with this package, will be added to this part. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.htmlt#renaming/replacing-existing-packages>`_
+    #. **<Replaces>:** The packages that will be replaced with this package, will be added to this part. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#renaming-replacing-existing-packages>`_
 
     #. **<Files>:** This part is needed to specify the paths of different file types in the system. All file paths will be used with <Path fileType=""> tag.
 
@@ -332,7 +332,7 @@ Different pspec.xml File Tags
 
         **target:** This attribute is used to specify the file path and name
 
-        **permission:** This attribute is used for giving `file permissions <http://en.wikipedia.org/wiki/Filesystem_permissions>`.
+        **permission:** This attribute is used for giving `file permissions <http://en.wikipedia.org/wiki/Filesystem_permissions>`_.
 
         **owner:** This attribute is used to specify file owner.
 
@@ -344,7 +344,7 @@ Different pspec.xml File Tags
 
         The files is included under files directory of the pisi package.
 
-    #. **<Provides>:** This part is used for COMAR scripts. There ara two types of scripts used. And these files should be appeared in this part. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidlines.html#package-setup-post-install-post-and-preremove-cleanup-and-post-cleanup>`_
+    #. **<Provides>:** This part is used for COMAR scripts. There ara two types of scripts used. And these files should be appeared in this part. See `link http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#package-setup-post-install-post-and-pre-remove-cleanup-and-post-cleanup`_
 
 #. **<History>:**  This main tag is needed in order to give information about packaging change history.
 
@@ -355,7 +355,7 @@ Different pspec.xml File Tags
             **type:** The type of the change should be gived there. There are two types used for Pardus. For critical changes "critical", for security changes "security" value are used.
         #. **<Date>:** This part is used for adding the time that the change done. The format should be "YYYY-MM-DD"
         #. **<Version>:** The version of the package should be written there. See `link <http://developer.pardus.org.tr/guides/packaging/binary_package_naming_guidelines.html#version-number>`_
-        #. **<Comment>:** The description of the change should be added here. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidlines.html#history-comments>`_
+        #. **<Comment>:** The description of the change should be added here. See `link http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#history-comments`_
         #. **<Name>:** The name of the package maintainer that make the change should be added here.
         #. **<Email>:** The email of the package maintainer that make the change should be added here.
 
@@ -398,4 +398,4 @@ Different pspec.xml File Tags
 #. **<Summary>:** The translation of the summary should be added there. The language type should be gived as a value of "xml:lang" attribute.
 #. **<Description>:**  The translation of the description should be added there. The language type should be gived as a value of "xml:lang" attribute.
 
-See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidlines.html#summary-and-description>`_.
+See `link http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#summary-and-description`_.

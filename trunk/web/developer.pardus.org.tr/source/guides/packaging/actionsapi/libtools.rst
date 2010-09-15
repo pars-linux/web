@@ -5,11 +5,13 @@ preplib
 --------
 
 ::
+
     prelib(sourceDirectory)
 
 Executes ldconfig command in the sourceDirectory.
 
 Example:::
+
     libtools.preplib()
 
 
@@ -17,17 +19,20 @@ gnuconfig_update
 ----------------
 
 ::
+
     gnuconfig_update()
 
 Copies the newest config.sub and config.guess files to the source.
 
 Example:::
+
     libtools.gnuconfig_update()
 
 libtoolize
 ----------
 
 ::
+
     libtoolize(parameters)
 
 Makes it possible to execute libtoolize with given parameters on the source.
@@ -43,6 +48,7 @@ gen_usr_ldscript
 ----------------
 
 ::
+
     gen_usr_ldscript(dynamicLib)
 
 Since Pardus has critical dynamic libraries in /lib, and the static versions in
@@ -50,11 +56,8 @@ Since Pardus has critical dynamic libraries in /lib, and the static versions in
 into linking problems.
 
 Examples:::
+
     libtools.gen_usr_ldscript("libhandle.so")
     libtools.gen_usr_ldscript("libhandle.so")
     libtools.gen_usr_ldscript("libdevmapper.so")
-
-
-
-
 

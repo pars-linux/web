@@ -6,7 +6,9 @@ Global Functions
 
 curDIR
 -------
+
 ::
+
     get.curDIR()
 
 Returns current work directory's path.
@@ -16,6 +18,7 @@ curKERNEL
 ---------
 
 ::
+
     get.curKERNEL()
 
 Returns currently running kernel's version.
@@ -25,6 +28,7 @@ curPYTHON
 ---------
 
 ::
+
     get.curPYTHON()
 
 Returns currently used python's version.
@@ -34,6 +38,7 @@ curPERL
 -------
 
 ::
+
     get.curPERL()
 
 Returns currently used perl's version.
@@ -41,12 +46,14 @@ Returns currently used perl's version.
 ENV
 ---
 
-:: 
+::
+
     get.ENV(environ)
 
 Returns any given environ variable.
 
 Example:::
+
     get.ENV("MAKE_DOC")
     get.ENV("LD_LIBRARY_PATH")
 
@@ -57,6 +64,7 @@ pkgDIR
 ------
 
 ::
+
     get.pkgDIR()
 
 Returns the path of binary packages. Default is"/var/cache/pisi/packages".
@@ -65,6 +73,7 @@ workDIR
 -------
 
 ::
+
     get.workDIR()
 
 Returns the path of package work directory. For example it can return a path
@@ -75,6 +84,7 @@ installDIR
 ----------
 
 ::
+
   get.installDIR()
 
 Returns the package install directory. For example it can return a path like
@@ -88,6 +98,7 @@ lsbINFO
 -------
 
 ::
+
     get.lsbINFO()
 
 Returns a dictionary filled through /etc/lsb-release.
@@ -100,6 +111,7 @@ srcNAME
 -------
 
 ::
+
     get.srcNAME()
 
 Returns the name of source package. (i.e. flashplugin)
@@ -109,6 +121,7 @@ srcVERSION
 ----------
 
 ::
+
     get.srcVERSION()
 
 Returns the version of source package. (i.e. 5.2_p1, 10.1.82.76)
@@ -118,6 +131,7 @@ srcRELEASE
 ----------
 
 ::
+
     get.srcRELEASE()
 
 Returns the release number of source package. (i.e. 28)
@@ -127,6 +141,7 @@ srcTAG
 ------
 
 ::
+
     get.srcTAG()
 
 Returns the name, version and release number of source package. (i.e. 5.2_p1-28)
@@ -136,6 +151,7 @@ srcDIR
 -------
 
 ::
+
     get.srcDIR()
 
 Returns the directory name of the package source under "/var/pisi/".
@@ -148,6 +164,7 @@ ARCH
 ----
 
 ::
+
     get.ARCH()
 
 Returns the default arch value written at
@@ -158,6 +175,7 @@ HOST
 ----
 
 ::
+
     get.HOST()
 
 Returns the default host value written at
@@ -168,6 +186,7 @@ CFLAGS
 ------
 
 ::
+
     get.CFLAGS()
 
 Return the default cflags used for Pardus. You can see them from
@@ -179,6 +198,7 @@ CXXFLAGS
 --------
 
 ::
+
     get.CXXFLAGS()
 
 Return the default cxxflags used for Pardus. You can see them from
@@ -190,6 +210,7 @@ LDFLAGS
 -------
 
 ::
+
     get.LDFLAGS()
 
 
@@ -198,10 +219,11 @@ Return the default ldflags used for pardus. You can see them from
 BuildDefaults.
 
 
-makeJOBS()
+makeJOBS
 ----------
 
 ::
+
     get.makeJOBS()
 
 
@@ -216,6 +238,7 @@ docDIR
 ------
 
 ::
+
     get.docDIR()
 
 Returns the default doc files directory used for Pardus. You can see it from
@@ -226,6 +249,7 @@ sbinDIR
 -------
 
 ::
+
     get.sbinDIR()
 
 Returns the default sbin directory used for Pardus. You can see it from
@@ -237,6 +261,7 @@ infoDIR
 -------
 
 ::
+
     get.infoDIR()
 
 Returns the default info files directory used for Pardus. You can see it from
@@ -247,6 +272,7 @@ manDIR
 ------
 
 ::
+
     get.manDIR()
 
 Returns the default man files directory used for Pardus. You can see it from
@@ -257,6 +283,7 @@ dataDIR
 --------
 
 ::
+
     get.dataDIR()
 
 Returns the default data files directory used for Pardus. You can see it from
@@ -267,6 +294,7 @@ confDIR
 -------
 
 ::
+
     get.confDIR()
 
 Returns the default configure files directory used for Pardus. You can see it from
@@ -278,6 +306,7 @@ localstateDIR
 -------------
 
 ::
+
     get.localstateDIR()
 
 Returns the default locale files directory used for Pardus. You can see it from
@@ -288,6 +317,7 @@ libexecDIR
 ----------
 
 ::
+
     get.libexecDIR()
 
 Returns the default library executable directory used for Pardus. You can see it from
@@ -299,6 +329,7 @@ defaultprefixDIR
 ----------------
 
 ::
+
     get.defaultprefixDIR()
 
 Returns the default prefix directory used for Pardus. You can see it from
@@ -309,6 +340,7 @@ kdeDIR
 ------
 
 ::
+
     get.kdeDIR()
 
 Returns the default kde directory used for Pardus. You can see it from
@@ -319,6 +351,7 @@ qtDIR
 -----
 
 ::
+
     get.qtDIR()
 
 Returns the default qt directory used for Pardus. You can see it from
@@ -330,7 +363,9 @@ Binutils Related Functions
 
 AR
 --
+
 ::
+
     get.AR()
 
 Return GNU ar binutil executable variable of the system where the package being
@@ -340,6 +375,7 @@ AS
 --
 
 ::
+
     get.AS()
 
 Return GNU assembler binutil executable variable of the system where the package being
@@ -349,6 +385,7 @@ CC
 --
 
 ::
+
     get.CC()
 
 Return gcc binutil executable variable of the system where the package being
@@ -358,6 +395,7 @@ CXX
 ---
 
 ::
+
     get.CXX()
 
 Return gcc C++ binutil executable variable of the system where the package being
@@ -367,6 +405,7 @@ LD
 --
 
 ::
+
     get.LD()
 
 Return GNU linker binutil executable variable of the system where the package being
@@ -377,6 +416,7 @@ NM
 --
 
 ::
+
     get.NM()
 
 Return GNU nm binutil executable variable of the system where the package being
@@ -386,6 +426,7 @@ RANLIB
 ------
 
 ::
+
     get.RANLIB()
 
 Return ranlib binutil executable variable of the system where the package being
@@ -395,6 +436,7 @@ F77
 ---
 
 ::
+
     get.F77()
 
 Return GNU fortran compiler binutil executable variable of the system where the package being
@@ -405,6 +447,7 @@ GCJ
 ---
 
 ::
+
     get.GCJ()
 
 Return GNU java compiler binutil executable variable of the system where the package being

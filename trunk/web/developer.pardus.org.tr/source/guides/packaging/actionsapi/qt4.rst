@@ -92,6 +92,7 @@ Configure
 ---------
 
 ::
+
     configure(projectfile='', parameters='', installPrefix=prefix)
 
 Configures the qt4 packages according to the parameters and project file given
@@ -101,6 +102,7 @@ Make
 ----
 
 ::
+
     make(parameters)
 
 Builds the qt4 packages according to the parameters given by the user.
@@ -109,6 +111,7 @@ install
 -------
 
 ::
+
     install(parameters = '', argument = 'install')
 
 Install the qt4 packages according to the parameters given by the user.

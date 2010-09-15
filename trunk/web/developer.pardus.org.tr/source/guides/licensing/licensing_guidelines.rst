@@ -36,7 +36,7 @@ Sometimes licences has version, and while a version of a package has is compatib
 Multiple Licensing
 ^^^^^^^^^^^^^^^^^^
 
-Sometimes packages have more than one liscences distinct and independent from other, maintainers should also take into account this option. If a pacakage has more than one license, for each licence the Licence tag should be added.
+Sometimes packages have more than one licenses distinct and independent from other, maintainers should also take into account this option. If a pacakage has more than one license, for each licence the Licence tag should be added.
 
 Software Types
 ==============
@@ -73,5 +73,5 @@ The redistribution restrictions for firmware that acceptable by Pardus Licensing
     * prohibitions on reverse engineering, disassembly or decompilation
     * restricting to use in conjunction with the hardware associated with the firmware license
 
-If the maintainer unsure about the firmare licence, he can ask `Pardus devel list <http://liste.pardus.org.tr/mailman/listinfo/pardus-devel>`_, and the other experienced maintainers will examine this.
+If the maintainer unsure about the firmare licence, he can ask `Pardus developer list <http://liste.pardus.org.tr/mailman/listinfo/pardus-devel>`_, and the other experienced maintainers will examine this.
 
