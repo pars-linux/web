@@ -81,6 +81,30 @@ Installation Bugs
     * Please add /var/log/yaliInstall.log file of the buggy installation.
     * Please add "fdisk -l" output to the bug report, if this is a bug about partitioning.
 
+In order to take YALI related files:
+
+* Press CTRL+ALT+F1 buttons at the same time.(This buttons direct you to system console.)
+* Plug a usb stick to the machine.
+* Mount the usb stick to the system:
+
+::
+
+    mkdir /mnt/log
+    mount /dev/<your_usb_stick_partition> /mnt/log
+
+* Copy the files that needed for the bug.
+
+::
+
+    cp <output> /mnt/log
+
+* Unmount the usb stick:
+
+::
+
+    umount /dev/<your_usb_stick_partition>
+
+
 Crashes
 ^^^^^^^
 If you have encountered with a program crash, you should add the stack trace of the program. Pragram craches are hard to reproduce and fix. Therefore it is so valuable to give more information.
