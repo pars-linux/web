@@ -9,6 +9,8 @@ In this section, we'll briefly cover the different areas to contribute.
 Development
 *********************
 
+If you want to a developer you must first look :ref:`developer-roles`.
+
 Software Development
 --------------------
 

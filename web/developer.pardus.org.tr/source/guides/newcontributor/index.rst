@@ -14,3 +14,4 @@ New Contributors
    introduction-to-translation.rst
    faq-about-translations.rst
    newcontributor_mentors.rst
+   developer_roles.rst
