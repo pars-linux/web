@@ -16,9 +16,7 @@ Package Review Guidelines
 -------------------------
 
 The person who want to put his package in review and add it to Pardus Repositories, he
-should be a Pardus developer. (see :ref:`newcontributor-index`)
-
-.. and `Developer Roles in Pardus`_)
+should be a Pardus developer. (see :ref:`newcontributor-index` and :ref:`developer-roles` )
 
 Package maintainer and the reviewer must follow the package review process and they
 should pay attention that the package adheres to :ref:`package-naming`,
