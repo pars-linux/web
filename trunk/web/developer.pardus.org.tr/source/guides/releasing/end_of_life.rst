@@ -1,3 +1,5 @@
+.. _end-of-life:
+
 End of Life
 ============
 
@@ -66,4 +68,6 @@ on the actual release they will be closed with the below message:
     concerning Pardus Y will become invalid. If you can still reproduce the bug
     on Pardus X, you can reopen the bug and update the version information. Thanks.
 
+**Last Modified Date:** |today|
 
+:Author: Fatih Aşıcı

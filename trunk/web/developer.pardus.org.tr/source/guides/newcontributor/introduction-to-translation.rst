@@ -167,3 +167,6 @@ Being Aware of Translation Updates
 
       .. image:: images/watch-project.png
 
+**Last Modified Date:** |today|
+
+:Author: Halil İbrahim Güngör

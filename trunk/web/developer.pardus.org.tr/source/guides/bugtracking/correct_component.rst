@@ -1,3 +1,5 @@
+.. _correct-component:
+
 Finding Correct Product and Component
 =====================================
 
@@ -49,3 +51,8 @@ Therefore you can find programs package and file your bug related to this inform
 For the packages that you have not installed, you can make a file path research on http://packages.pardus.org.tr.
 
 Sometime the problem is library or plugin dependent, for this time just make your best guess. A triager or developer will reassign the bug if necessary.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
+

@@ -39,3 +39,6 @@ You can do the same with python by using the command below:
 In this case as well, just the shadowed form of your password will be given as output. In your e-mail you should mention the username you want to use. 
 
 
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit

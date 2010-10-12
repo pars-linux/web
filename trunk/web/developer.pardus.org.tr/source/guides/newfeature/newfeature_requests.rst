@@ -1,3 +1,5 @@
+.. _newfeature-requests:
+
 New Feature Requests
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -79,8 +81,7 @@ How my new feature request is accepted?
 
 New Feature Requirements
 ^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. #. The licence of the new feature request should be suitable for Pardus. (see `licensing_guidelines.rst`)
+#. The licence of the new feature request should be suitable for Pardus. (see :ref:`licensing-guidelines`)
 #. It should be accepted as a new feature for the new version of Pardus.
 #. It should be rerported before the new feature submission deadline.
 

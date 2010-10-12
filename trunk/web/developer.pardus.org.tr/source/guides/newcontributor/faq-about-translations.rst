@@ -1,3 +1,5 @@
+.. _translations_faq:
+
 ======================
 FAQ About Translations
 ======================
@@ -384,3 +386,7 @@ use for translating kaptan:
      application.)
 
 Voila! We have freshly translated Kaptan now. It is time to commit our changes.
+
+**Last Modified Date:** |today|
+
+:Author: Halil İbrahim Güngör

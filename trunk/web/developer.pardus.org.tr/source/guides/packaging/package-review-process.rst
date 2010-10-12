@@ -12,18 +12,19 @@ process is to be ensure the package satisfies packaging rules.
 
 New packages, package renaming need review process.
 
-.. Package Review Guidelines
-   -------------------------
+Package Review Guidelines
+-------------------------
 
-.. The person who want to put his package in review and add it to Pardus Repositories, he
-    should be a Pardus developer. (see `New Contributors <http://developer.pardus.org.tr/policies/newcontributor/index.html>`_
-    and `Developer Roles in Pardus`_)
+The person who want to put his package in review and add it to Pardus Repositories, he
+should be a Pardus developer. (see :ref:`newcontributor-index`)
 
-.. Package maintainer and the reviewer must follow the package review process and they
-   should pay attention that the package adheres to `package_naming_guidlines.rst`_,
-   `packaging_guidlines.rst`_ and `licensing_guidlines.rst`_.
+.. and `Developer Roles in Pardus`_)
 
-..  They also pay attention that the package in review has not in repositories already.
+Package maintainer and the reviewer must follow the package review process and they
+should pay attention that the package adheres to :ref:`package-naming`,
+:ref:`packaging-guidelines` and :ref:`licensing-guidelines`.
+
+They also pay attention that the package in review has not in repositories already.
 
 Review Process
 --------------
@@ -46,7 +47,7 @@ The package reviewing process steps on `Pardus Bug Tracking System
    will block the package request bug will be created. (From now on, this new bug
    report will be mentioned as **the bug report**)
 
-#. The product of the bug report should be ``Review``. The component of the
+#. The product of the bug report should be ``Package Review``. The component of the
    bug report should be the appropriate repository component for being able to
    notify the relevant component responsibles by e-mail about this new package
    reviewing request.
@@ -107,3 +108,7 @@ The package reviewing process steps on `Pardus Bug Tracking System
    is closed, package request bug will be closed too. ``RESOLVED/FIXED`` solution can
    also be applied for this bug. Ideally, closing both review and request bugs at
    the same commit is preferred.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit, Ozan Çağlayan

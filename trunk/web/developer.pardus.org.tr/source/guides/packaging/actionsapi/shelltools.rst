@@ -1,3 +1,5 @@
+.. _shelltools:
+
 Shelltools
 ==========
 

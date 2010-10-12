@@ -1,3 +1,5 @@
+.. _kde:
+
 KDE
 ===
 
@@ -61,3 +63,4 @@ default parameters.
 Example::
 
     kde.install()
+

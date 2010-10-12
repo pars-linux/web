@@ -141,3 +141,9 @@ This method will call by *System Settings* and it should return a ``KCModule`` i
 .. rubric:: Footnotes
 .. [#] http://api.kde.org/4.x-api/kdelibs-apidocs/kdeui/html/classKApplication.html
 .. [#] http://svn.pardus.org.tr/uludag/branches/kde4-managers/tutorial
+
+
+**Last Modified Date:** |today|
+
+:Author: Gökmen Göksel
+
