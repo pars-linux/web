@@ -1,4 +1,4 @@
-.. _newfeature:
+.. _newfeature-index:
 
 New Feature Requests and Tracking
 =================================

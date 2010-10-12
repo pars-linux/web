@@ -1,3 +1,5 @@
+.. _packaging-guidelines:
+
 Packaging Guidelines
 ====================
 
@@ -8,12 +10,12 @@ Please remember that any package that you submit must also conform to the Review
 Naming
 ------
 
-You should go through the `Package Naming Guidelines <http://developer.pardus.org.tr/guides/packaging/package_naming_guidelines.html>`_ to ensure that your package is named appropriately.
+You should go through the :ref:`package-naming` to ensure that your package is named appropriately.
 
 Binary Package Naming
 ---------------------
 
-The proper way to use the Version and Release fields can be found here: `Binary Package Naming <http://developer.pardus.org.tr/guides/packaging/binary_package_naming_guidelines.html>`_.
+The proper way to use the Version and Release fields can be found here: :ref:`binary-package-naming`.
 
 Legal
 -----
@@ -23,12 +25,12 @@ Legal concerns about Pardus Linux Distribution package licensing can be found be
 Licensing
 ^^^^^^^^^
 
-You should review `Licensing Guidelines <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html>`_ to ensure that your package is licensed appropriately.
+You should review :ref:`licensing-guidelines` to ensure that your package is licensed appropriately.
 
 Proprietary Dependencies for Package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Some software depends on other software. These dependencies sometimes can be non-free, legally unacceptable, or binary only (with the exception of permissible firmware), then they are not acceptable for the distribution, depending on this the dependent software is also inacceptable. 
+Some software depends on other software. These dependencies sometimes can be non-free, legally unacceptable, or binary only (with the exception of permissible firmware), then they are not acceptable for the distribution, depending on this the dependent software is also inacceptable.
 
 Pre-built binaries or libraries not allowed
 -------------------------------------------
@@ -62,7 +64,7 @@ Exceptions
 Creating a package from scratch
 -------------------------------
 
-When creating a package from scratch, you should follow the instructions of `Howto create pisi package <http://developer.pardus.org.tr/guides/packaging/howto_create_pisi_packages.html>`_. You should put aside your own experiences about packaging and formats and try to conform to this document as much as possible.
+When creating a package from scratch, you should follow the instructions of :ref:`howto-create-pisi-packages`. You should put aside your own experiences about packaging and formats and try to conform to this document as much as possible.
 
 
 Modifying Existing Package
@@ -77,7 +79,7 @@ During Modifications particularly you should take care:
 #. Verify that existing package licence matches with the current license of the software.
 #. Revise the summary and description for typos and oddities. Look `Summary and Description`_
 #. Control that the current software has new dependencies or ignore ancient ones.
-#. Revise that the package use relevant pisi actionsapi instead of pure python api's. (Look `here <http://developer.pardus.org.tr/guides/packaging/actionsapi>`_)
+#. Revise that the package use relevant pisi actionsapi instead of pure python api's. (Look :ref:`actionsapi-index`)
 
 Architecture Support
 --------------------
@@ -127,7 +129,7 @@ package depends on missing package
 History Comments
 ----------------
 
-Every time you make changes, that means whenever you increment a package release, you must add a history comment. (look `here <http://developer.pardus.org.tr/guides/packaging/howto_create_pisi_package.html>`_) The repository commit message  also the same with the history comment. This is important because the other developers and also users can follow the changes.
+Every time you make changes, that means whenever you increment a package release, you must add a history comment. (look :ref:`howto-create-pisi-packages`) The repository commit message  also the same with the history comment. This is important because the other developers and also users can follow the changes.
 
 Therefore there are some restrictions while writing history comments
 
@@ -462,6 +464,7 @@ If an operation effects the packages that installed after a specific package, pa
 
 
 Operation types:
+^^^^^^^^^^^^^^^^
 
 - setupPackage: Execute package handler setup scripts
 - cleanupPackage: Execute package handler cleanup scripts before installation
@@ -470,3 +473,6 @@ Operation types:
 - preRemove: Execute pre-remove script of a package before installation
 - postRemove: Execute post-remove script of a package after installation
 
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit

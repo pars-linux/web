@@ -1,3 +1,5 @@
+.. _binary-package-naming:
+
 Binary Package Naming
 ---------------------
 

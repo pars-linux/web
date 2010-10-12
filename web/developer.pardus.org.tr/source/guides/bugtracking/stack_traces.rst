@@ -1,3 +1,5 @@
+.. _stack-traces:
+
 Stack Traces
 ============
 
@@ -91,4 +93,8 @@ After you run the program with GDB, you try to reproduce the crashe senario. Aft
 If any of them work, write "bt" command to GDB prompt.
 
 These commands will create an output, these outputs are the stack trace. Copy this output to a file and quit GDB.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
 

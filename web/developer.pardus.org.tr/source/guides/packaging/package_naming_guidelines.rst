@@ -1,6 +1,8 @@
-===============
- Package Names
-===============
+.. _package-naming:
+
+=========================
+ Package Naming Guideline
+=========================
 
 This document describes the package naming rules used in Pardus repositories.
 If you think these guidelines are not sufficient to choose a name for your
@@ -295,6 +297,10 @@ Example::
 
     R-mathlib: mathlib module for R
 
+**Last Modified Date:** |today|
+
+:Author: Fatih Aşıcı
+
 .. TeX Packages
 .. ============
 
@@ -303,3 +309,4 @@ Example::
 .. Example::
 
 ..     tex-basic: TeXLive Essential programs and files
+

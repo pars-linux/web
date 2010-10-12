@@ -1,4 +1,6 @@
-Finding Duplicate bugs
+.. _finding-duplicates:
+
+Finding Duplicate Bugs
 ======================
 
 It is very valuable to file specific and reproducible bugs. Therefore please check possible duplicates of the bugs before report it. If you find your bug is reported more than once you can mark one of them as duplicate.
@@ -29,3 +31,8 @@ What to do if a dupliacte is catched?
 If you are a bug triager or a developer, you can select resolution as "RESOLVED/DUPLICATE" for the bug that has less information and add the bug number of the best information.
 
 If you don't have permission to change bugs, you can give duplicate bug number as a comment, someone else will see and do the relavant operation.
+
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit

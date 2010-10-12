@@ -1,17 +1,20 @@
+.. _howto-bug-triage:
+
 Starting Bug Triage
 ===================
+
 
 Choosing Bugs
 -------------
 
 * Bug triage is done at product and component base. (See http://bugs.pardus.org.tr/describecomponents.cgi)
 * Bug triage can be done excluding Community Services and Distribution Process classes.
-* The prepared stock responses are so valuable in order to tackle bugs. (See `Stock Responses <http://developer.pardus.org.tr/guides/bugtracking/stock_responses.html>`_)
+* The prepared stock responses are so valuable in order to tackle bugs. (See :ref:`stock-responses`)
 
 Understanding Bugzilla
 ----------------------
 
-    * See `Bug Cycle <http://developer.pardus.org.tr/guides/bugtracking/bug_cycle.html>`_
+    * See :ref:`bug-cycle`
 
 Check list for bugs have NEW status
 -----------------------------------
@@ -26,15 +29,15 @@ This checklist is used for bugs which have NEW status.
 
 #. Is the bug product and component right?
 
-    * To take technical assistance please see `Correct Component <http://developer.pardus.org.tr/guides/bugtracking/correct_component.html>`_.
+    * To take technical assistance please see :ref:`correct-component`.
     * If the bug component is assigned to wrong, it should be changed.
     * In some cases, it is not possible to find correct component, until the source code is examined. In such a situation, you can take help from assigned developer.
 
 #. Has the bug a duplicate?
 
-    * If so, the less informed bug resolution should be set as "RESOLVED/DUPLICATE" with bug number of the most detailed report and `related stock response <http://developer.pardus.org.tr/guides/bugtracking/stock_responses.html##duplicate-bugs>`_ is gived as a comment.
+    * If so, the less informed bug resolution should be set as "RESOLVED/DUPLICATE" with bug number of the most detailed report and `related stock response <http://developer.pardus.org.tr/guides/bugtracking/stock_responses.html#duplicate-bugs>`_ is gived as a comment.
     * If it is not clear that a bug is a duplicate of another bug, please politeliy convince reporter with your comment.
-    * For additional help: `Finding Duplicates <http://developer.pardus.org.tr/guides/bugtracking/finding_duplicates.html>`_.
+    * For additional help: :ref:`finding-duplicates`.
     * Also:
           * Observe `Most frequently reported bugs <http://bugs.pardus.org.tr/duplicates.cgi>`_.
           * Analyse the bugs assigned same component.
@@ -161,6 +164,8 @@ General Advice
     * You can take help from `testing list <http://lists.pardus.org.tr/mailman/listinfo/testci>`_ 
     * Add yourself to the CC: list of bugs you triage.
     * Please read carefully, and think before you click.
-    * Use `Stock Responses <http://developer.pardus.org.tr/guides/newcontributor/bugtracking/stock_responses.html>`_ as appropriate.
+    * Use :ref:`stock-responses` as appropriate.
 
+**Last Modified Date:** |today|
 
+:Author: Semen Cirit

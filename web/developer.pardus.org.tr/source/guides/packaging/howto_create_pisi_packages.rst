@@ -1,3 +1,5 @@
+.. _howto-create-pisi-packages:
+
 How to Create Pisi Packages
 ===========================
 
@@ -6,18 +8,16 @@ Creating Package
 
 This document is specifically about creating pspec.xml files. But it also
 mentions about building pisi packages. In order to see basic dynamics of a
-packaging please see:
-`Packaging Guidelines <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html>`_
-and `Package Naming Guidelines <http://developer.pardus.org.tr/guides/packaging/package_naming_guidelines.html>`_.
+packaging please see: :ref:`packaging-guidelines`.
+and :ref:`package-naming`.
 This document briefly explains different pieces of pspec.xml and explain them specifically.
 
-If you want to make packages and be a Pardus Package Maintainer please follow
-`this link <http://developer.pardus.org.tr/guides/newcontributor/how-to-be-contributor.html>`_.
+If you want to make packages and be a Pardus Package Maintainer please follow :ref:`how-to-be-contributor`.
 
 Building PiSi Packages
 ----------------------
 To create a PiSi package, basicly you will need to create pspec.xml,
-`Creating translations.xml`_ and `actions.py <http://developer.pardus.org.tr/guides/packaging/actionsapi>`_
+`Creating translations.xml`_ and :ref:`actionsapi-index`.
 files. The pspec.xml file provides information about the software being
 packaged. The actions.py file includes the scripts in order to build the
 package. The translations.xml file has the summary and description translations
@@ -38,7 +38,7 @@ Creating pspec.xml
 ------------------
 
 You first need to create a pspec.xml file under the package named directory.
- See `Package Naming Guidelines <http://developer.pardus.org.tr/guides/packaging/package_naming_guidelines.html>`_.
+ See :ref:`package-naming`.
 
 Creating Empty pspec.xml File
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -226,10 +226,10 @@ Different pspec.xml File Tags
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. **<Source>:** This main tag is needed in order to give information about the source of the package.
-    #. **<Name>:** The name of the package is added here. It must follow the `link <http://developer.pardus.org.tr/guides/packaging/package_naming_guidelines.html>`_. This should be match with the <Name> part of <Package> tag.
+    #. **<Name>:** The name of the package is added here. It must follow the :ref:`package-naming`. This should be match with the <Name> part of <Package> tag.
     #. **<Homepage>:** The project page of the package is added here.
     #. **<Packager>:** The packager name is added <Name>, and email is added to <Email> part.
-    #. **<License>:** The pacakge license type is added here. See `link <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html>`_.
+    #. **<License>:** The pacakge license type is added here. See :ref:`licensing-guidelines`.
     #. **<Icon>:** If a package has a gui part, the icon name should be added this part.
     #. **<IsA>:** This tag is used in order to give the types of the software which the the package includes. One then more IsA type can be used, if it is relevant.
         Different IsA types used for Pardus packages:
@@ -308,7 +308,7 @@ Different pspec.xml File Tags
     The level parameter is needed in order to apply the patch properly. It specifies depth differences of the patch and the file that the patch will be applied.
 #. **<Package>:**  This main tag is needed in order to give package information when it runs on the system.
 
-    #. **<Name>:** The name of the package is added here. It must follow the `link <http://developer.pardus.org.tr/guides/packaging/package_naming_guidelines.html>`_. This should be match with the <Name> part of <Source> tag.
+    #. **<Name>:** The name of the package is added here. It must follow the :ref:`package-naming`. This should be match with the <Name> part of <Source> tag.
     #. **<RuntimeDependencies>:** This part is used in order to list packages which is required when the program runs. In order to find runtime dependencies please `see <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#runtime-dependencies>`_. You need to add all dependencies in a different <Dependency> tag. You can also specify minimum versions or releases of the package. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#strict-dependencies>`_ for details.
     #. **<AnyDependency>:** This part is used when the package can have more than one dependency for a specific work. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#any-dependency>`_.
     #. **<Conflicts>:** This part is used for the packages that conflict with the prapared package. See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#strict-dependencies>`_
@@ -400,3 +400,7 @@ Different pspec.xml File Tags
 #. **<Description>:**  The translation of the description should be added there. The language type should be gived as a value of "xml:lang" attribute.
 
 See `link <http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html#summary-and-description>`_.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit

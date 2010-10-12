@@ -1,3 +1,5 @@
+.. _releasing-index:
+
 Releasing
 =========
 

@@ -1,3 +1,5 @@
+.. _get:
+
 Get
 ~~~
 
@@ -452,3 +454,4 @@ GCJ
 
 Return GNU java compiler binutil executable variable of the system where the package being
 compiled. (i.e. gcj)
+

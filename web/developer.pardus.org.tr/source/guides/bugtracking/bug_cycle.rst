@@ -1,4 +1,4 @@
-.. _bug_cycle:
+.. _bug-cycle:
 
 Bug Cycle
 =========
@@ -42,3 +42,9 @@ This document gives information about Pardus bug tracking system process. The pr
         #. If new bugs found during stable repository tests, it should be reported by testers.
 
     #  "REOPENED" bugs are reviewed again by assignee and will be fixed.
+
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
+

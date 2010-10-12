@@ -8,7 +8,7 @@ Applicant Tracking on Bugzilla
 ******************************
 
 - Developers and testers can follow this process in order to be a contributor.
-- For translators applications can be held from `Pardus translation website <http://translate.pardus.org.tr>`_. (See `Quick Guide to Pardus Translations <http://developer.pardus.org.tr/policies/newcontributor/introduction-to-translation.html>`_)
+- For translators applications can be held from `Pardus translation website <http://translate.pardus.org.tr>`_. (See :ref:`introduction-to-translation`)
 - For bug triagers please see `Bug reporting and triaging <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#bug-reporting-and-triaging>`_
 - For content writers please see `Documentation <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#documentation>`_
 - For designers please see `Graphical design and multimedia <http://developer.pardus.org.tr/policies/newcontributor/areas-to-contribute.html#graphical-design-and-multimedia>`_
@@ -67,7 +67,7 @@ Assigning Mentor
 
 Mentoring Process
 -----------------
-#. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.) (see  `New contributor mentoring <http://developer.pardus.org.tr/policies/newcontributor/newcontributor_mentors.html>`_)
+#. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.) (see  :ref:`newcontributor-mentors`)
     #. Related to junior jobs difficulty, one more jobs can be given to applicant.
     #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
     #. The owner of the packages that applicant has done will be his/her mentor.
@@ -234,3 +234,7 @@ Assigning Mentor Stock Response
 
         -- 
         Pardus Mentoring Coordinators
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit

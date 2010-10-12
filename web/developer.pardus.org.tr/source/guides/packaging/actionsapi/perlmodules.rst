@@ -1,3 +1,5 @@
+.. _perlmodules:
+
 Perlmodules
 ===========
 

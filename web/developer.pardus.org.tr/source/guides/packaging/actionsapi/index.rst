@@ -1,3 +1,5 @@
+.. _actionsapi-index:
+
 ActionsApi
 ==========
 

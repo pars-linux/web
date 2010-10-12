@@ -1,3 +1,5 @@
+.. _licensing-guidelines:
+
 Licensing Guidelines
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -74,4 +76,8 @@ The redistribution restrictions for firmware that acceptable by Pardus Licensing
     * restricting to use in conjunction with the hardware associated with the firmware license
 
 If the maintainer unsure about the firmare licence, he can ask `Pardus developer list <http://liste.pardus.org.tr/mailman/listinfo/pardus-devel>`_, and the other experienced maintainers will examine this.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
 

@@ -1,4 +1,4 @@
-.. highlightlang:: python
+.. _licensing-index:
 
 Licensing
 =========

@@ -37,7 +37,7 @@ Pardus bug reports are tracked in bugzilla. You can examine bugs to determine wh
 
 To know that the very same bug exists in other distributions might help us to produce a proper solution. If the problem is solved -or never existed- in another distribution, reaching a solution will be faster by examining the work that the particular distribution did for that software.
 
-Detailed bug triaging documentation can be found from `here <http://developer.pardus.org.tr/guides/bugtracking/index.html>`_, it will guide you through the mechanisms and the workflows commonly used in bugzilla and bug triaging approaches.
+Detailed bug triaging documentation can be found from :ref:`bugtracking-index`, it will guide you through the mechanisms and the workflows commonly used in bugzilla and bug triaging approaches.
 
 In order to help triaging bugs, you have to be able to find them. You can find about new bug reports by subscribing to the bugzilla `e-mail list <http://lists.pardus.org.tr/mailman/listinfo/bugzilla>`_.
 
@@ -74,4 +74,6 @@ Graphical design and multimedia
 
 If you are talented in this domain, you can help with the topics which require graphics knowledge, such as the icon sets, font types and colour themes. Feel free to ask for help from us via e-mail lists when you need visual materials to use in your work.
 
+**Last Modified Date:** |today|
 
+:Author: Semen Cirit

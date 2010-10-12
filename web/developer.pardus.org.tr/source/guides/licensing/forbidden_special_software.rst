@@ -1,7 +1,9 @@
+.. _forbidden-items:
+
 Forbidden Software and Special Cases
 ====================================
 
-Users or contributors sometimes ask why certain software are not exist in Pardus repositories. Pardus Project includes free and `opensource <http://opensource.org/>`_ software in its repositories. Our `licensing prespective <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html>`_ reinforce the following requirements:
+Users or contributors sometimes ask why certain software are not exist in Pardus repositories. Pardus Project includes free and `opensource <http://opensource.org/>`_ software in its repositories. Our :ref:`licensing-guidelines` reinforce the following requirements:
 
     * Any non-distributable proprietary item,
     * Any obscure licensed item cannot be included in Pardus repositories.
@@ -34,4 +36,8 @@ Adobe Acrobat Reader
 --------------------
 
 It is a proprietary software and the open source alternatives are adequate like kpdf (KDE3), okular (KDE4). So Pardus does not allow to use this software under `these circumstances <http://developer.pardus.org.tr/guides/licensing/licensing_guidelines.html#binary-firmware>`_.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
 

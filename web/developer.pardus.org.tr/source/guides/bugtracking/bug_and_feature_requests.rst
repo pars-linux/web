@@ -1,3 +1,5 @@
+.. _bug-requests:
+
 Bug Requests
 ============
 
@@ -15,7 +17,7 @@ If there are not exist any bug already been reported, the bugs of the software t
 Bug Cycle
 ---------
 
-You can find additional information from `here <http://developer.pardus.org.tr/guides/bugtracking/bug_cycle.html>`_.
+You can find additional information from :ref:`bug-cycle`.
 
 Before reporting a bug
 ----------------------
@@ -39,7 +41,7 @@ Before reporting your bug, you should be sure that your bug has not already been
 
 It is not a useful way is to say "I am also experiencing this bug.". But you can give additional and useful details (log files, error reports etc.) about when you have experienced the bug. 
 
-See `finding duplicates <http://developer.pardus.org.tr/guides/bugtracking/finding_duplicates.html>`_.
+See :ref:`finding-duplicates`.
 
 Gather Useful Information
 -------------------------
@@ -62,13 +64,13 @@ Find right component
 
 This is very important to choose right product and compenent while filing a bug report. You can find directly the write developer by choosing the right component and this helps resolve the bugs faster. If you assign your bug to a wrong component, your bugs fixing should wait until a developer or a bug triager have assigned it to right component.
 
-See details from `here <http://developer.pardus.org.tr/guides/bugtracking/correct_component.html>`_.
+See details from :ref:`correct-component`.
 
 After reporting bug
 -------------------
 
     * Developers generally do not send an acknowlegement comment that they are dealing with the bug. You should be patient during your bug left commentless, and you should keep on following.
-    * After reporting the bug, other users can comment it or developers can change the status or resolution of the bug report. In order to see different resolutions and status used in Pardus bug tracking system please visit `here <http://developer.pardus.org.tr/guides/bugtracking/bug_cycle.html>`_.
+    * After reporting the bug, other users can comment it or developers can change the status or resolution of the bug report. In order to see different resolutions and status used in Pardus bug tracking system please visit :ref:`bug-cycle`.
     * Please do not allow someone to depart from your's bug subject. The irrelevant conversations in your bug comment cause only confusion and difficulty to track it.
     * If you think your bug has fixed but an other bug will exist about the same component, please file a new bug report.
     * If your bug is relevant to a release that reaches its end of life, the bug triagers will control whether this bug is experienced for maintained releases. If the bug is not reproducible for the maintained releases, they will close it.
@@ -132,7 +134,7 @@ Hardware specific bugs generally related with video cards, graphics card, camera
 Programming related bugs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    * Run the program on console and send all output with bug report. See `Correct Component <http://developer.pardus.org.tr/guides/bugtracking/correct_component.html>`_.
+    * Run the program on console and send all output with bug report. See :ref:`correct-component`.
 
 X server related bugs
 ^^^^^^^^^^^^^^^^^^^^^
@@ -284,7 +286,7 @@ Firefox related bugs
     * It would be useful to add the add-on and theme names used to bug report.
 * Sometimes the problems are related with some special changes that have done by user, for these type of situations please try to reproduce the problem with creating a new user on the system.
 
-See Firefox crashes on `Stack Traces <http://developer.pardus.org.tr/guides/bugtracking/stack_traces.html>`_.
+See Firefox crashes on :ref:`stack-traces`.
 
 
 Openoffice related bugs
@@ -300,7 +302,7 @@ Openoffice related bugs
 
     * If this command is also crashed, the problem is not about openoffice.
 * When the openoffice is crashed, if it shows a dialog, please add it to the bug report.
-* You can also take the stack trace, with installing its debug packages: see `stack traces <http://developer.pardus.org.tr/guides/bugtracking/stack_traces.html>`_.
+* You can also take the stack trace, with installing its debug packages: see :ref:`stack-traces`.
 
     For example if a crash is occured for open office writer, the below commands should be run:
     ::
@@ -318,12 +320,12 @@ The stack trace output should be added to the bug report (-writer parameter will
 Enhancements and new feature requests
 -------------------------------------
 
-* Pardus Linux Project is an open source project, therefore before reporting an enhancement or a new feature please visit `here <http://developer.pardus.org.tr/guides/bugtracking/forbidden_items.html>`_.
+* Pardus Linux Project is an open source project, therefore before reporting an enhancement or a new feature please visit :ref:`forbidden-items`.
 * Please don't forget to select newfeature severity reporting it from the bugzilla.
 * Please explain the feature clearly and give the aim of it for Pardus Linux Dist.
 * Requesting a new package is not a new feature or enhancement please report these from Packages/New Packages product on bugzilla.
 
-See details from `here <http://developer.pardus.org.tr/guides/newfeature/newfeature_requests.html>`_.
+See details from :ref:`newfeature-requests`.
 
 Graphical User Interface related bugs
 -------------------------------------
@@ -332,4 +334,8 @@ If a graphical user interface bug exist, the best is to add the screenshot of it
 
 * In order to take screenshots, you can press "Print Screen" key on keyboard or you can also use gimp and take screenshot by following File -> Create -> Screenshot way.
 * In order to take video you can use recordmydesktop package.
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
 

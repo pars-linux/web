@@ -1,3 +1,5 @@
+.. _stock-responses:
+
 Bugzilla Stock Responses
 ========================
 
@@ -206,3 +208,8 @@ Some files can be needed for X11 server bugs:
 
 .. KMS/Radeon Bugs
 .. ^^^^^^^^^^^^^^^^
+
+**Last Modified Date:** |today|
+
+:Author: Semen Cirit
+

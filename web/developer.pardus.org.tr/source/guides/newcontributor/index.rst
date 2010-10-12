@@ -1,4 +1,4 @@
-.. _newdeveloper-index:
+.. _newcontributor-index:
 
 
 New Contributors

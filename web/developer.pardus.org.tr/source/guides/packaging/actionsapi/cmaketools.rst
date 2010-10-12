@@ -1,3 +1,5 @@
+.. _cmaketools:
+
 Cmaketools
 ==========
 
