@@ -80,7 +80,7 @@ Gather Information for Specific Bugs
 
 Installation Bugs
 ^^^^^^^^^^^^^^^^^
-    * Please add /var/log/yaliInstall.log file of the buggy installation.
+    * Please add /var/log/yali.log file of the buggy installation.
     * Please add "fdisk -l" output to the bug report, if this is a bug about partitioning.
 
 In order to take YALI related files:
@@ -98,7 +98,10 @@ In order to take YALI related files:
 
 ::
 
-    cp <output> /mnt/log
+    cp /var/log/yali.log /mnt/log
+    fdisk -l > fdisk.txt
+    cp fdisk.txt /mnt/log
+    cp /etc/fstab /mnt/log
 
 * Unmount the usb stick:
 
