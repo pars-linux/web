@@ -65,23 +65,26 @@ Sending Quiz to Applicant
 
 Assigning Mentor
 ----------------
-#. A mentor is assigned related to applicant responses or in alphabetical order.
+#. The applicant choose a job from `Junior Jobs <http://bugs.pardus.org.tr/buglist.cgi?keywords=JUNIORJOBS&query_format=advanced&keywords_type=allwords&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED>`_ and give this junior job id on his/her new contributor report as a bug comment.
+    #. The mentor will assign according to this job.
+    #. When a mentor is assigned to an applicant, the mentoring coordinators send `Assigning Mentor Stock Response`_ as a comment to the bug. The coordinator will also reassign the bug to related applicant mentor.
+    #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
+#. The mentor coordinators will track:
+    #. The number of applicant on mentor.
+    #. Send ping mails to mentor@pardus.org.tr in order to assign mentor to an applicant.
+
+But there are some constraints about assigning:
     #. One mentor has maximum 3 applicants
     #. If all mentors has 3 applicants, the newest applicant should have to wait in the queue. It will be announced by mentoring coordinators with a `Waiting in the Queue Stock Response`_ comment.
-    #. The mentor coordinators will track:
-        #. The number of applicant on mentor.
-        #. Send ping mails to mentor@pardus.org.tr in order to assign mentor to an applicant.
-    #. When a mentor is assigned to an applicant, the mentoring coordinators send `Assigning Mentor Stock Response`_ as a comment to the bug. The coordinator will also reassign the bug to related applicant mentor.
 
 Mentoring Process
 -----------------
-#. The mentor will give applicant some junior jobs. (The junior job can be a bug or package.) (see  :ref:`newcontributor-mentors`)
-    #. Related to junior jobs difficulty, one more jobs can be given to applicant.
-    #. At this stage playground svn permissions will be given to applicant. (The mentor will send and an email to sys. Admin for giving permissions.)
+#. Assigned mentor will keep an eye on applicant (see  :ref:`newcontributor-mentors`)
+    #. Give warnings on applicant bug report.
+    #. Related to junior jobs difficulty, one more job can be demanded from the applicant. (Mentor can guide applicant to find one more job.)
     #. The owner of the packages that applicant has done will be his/her mentor.
 #. If the applicant might not have achieved to finish the applicant job until the deadline, his/her bug will be closed with status RESOLVED/INVALID by the mentor and related comment will be given. Mentor can also add the reapply time to the comment. (Reapply time is depended to mentor related to applicant performance)(The mentor will send and an email to sys. Admin for removing permissions.)
-#. If applicant has finished his/her jobs in time:
-    #. The applicant is enters applicant progress observation period.
+#. If applicant has finished his/her jobs in time the applicant is enters applicant progress observation period.
 
 Applicant Progress Observation
 ------------------------------
