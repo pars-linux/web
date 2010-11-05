@@ -131,13 +131,14 @@ body {
 .search_term {
     width: 122px;
     float: left;
-    height: 32px;
+    height: 20px;
     border: none;
     background-image: url(/media/resimler/sidebar/arama-yarim.png);
     background-repeat: no-repeat;
     font-size: 12px;
     padding-left: 16px;
     padding-top: 12px;
+    padding-bottom: 12px;
 }
 .search_button {
     width: 39px;
