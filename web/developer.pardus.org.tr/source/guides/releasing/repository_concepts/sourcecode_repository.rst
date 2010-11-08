@@ -4,19 +4,19 @@ Source Code Repository
 ~~~~~~~~~~~~~~~~~~~~~~
 
 :Author: Semen Cirit
-:Date: |Today|
+:Date: |today|
 :Version: 0.1
 
 Pardus developers may be located all around the world. We keep the source code in
-an internet-accessible version control system called Subversion `SVN`, in order
+an internet-accessible version control system called Subversion `SVN`_, in order
 to enable our developers to work together on Pardus Distribution.
 
 Pardus has source code repositories and use SVN for source of packages,
-technologies and web pages. See `Pardus svn web page`.
+technologies and web pages. See `Pardus svn web page`_.
 
 
 Before explaining Pardus repositories structures, we need to explain first
-general `subversion branch maintainance`:
+general `subversion branch maintainance`_:
 
 The **trunk** is the main line of development in a SVN repository.
 
@@ -34,12 +34,12 @@ meaningful to use.
 Package Source Repository
 =========================
 
-Distribution Folder
+distribution Folder
 --------------------
 
 Each developed Pardus distribution has a special folder name in Pardus
-`Package source repository` and these folders are used as trunks. Each distribution
-on this `Package source repository` has a specific folder tree.
+`Package source repository`_ and these folders are used as trunks. Each distribution
+on this `Package source repository`_ has a specific folder tree.
 
 devel Folder
 ^^^^^^^^^^^^
@@ -57,7 +57,7 @@ This folder includes package source files which obtains their stable releases. I
 other words while devel folder can contain unstable packages stable can not.
 
 But some exceptions can also be exist, if you are not sure please ask Pardus
-`devel list`.
+`devel list`_.
 
 These two folders also has a specific folder tree. In this tree, the folders are
 named with Pardus package components.
@@ -67,32 +67,32 @@ named with Pardus package components.
 playground Folder
 -----------------
 
-`Package source repository` includes also an other folder `playground`. When
+`Package source repository`_ includes also an other folder `playground`_. When
 a new package is wants to be added to Pardus repositories or a new release of
 a complicated package will be implemented, the package maintainer use subfolder
-of the `playground` which is named with his/her name to commit the changes of
+of the `playground`_ which is named with his/her name to commit the changes of
 packages.
 
 review Folder
 ^^^^^^^^^^^^^
-The `playground` has also a `review` folder. This folder also has folders
-named as package components. Whenever a package is ready for `package review`,
+The `playground`_ has also a `review`_ folder. This folder also has folders
+named as package components. Whenever a package is ready for `package review`_,
 the package maintainer should move packages from his/her named folder under
-`playground` to package component named folder under `review`.
+`playground`_ to package component named folder under `review`_.
 
 tags Folder
 -----------
-`Package source repository` includes also an other folder `tags`. This folder
-includes distribution folders which reached their `end of life`.
+`Package source repository`_ includes also an other folder `tags`_. This folder
+includes distribution folders which reached their `end of life`_.
 
 
 Core Projects Source Repository
-==============================
+===============================
 
-`core projects source repository` includes the projects which are included in at
+`core projects source repository`_ includes the projects which are included in at
 least one Pardus distribution.
 
-There exist also the `developor scripts` and `developer docs` under this
+There exist also the `developer scripts`_ and `developer docs`_ under this
 repository.
 
 This repository use general subversion branch maintainance as mentioned above:
@@ -100,41 +100,41 @@ This repository use general subversion branch maintainance as mentioned above:
 trunk Folder
 ------------
 
-This `trunk` folder includes the maintained projects, scripts, and documents of Pardus
+This `trunk`_ folder includes the maintained projects, scripts, and documents of Pardus
 distribution.
 
 branches Folder
 ---------------
 
 Some projects need branches in order to create development lines for multiple
-versions, therefore these projects can be branched under this `branches`.
+versions, therefore these projects can be branched under this `branches`_.
 
 tags Folder
 -----------
 
-`Tags` folder is used for unmaintained projects or unmaintained versions of a
+`tags folder`_ is used for unmaintained projects or unmaintained versions of a
 project.
 
 External Projects Source Repository
 ===================================
 
-`external projects source repository` includes the projects of Pardus developers,
+`external projects source repository`_ includes the projects of Pardus developers,
 but these projects are not related any Pardus distribution. In other words Pardus
 developers use this repository to commit their self open source projects. When a
 project in that repository is decided to take place in a Pardus distribution, it
-should be moved to `core projects source repository`.
+should be moved to `core projects source repository`_.
 
 Özgürlük İçin Source Repository
 ===============================
 
-`oi source repository` includes Özgürlük için projects and web page source codes.
+`oi source repository`_ includes Özgürlük için projects and web page source codes.
 
 This repository has also the folders trunk and branches.
 
 Web Source Repository
 =====================
 
-`web source repository` includes the web page contents and codes of Pardus web
+`web source repository`_ includes the web page contents and codes of Pardus web
 pages.
 
 .. _subversion branch maintainance: http://svnbook.red-bean.com/nightly/en/svn.branchmerge.html
@@ -142,17 +142,17 @@ pages.
 .. _SVN: http://subversion.tigris.org/
 .. _Pardus svn web page: http://svn.pardus.org.tr/
 .. _Package source repository: http://svn.pardus.org.tr/pardus/
-.. _playgound: http://svn.pardus.org.tr/pardus/playground/
+.. _playground: http://svn.pardus.org.tr/pardus/playground/
 .. _review: http://svn.pardus.org.tr/pardus/playground/review/
 .. _package review: http://developer.pardus.org.tr/guides/packaging/package-review-process.html
 .. _tags: http://svn.pardus.org.tr/pardus/tags/
 .. _end of life: http://developer.pardus.org.tr/guides/releasing/end_of_life.html#subversion-tasks
 .. _core projects source repository: http://svn.pardus.org.tr/uludag/
 .. _developer scripts: http://svn.pardus.org.tr/uludag/trunk/scripts/
-.. _developer_docs: http://svn.pardus.org.tr/uludag/trunk/doc/
+.. _developer docs: http://svn.pardus.org.tr/uludag/trunk/doc/
 .. _trunk: http://svn.pardus.org.tr/uludag/trunk/
 .. _branches: http://svn.pardus.org.tr/uludag/branches/
-.. _Tags: http://svn.pardus.org.tr/uludag/tags/
+.. _tags folder: http://svn.pardus.org.tr/uludag/tags/
 .. _external projects source repository: http://svn.pardus.org.tr/projeler/
 .. _oi source repository: http://svn.pardus.org.tr/oi/
 .. _web source repository: http://svn.pardus.org.tr/web/
