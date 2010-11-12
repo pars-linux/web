@@ -3,6 +3,10 @@
 Rules for a correct Subversion usage
 ====================================
 
+:Author: Ozan Çağlayan, Semen Cirit
+:Date: |today|
+:Version: 0.1
+
 Subversion repository is a common place shared by all developers. In order to
 work together developers should be using the repository efficiently, properly
 and in an organized way.
