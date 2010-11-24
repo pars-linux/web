@@ -124,3 +124,9 @@ Perform atomic updates
 Commit all the modifications related to a particular improvement/update at once.
 Subversion lets you commit more than one file at a time. Other developers might be
 confused because of seperate commits and they can miss the improvements you made.
+
+Resources
+---------
+
+* `Commit Messages <http://who-t.blogspot.com/2009/12/on-commit-messages.html>`_
+
