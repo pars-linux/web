@@ -3,6 +3,11 @@
 Package Reviewing Process
 =========================
 
+:Author: Semen Cirit, Ozan Çağlayan
+:Date: |today|
+:Version: 0.1
+
+
 Aim of Review
 -------------
 
@@ -106,7 +111,3 @@ The package reviewing process steps on `Pardus Bug Tracking System
    is closed, package request bug will be closed too. ``RESOLVED/FIXED`` solution can
    also be applied for this bug. Ideally, closing both review and request bugs at
    the same commit is preferred.
-
-**Last Modified Date:** |today|
-
-:Author: Semen Cirit, Ozan Çağlayan
