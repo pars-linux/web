@@ -24,7 +24,7 @@ own experiences when reviewing a package.
     #. If the package could not successfully compile, build or work on a specific architecture, then those architectures should be specified in pspec.xml file with `ExcludeArch tag`_.
     #. All `build dependencies`_ must be listed in `pspex.xml file`_, except for any that are listed in the `dependencies excepted document`_.
     #. The `translations.xml file`_ must be added to package. 
-    #. Almost every pisi package (or subpackage) have shared library files, you must run `cheklib` for every package and find broken links.
+    #. Almost every pisi package (or subpackage) have shared library files, you must run `checkelf`_ for every package and find broken links.
     #. Packages must not `bundle copies`_ of system libraries.
     #. Permissions on files must be set properly. Executables should be set with executable permissions, See `Additional Files`_.
     #. Each package must use related actionsapi modules rather than recreating similar modules in `main`.
