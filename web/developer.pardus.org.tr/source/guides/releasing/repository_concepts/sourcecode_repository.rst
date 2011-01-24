@@ -51,7 +51,7 @@ be committed a related devel repository folder.
 This folder may contain alfa, beta or latest ubstable releases of packages.
 
 testing Folder
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 This folder includes package source files which obtains their stable releases. In
 other words while devel folder can contain unstable packages stable can not.
