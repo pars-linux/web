@@ -34,6 +34,25 @@ meaningful to use.
 Package Source Repository
 =========================
 
+Following table shows binary/farm/source mappings for package source repository:
+
++---------------+-----------------+---------------+
+| Binary Repo   |  Farm           | Source Repo   |
++===============+=================+===============+
+| devel/i686    |  devel/i686     | devel         |
++---------------+-----------------+---------------+
+| devel/x86_64  |  devel/x86_86   | devel         |
++---------------+-----------------+---------------+
+| testing/i686  |  testing/i686   | testing       |
++---------------+-----------------+---------------+
+| testing/x86_64|  testing/x86_64 | testing       |
++---------------+-----------------+---------------+
+| stable/i686   |  -              | testing       |
++---------------+-----------------+---------------+
+| stable/x86_64 |  -              | testing       |
++---------------+-----------------+---------------+
+
+
 distribution Folder
 --------------------
 
