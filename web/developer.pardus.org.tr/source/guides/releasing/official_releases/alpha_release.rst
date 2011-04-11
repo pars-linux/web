@@ -48,6 +48,7 @@ In order to do Pardus Alpha official, the following criterias must be meet:
 * The installed system must boot to th default desktop environment without user intervention
 * The desktop greeter (Kaptan_) should start when the system boot.
 * The default web browser must run and be able to download files and load extensions
+* Default applications that exist on desktop menu must be listed.
 * The `Package Manager`_ must have the correct repository and be able to download and install updates with with PiSi_.
 * The new release artwork must either refer to the current release under maintainance, or reference to a temporary test release. This artwork should be for the installer, firstboot, graphical boot, graphical login·
 
@@ -81,6 +82,7 @@ Alpha Tickets
 #. Warn users and developers about `feature request`_ deadline one week before
 #. Warn developers about `feature submission`_ deadline one week before
 #. Create accepted feature list
+#. Create default applications list for desktop menu
 #. Put feature list to developer.pardus.org.tr
 #. Send weekly emails about `urgent package list`_
 #. Warn about `feature freeze`_ one week before
