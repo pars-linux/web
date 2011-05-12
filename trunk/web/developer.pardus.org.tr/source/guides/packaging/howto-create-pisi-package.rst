@@ -40,7 +40,7 @@ There can be multiple Package nodes in here.
 
 In other words, one source package may generate multiple binary packages. Pisi is very flexible :)
 
-Let's look at our example here: http://svn.pardus.org.tr/pardus/devel/desktop/kde/knazar/pspec.xml
+Let's look at our example here: http://svn.pardus.org.tr/pardus/2011/devel/desktop/kde/addon/knazar/pspec.xml
 
 As you can see in the example,
 
@@ -84,7 +84,7 @@ actions.py
 
 This file contains python codes that would compile and install the source package into a specific InstallDIR (in our example it is ``/var/pisi/knazar-0.2-3-3/install/``)
 
-http://svn.pardus.org.tr/pardus/devel/desktop/kde/knazar/actions.py
+http://svn.pardus.org.tr/pardus/2011/devel/desktop/kde/addon/knazar/actions.py
 
 In this file, we use ``Actions API`` that comes with pisi. ``Actions API`` has all functions for us to compile and install our package.
 
@@ -96,7 +96,7 @@ After preparing pspec.xml and actions.py you can easily form a pisi package by t
 
 in the console. To compile my example you may type::
 
-    sudo pisi bi http://svn.pardus.org.tr/pardus/devel/desktop/kde/knazar/pspec.xml
+    sudo pisi bi http://svn.pardus.org.tr/pardus/2011/devel/desktop/kde/addon/knazar/pspec.xml
 
 Finally, you can examine other official pisi source packages here: http://svn.pardus.org.tr/pardus/devel/
 
