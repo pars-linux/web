@@ -3,7 +3,7 @@
 Source Code Repository
 ~~~~~~~~~~~~~~~~~~~~~~
 
-:Author: Semen Cirit
+:Author: Semen Cirit, Çağlar Kilimci
 :Date: |today|
 :Version: 0.2
 
@@ -106,6 +106,13 @@ includes distribution folders which reached their `end of life`_.
 Core Projects Source Repository
 ===============================
 
+There are two kind of source repositories; subversion and git based. For now,
+git repository is using for testing. Uludag repository, `core projects source
+repository`_, is based on subversion.
+
+Subversion Repository
+---------------------
+
 `core projects source repository`_ includes the projects which are included in at
 least one Pardus distribution.
 
@@ -115,22 +122,42 @@ repository.
 This repository use general subversion branch maintainance as mentioned above:
 
 trunk Folder
-------------
+^^^^^^^^^^^^
 
 This `trunk`_ folder includes the maintained projects, scripts, and documents of Pardus
 distribution.
 
 branches Folder
----------------
+^^^^^^^^^^^^^^^
 
 Some projects need branches in order to create development lines for multiple
 versions, therefore these projects can be branched under this `branches`_.
 
 tags Folder
------------
+^^^^^^^^^^^
 
 `tags folder`_ is used for unmaintained projects or unmaintained versions of a
 project.
+
+Git Repository
+--------------
+
+Unlike `core projects source repository`_, which all projects comes together in
+one path, every project has own git repository. For example::
+
+    https://git.pardus.org.tr/source/<project-name>.git
+
+Responsibility of repository is responsibility of project. The merge requests
+are applied by project leader.
+
+We do not need extra playground repositories because every developer have own
+git area, like::
+
+    https://git.pardus.org.tr/<developer-name>
+    https://git.pardus.org.tr/<developer-name>/<project-name>.git
+
+Tagging is easier on git for its own properties. Also code review process can
+be handled with code review plug in on `issue tracking system`_.
 
 External Projects Source Repository
 ===================================
@@ -174,3 +201,4 @@ pages.
 .. _oi source repository: http://svn.pardus.org.tr/oi/
 .. _web source repository: http://svn.pardus.org.tr/web/
 .. _package components: http://developer.pardus.org.tr/guides/packaging/package_components.html
+.. _issue tracking system: http://tracker.pardus.org.tr
