@@ -2,6 +2,8 @@ Recent Events
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   bug_analysis/index.rst
    bug_triage_days.rst
+
