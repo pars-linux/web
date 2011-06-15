@@ -1,7 +1,6 @@
 Weekly Bug Report
 ~~~~~~~~~~~~~~~~~
-
-**Date Between:** 02-06-2011/09-06-2011
+**Date Between:** 09-06-2011/15-06-2011
 
 Number of Bugs Fixed Since Last Week
 =====================================
@@ -10,3 +9,7 @@ Number of Bugs Fixed Since Last Week
 Number of Bugs Commented Since Last Week
 ========================================
 .. image:: commented_bugs_lw.png
+
+Number of Bugs Triaged Since Last Week
+========================================
+.. image:: triaged_bugs_lw.png
