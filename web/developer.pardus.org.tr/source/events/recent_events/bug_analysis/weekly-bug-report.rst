@@ -1,6 +1,7 @@
 Weekly Bug Report
 ~~~~~~~~~~~~~~~~~
-**Date Between:** 17-06-2011/24-06-2011
+
+**Date Between** 27-06-2011/04-07-2011
 
 Number of Bugs Fixed Since Last Week
 =====================================

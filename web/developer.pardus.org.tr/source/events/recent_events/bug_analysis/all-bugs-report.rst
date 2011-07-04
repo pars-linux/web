@@ -1,7 +1,7 @@
 All Opened, Reopened or Assigned Bugs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Until:** 24-06-2011
+**Until:** 04-07-2011
 
 All Opened, Reopened or Assigned Bugs for Different Versions
 =============================================================
