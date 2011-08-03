@@ -24,7 +24,7 @@ Applicant Tracking on Bugzilla
 Some Hints :)
 =============
 
-#. If you want to hasten the developer applicant process, you can directly choose bug and work on it. After then request for beeing contributor developer with your ready junior job and wait only for review.
+#. If you want to hasten the developer applicant process, you can directly choose a bug and work on it. After then request for beeing contributor developer with your ready junior job and wait only for review.
 #. If you are/were an intern at Pardus, you can directly request for beeing contributor developer with your internship project and wait only for review.
 
 ****************
