@@ -16,6 +16,7 @@ ActionsApi
     libtools.rst
     perlmodules.rst
     pisitools.rst
+    pkgconfig.rst
     pythonmodules.rst
     qt4.rst
     rubymodules.rst
