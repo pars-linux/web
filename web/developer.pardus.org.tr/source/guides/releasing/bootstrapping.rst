@@ -180,7 +180,7 @@ Then, it may come to the steps necessary for compiling glibc. Source code of the
 Source codes open into the src; in this way, glibc-stage1 directory is created under the build to be used for compiling.
 ::
 
-    ../../glibc-xxx/configure --prefix=usr  --target=${TARGET} --without-__thread --enable-add-ons=linuxthreads --with-headers=${SYSROOT}/usr/include
+    ../../glibc-xxx/configure --prefix=/usr  --target=${TARGET} --without-__thread --enable-add-ons=linuxthreads --with-headers=${SYSROOT}/usr/include
     make
     make install_root=${SYSROOT} install
 
