@@ -1,7 +1,7 @@
 Half Yearly Bug Report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Date Between:** December-May
+**Between** April-September
 
 Number of Bugs Fixed Since Last 6 Month
 ========================================
@@ -10,3 +10,7 @@ Number of Bugs Fixed Since Last 6 Month
 Number of Bugs Commented Since Last 6 Month
 ===========================================
 .. image:: commented_bugs_l6m.png
+
+Number of Bugs Triaged Since Last 6 month
+===========================================
+.. image:: triaged_bugs_l6m.png
