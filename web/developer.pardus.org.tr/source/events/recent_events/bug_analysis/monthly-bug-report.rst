@@ -1,7 +1,7 @@
 Monthly Bug Report
 ~~~~~~~~~~~~~~~~~~~~
 
-**Date Between:** 05-07-2011/05-08-2011
+**Between** 07-09-2011/07-10-2011
 
 Number of Bugs Fixed Since Last Month
 ======================================

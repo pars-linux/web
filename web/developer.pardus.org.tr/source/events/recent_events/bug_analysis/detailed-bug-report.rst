@@ -1,7 +1,7 @@
 Weekly Detail Bug Report
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Date Between:** 12-08-2011/18-08-2011
+**Between** 01-10-2011/07-10-2011
 
 Aşkın Yollu
 ============================================
@@ -11,7 +11,7 @@ Total New, Opened, Reopened Bug Number:
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=14502
+http://bugs.pardus.org.tr/show_bug.cgi?id=6350
 
 Bug id that has longest comment:
 
@@ -62,7 +62,7 @@ Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=17842
 
-Number of comments of this bug: 5
+Number of comments of this bug: 8
 
 Number of bugs reported since last week: 0
 
@@ -97,23 +97,22 @@ Bahadır Kandemir
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-39
+3
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=2097
+http://bugs.pardus.org.tr/show_bug.cgi?id=9300
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=10576
+http://bugs.pardus.org.tr/show_bug.cgi?id=17628
 
-Number of comments of this bug: 34
+Number of comments of this bug: 4
 
-Number of bugs reported since last week: 1
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18957
 
 
 Number of resolved bugs since last week: 0
@@ -143,7 +142,7 @@ Bertan Gündoğdu
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-15
+38
 
 Oldest Bug Id:
 
@@ -155,52 +154,52 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=17779
 
 Number of comments of this bug: 31
 
-Number of bugs reported since last week: 2
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18951
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18974
 
 
-Number of resolved bugs since last week: 2
+Number of resolved bugs since last week: 1
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11940
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18889
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18002
 
 
-Number of commented bugs since last week: 12
+Number of commented bugs since last week: 11
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=15264
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11940
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18951
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18889
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11981
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=12158
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=13023
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18883
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=13192
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=15243
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=16264
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18002
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=16309
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=16310
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=14008
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=10810
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17724
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18133
 
 
-Number of triaged bugs since last week: 1
+Number of triaged bugs since last week: 0
 
 Triaged bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=13023
 
 
 Beyza Ermiş
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+6
 
 Oldest Bug Id:
 
@@ -208,9 +207,9 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=14733
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18265
+http://bugs.pardus.org.tr/show_bug.cgi?id=17000
 
-Number of comments of this bug: 7
+Number of comments of this bug: 11
 
 Number of bugs reported since last week: 0
 
@@ -245,17 +244,17 @@ Burak Çalışkan
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-12
+8
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=10532
+http://bugs.pardus.org.tr/show_bug.cgi?id=16048
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18654
+http://bugs.pardus.org.tr/show_bug.cgi?id=16048
 
-Number of comments of this bug: 12
+Number of comments of this bug: 8
 
 Number of bugs reported since last week: 0
 
@@ -290,17 +289,17 @@ Triaged bug links since Last Week:
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-11
+9
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=12484
+http://bugs.pardus.org.tr/show_bug.cgi?id=5959
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18305
+http://bugs.pardus.org.tr/show_bug.cgi?id=5959
 
-Number of comments of this bug: 26
+Number of comments of this bug: 24
 
 Number of bugs reported since last week: 0
 
@@ -315,27 +314,12 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 17
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8192
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18305
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10499
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10552
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10184
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=9806
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10095
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10672
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18161
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10514
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10195
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=7896
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17667
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11647
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10227
 
 
 Number of triaged bugs since last week: 0
@@ -350,17 +334,17 @@ David Stegbauer
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+4
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=7714
+http://bugs.pardus.org.tr/show_bug.cgi?id=17039
 
 Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=17039
 
-Number of comments of this bug: 17
+Number of comments of this bug: 18
 
 Number of bugs reported since last week: 0
 
@@ -395,7 +379,7 @@ Erdem Bayer
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-25
+18
 
 Oldest Bug Id:
 
@@ -403,9 +387,9 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=2420
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=14640
+http://bugs.pardus.org.tr/show_bug.cgi?id=13875
 
-Number of comments of this bug: 26
+Number of comments of this bug: 18
 
 Number of bugs reported since last week: 0
 
@@ -440,7 +424,7 @@ Deniz Ege Tunçay
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-3
+2
 
 Oldest Bug Id:
 
@@ -530,11 +514,11 @@ Emre Erenoğlu
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-5
+6
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=10699
+http://bugs.pardus.org.tr/show_bug.cgi?id=16758
 
 Bug id that has longest comment:
 
@@ -600,13 +584,12 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 1
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18672
 
 
 Number of triaged bugs since last week: 0
@@ -646,15 +629,12 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 3
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18890
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11739
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18974
 
 
 Number of triaged bugs since last week: 0
@@ -669,7 +649,7 @@ Ertuğrul Erata
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-3
+2
 
 Oldest Bug Id:
 
@@ -714,7 +694,7 @@ Fatih Arslan
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-88
+90
 
 Oldest Bug Id:
 
@@ -724,46 +704,45 @@ Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=16053
 
-Number of comments of this bug: 87
+Number of comments of this bug: 90
 
-Number of bugs reported since last week: 2
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18969
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18973
 
 
-Number of resolved bugs since last week: 3
+Number of resolved bugs since last week: 7
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16371
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17917
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18924
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18858
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18647
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18654
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19244
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19245
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19243
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19066
 
 
-Number of commented bugs since last week: 23
+Number of commented bugs since last week: 25
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18305
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18817
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18952
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18924
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18671
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16371
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18935
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17977
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17850
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18459
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17116
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18205
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17917
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18271
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18858
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19243
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19244
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=14061
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19246
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19245
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19024
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18647
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18649
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19228
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18654
 
 
 Number of triaged bugs since last week: 0
@@ -778,7 +757,7 @@ Fatih Aşıcı
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-62
+66
 
 Oldest Bug Id:
 
@@ -794,26 +773,25 @@ Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18956
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19276
 
 
-Number of resolved bugs since last week: 1
+Number of resolved bugs since last week: 0
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16838
 
 
-Number of commented bugs since last week: 4
+Number of commented bugs since last week: 3
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19224
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=10499
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16838
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11647
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19276
 
 
 Number of triaged bugs since last week: 0
@@ -853,13 +831,12 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 1
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=15033
 
 
 Number of triaged bugs since last week: 0
@@ -874,7 +851,7 @@ Gökçen Eraslan
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-307
+169
 
 Oldest Bug Id:
 
@@ -882,36 +859,30 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=2371
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=12145
+http://bugs.pardus.org.tr/show_bug.cgi?id=17706
 
-Number of comments of this bug: 35
+Number of comments of this bug: 30
 
-Number of bugs reported since last week: 3
+Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18953
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18958
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18959
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19267
 
 
-Number of resolved bugs since last week: 1
+Number of resolved bugs since last week: 0
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16659
 
 
-Number of commented bugs since last week: 3
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18337
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18731
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17374
 
 
 Number of triaged bugs since last week: 0
@@ -971,7 +942,7 @@ Gökmen Göksel
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-53
+49
 
 Oldest Bug Id:
 
@@ -979,22 +950,23 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=1780
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18895
+http://bugs.pardus.org.tr/show_bug.cgi?id=1780
 
-Number of comments of this bug: 38
+Number of comments of this bug: 25
 
-Number of bugs reported since last week: 1
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18949
 
 
-Number of resolved bugs since last week: 0
+Number of resolved bugs since last week: 2
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4951
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=5159
 
 
 Number of commented bugs since last week: 3
@@ -1003,7 +975,8 @@ Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18955
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=5159
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4951
 
 
 Number of triaged bugs since last week: 0
@@ -1018,7 +991,7 @@ Gökhan Özbulak
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-26
+25
 
 Oldest Bug Id:
 
@@ -1030,20 +1003,24 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=8386
 
 Number of comments of this bug: 21
 
-Number of bugs reported since last week: 0
+Number of bugs reported since last week: 3
 
 New Bug Report Links since Last Week:
 -------------------------------------
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19257
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19258
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19277
 
 
-Number of resolved bugs since last week: 3
+Number of resolved bugs since last week: 4
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18932
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18933
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18934
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18353
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18508
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
 
 
 Number of commented bugs since last week: 8
@@ -1052,11 +1029,13 @@ Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18884
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18931
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18932
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18933
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18934
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17669
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18508
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18353
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19257
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19196
 
 
 Number of triaged bugs since last week: 0
@@ -1096,52 +1075,6 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 1
-
-Commented bug links since Last Week:
-------------------------------------
-
-
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18895
-
-
-Number of triaged bugs since last week: 0
-
-Triaged bug links since Last Week:
-------------------------------------
-
-
-
-
-Ekrem Seren
-============================================
-
-Total New, Opened, Reopened Bug Number:
-1
-
-Oldest Bug Id:
-
-http://bugs.pardus.org.tr/show_bug.cgi?id=11076
-
-Bug id that has longest comment:
-
-http://bugs.pardus.org.tr/show_bug.cgi?id=11076
-
-Number of comments of this bug: 5
-
-Number of bugs reported since last week: 0
-
-New Bug Report Links since Last Week:
--------------------------------------
-
-
-Number of resolved bugs since last week: 0
-
-Resolved Bug Links since Last Week:
------------------------------------
-
-
-
 Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
@@ -1162,7 +1095,7 @@ H. İbrahim Güngör
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-25
+29
 
 Oldest Bug Id:
 
@@ -1174,39 +1107,45 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=6319
 
 Number of comments of this bug: 70
 
-Number of bugs reported since last week: 2
+Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18930
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18944
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19265
 
 
-Number of resolved bugs since last week: 3
+Number of resolved bugs since last week: 6
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18946
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18967
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18924
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17398
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19251
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
 
 
-Number of commented bugs since last week: 10
+Number of commented bugs since last week: 24
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18785
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18946
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=14116
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18155
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18924
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8822
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18967
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18812
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18205
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18994
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19251
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18004
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17398
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19196
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19263
 
 
 Number of triaged bugs since last week: 0
@@ -1266,7 +1205,7 @@ Triaged bug links since Last Week:
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+6
 
 Oldest Bug Id:
 
@@ -1274,14 +1213,15 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=10328
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=15051
+http://bugs.pardus.org.tr/show_bug.cgi?id=10328
 
-Number of comments of this bug: 19
+Number of comments of this bug: 10
 
-Number of bugs reported since last week: 0
+Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19254
 
 
 Number of resolved bugs since last week: 0
@@ -1311,7 +1251,7 @@ Uğur Çetin
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+5
 
 Oldest Bug Id:
 
@@ -1419,20 +1359,30 @@ New Bug Report Links since Last Week:
 -------------------------------------
 
 
-Number of resolved bugs since last week: 0
+Number of resolved bugs since last week: 5
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18155
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
 
 
-Number of commented bugs since last week: 1
+Number of commented bugs since last week: 8
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18155
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18004
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
 
 
 Number of triaged bugs since last week: 0
@@ -1447,7 +1397,7 @@ Kaan Özdinçer
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+10
 
 Oldest Bug Id:
 
@@ -1455,30 +1405,42 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=11758
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18056
+http://bugs.pardus.org.tr/show_bug.cgi?id=18004
 
-Number of comments of this bug: 14
+Number of comments of this bug: 16
 
-Number of bugs reported since last week: 0
+Number of bugs reported since last week: 2
 
 New Bug Report Links since Last Week:
 -------------------------------------
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19255
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19256
 
 
-Number of resolved bugs since last week: 0
+Number of resolved bugs since last week: 5
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18155
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
 
 
-Number of commented bugs since last week: 1
+Number of commented bugs since last week: 9
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18155
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18004
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18456
 
 
 Number of triaged bugs since last week: 0
@@ -1493,68 +1455,17 @@ Koray Löker
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-10
+11
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=11363
+http://bugs.pardus.org.tr/show_bug.cgi?id=53
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18192
+http://bugs.pardus.org.tr/show_bug.cgi?id=12727
 
-Number of comments of this bug: 15
-
-Number of bugs reported since last week: 0
-
-New Bug Report Links since Last Week:
--------------------------------------
-
-
-Number of resolved bugs since last week: 1
-
-Resolved Bug Links since Last Week:
------------------------------------
-
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=1704
-
-
-Number of commented bugs since last week: 7
-
-Commented bug links since Last Week:
-------------------------------------
-
-
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=1704
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18889
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=7003
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=53
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=7011
-
-
-Number of triaged bugs since last week: 0
-
-Triaged bug links since Last Week:
-------------------------------------
-
-
-
-
-Mehmet Özdemir
-============================================
-
-Total New, Opened, Reopened Bug Number:
-18
-
-Oldest Bug Id:
-
-http://bugs.pardus.org.tr/show_bug.cgi?id=9806
-
-Bug id that has longest comment:
-
-http://bugs.pardus.org.tr/show_bug.cgi?id=17507
-
-Number of comments of this bug: 22
+Number of comments of this bug: 19
 
 Number of bugs reported since last week: 0
 
@@ -1585,11 +1496,62 @@ Triaged bug links since Last Week:
 
 
 
+Mehmet Özdemir
+============================================
+
+Total New, Opened, Reopened Bug Number:
+19
+
+Oldest Bug Id:
+
+http://bugs.pardus.org.tr/show_bug.cgi?id=9806
+
+Bug id that has longest comment:
+
+http://bugs.pardus.org.tr/show_bug.cgi?id=17507
+
+Number of comments of this bug: 23
+
+Number of bugs reported since last week: 2
+
+New Bug Report Links since Last Week:
+-------------------------------------
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19264
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19273
+
+
+Number of resolved bugs since last week: 0
+
+Resolved Bug Links since Last Week:
+-----------------------------------
+
+
+
+Number of commented bugs since last week: 6
+
+Commented bug links since Last Week:
+------------------------------------
+
+
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18360
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18361
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18368
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=15735
+
+
+Number of triaged bugs since last week: 0
+
+Triaged bug links since Last Week:
+------------------------------------
+
+
+
+
 Meltem Parmaksız
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-9
+7
 
 Oldest Bug Id:
 
@@ -1599,67 +1561,27 @@ Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=15376
 
-Number of comments of this bug: 11
+Number of comments of this bug: 13
 
-Number of bugs reported since last week: 3
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18936
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18937
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18938
 
 
-Number of resolved bugs since last week: 13
+Number of resolved bugs since last week: 0
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=15448
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=9914
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8353
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8378
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8970
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11177
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=12668
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=12778
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=13184
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18083
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17174
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=13755
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=14346
 
 
-Number of commented bugs since last week: 25
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8970
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17174
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8353
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18083
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=11177
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=8378
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=13755
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=14346
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=15448
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18908
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=9914
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18917
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16358
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18928
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18929
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18931
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18932
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18933
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18934
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18935
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18936
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18937
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18938
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=12668
 
 
 Number of triaged bugs since last week: 0
@@ -1674,11 +1596,11 @@ Mehmet Emre Atasever
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-4
+1
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=10810
+http://bugs.pardus.org.tr/show_bug.cgi?id=13831
 
 Bug id that has longest comment:
 
@@ -1719,7 +1641,7 @@ Mesutcan Kurt
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-8
+6
 
 Oldest Bug Id:
 
@@ -1764,7 +1686,7 @@ Mete Bilgin
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+5
 
 Oldest Bug Id:
 
@@ -1772,9 +1694,9 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=9583
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=17419
+http://bugs.pardus.org.tr/show_bug.cgi?id=9583
 
-Number of comments of this bug: 26
+Number of comments of this bug: 10
 
 Number of bugs reported since last week: 0
 
@@ -1789,12 +1711,13 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 0
+Number of commented bugs since last week: 1
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
 
 
 Number of triaged bugs since last week: 0
@@ -1809,7 +1732,7 @@ Mete Alpaslan
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-111
+73
 
 Oldest Bug Id:
 
@@ -1821,13 +1744,11 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=11503
 
 Number of comments of this bug: 35
 
-Number of bugs reported since last week: 3
+Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18954
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18962
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18965
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19260
 
 
 Number of resolved bugs since last week: 0
@@ -1857,17 +1778,17 @@ Metin Akdere
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-14
+37
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=3259
+http://bugs.pardus.org.tr/show_bug.cgi?id=2097
 
 Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=17669
 
-Number of comments of this bug: 53
+Number of comments of this bug: 63
 
 Number of bugs reported since last week: 0
 
@@ -1875,19 +1796,24 @@ New Bug Report Links since Last Week:
 -------------------------------------
 
 
-Number of resolved bugs since last week: 0
+Number of resolved bugs since last week: 1
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19066
 
 
-Number of commented bugs since last week: 0
+Number of commented bugs since last week: 4
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19066
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19043
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17669
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19262
 
 
 Number of triaged bugs since last week: 0
@@ -1902,17 +1828,17 @@ Türker Sezer
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-3
+2
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=15603
+http://bugs.pardus.org.tr/show_bug.cgi?id=17642
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=15603
+http://bugs.pardus.org.tr/show_bug.cgi?id=17642
 
-Number of comments of this bug: 8
+Number of comments of this bug: 5
 
 Number of bugs reported since last week: 0
 
@@ -1992,17 +1918,17 @@ Nihat Ciddi
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-2
+1
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=11701
+http://bugs.pardus.org.tr/show_bug.cgi?id=18547
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=11701
+http://bugs.pardus.org.tr/show_bug.cgi?id=18547
 
-Number of comments of this bug: 4
+Number of comments of this bug: 1
 
 Number of bugs reported since last week: 0
 
@@ -2037,7 +1963,7 @@ Necdet Yücel
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-7
+3
 
 Oldest Bug Id:
 
@@ -2045,15 +1971,14 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=8525
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=18444
+http://bugs.pardus.org.tr/show_bug.cgi?id=8525
 
-Number of comments of this bug: 17
+Number of comments of this bug: 9
 
-Number of bugs reported since last week: 1
+Number of bugs reported since last week: 0
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18964
 
 
 Number of resolved bugs since last week: 0
@@ -2173,46 +2098,38 @@ Onur Küçük
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-6
+4
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=51
+http://bugs.pardus.org.tr/show_bug.cgi?id=19116
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=14641
+http://bugs.pardus.org.tr/show_bug.cgi?id=19184
 
-Number of comments of this bug: 16
+Number of comments of this bug: 3
 
-Number of bugs reported since last week: 2
+Number of bugs reported since last week: 1
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18948
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18963
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19281
 
 
-Number of resolved bugs since last week: 1
+Number of resolved bugs since last week: 0
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18083
 
 
-Number of commented bugs since last week: 26
+Number of commented bugs since last week: 0
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18817
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18948
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18895
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18963
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18942
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18943
 
 
 Number of triaged bugs since last week: 0
@@ -2227,7 +2144,7 @@ Ozan Çağlayan
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-282
+307
 
 Oldest Bug Id:
 
@@ -2239,16 +2156,12 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=15946
 
 Number of comments of this bug: 97
 
-Number of bugs reported since last week: 6
+Number of bugs reported since last week: 2
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18929
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18945
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18950
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18960
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18968
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18971
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19262
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19270
 
 
 Number of resolved bugs since last week: 3
@@ -2256,9 +2169,9 @@ Number of resolved bugs since last week: 3
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18271
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16659
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18342
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18056
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
 
 
 Number of commented bugs since last week: 10
@@ -2267,14 +2180,12 @@ Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18880
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18342
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18598
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18205
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16754
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10227
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=16436
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17789
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19234
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18469
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18470
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18004
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17621
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19196
 
 
 Number of triaged bugs since last week: 0
@@ -2289,7 +2200,7 @@ Renan Çakırerk
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-32
+60
 
 Oldest Bug Id:
 
@@ -2314,13 +2225,13 @@ Resolved Bug Links since Last Week:
 
 
 
-Number of commented bugs since last week: 2
+Number of commented bugs since last week: 1
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18884
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17167
 
 
 Number of triaged bugs since last week: 0
@@ -2335,17 +2246,17 @@ Recep Kırmızı
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-2
+1
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=8967
+http://bugs.pardus.org.tr/show_bug.cgi?id=11575
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=8967
+http://bugs.pardus.org.tr/show_bug.cgi?id=11575
 
-Number of comments of this bug: 12
+Number of comments of this bug: 6
 
 Number of bugs reported since last week: 0
 
@@ -2380,7 +2291,7 @@ Serdar Dalgıç
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-47
+55
 
 Oldest Bug Id:
 
@@ -2390,58 +2301,54 @@ Bug id that has longest comment:
 
 http://bugs.pardus.org.tr/show_bug.cgi?id=12443
 
-Number of comments of this bug: 48
+Number of comments of this bug: 49
 
-Number of bugs reported since last week: 2
+Number of bugs reported since last week: 5
 
 New Bug Report Links since Last Week:
 -------------------------------------
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18940
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18966
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19253
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19266
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19274
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19280
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19282
 
 
-Number of resolved bugs since last week: 6
+Number of resolved bugs since last week: 2
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18941
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18671
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10441
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18161
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18817
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18972
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19259
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19271
 
 
-Number of commented bugs since last week: 43
+Number of commented bugs since last week: 25
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18305
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18817
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18459
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18972
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18593
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18338
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18247
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18884
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18246
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18337
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18248
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10441
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18368
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18273
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18850
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=15319
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17116
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18275
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18916
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=17001
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=10732
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18671
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18161
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18921
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19237
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19238
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19271
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=18496
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17116
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19274
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19182
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19280
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=12946
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19278
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19253
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=17751
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19273
 #. http://bugs.pardus.org.tr/show_bug.cgi?id=18812
-#. http://bugs.pardus.org.tr/show_bug.cgi?id=18941
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19221
 
 
 Number of triaged bugs since last week: 0
@@ -2456,17 +2363,17 @@ Semen Cirit
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-6
+10
 
 Oldest Bug Id:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=9867
+http://bugs.pardus.org.tr/show_bug.cgi?id=9544
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=9867
+http://bugs.pardus.org.tr/show_bug.cgi?id=18820
 
-Number of comments of this bug: 6
+Number of comments of this bug: 9
 
 Number of bugs reported since last week: 0
 
@@ -2474,19 +2381,26 @@ New Bug Report Links since Last Week:
 -------------------------------------
 
 
-Number of resolved bugs since last week: 0
+Number of resolved bugs since last week: 3
 
 Resolved Bug Links since Last Week:
 -----------------------------------
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4138
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4144
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4214
 
 
-Number of commented bugs since last week: 0
+Number of commented bugs since last week: 4
 
 Commented bug links since Last Week:
 ------------------------------------
 
 
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4144
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=19264
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4138
+#. http://bugs.pardus.org.tr/show_bug.cgi?id=4214
 
 
 Number of triaged bugs since last week: 0
@@ -2546,7 +2460,7 @@ Michael Austin
 ============================================
 
 Total New, Opened, Reopened Bug Number:
-2
+1
 
 Oldest Bug Id:
 
@@ -2554,9 +2468,9 @@ http://bugs.pardus.org.tr/show_bug.cgi?id=8192
 
 Bug id that has longest comment:
 
-http://bugs.pardus.org.tr/show_bug.cgi?id=13545
+http://bugs.pardus.org.tr/show_bug.cgi?id=8192
 
-Number of comments of this bug: 11
+Number of comments of this bug: 5
 
 Number of bugs reported since last week: 0
 

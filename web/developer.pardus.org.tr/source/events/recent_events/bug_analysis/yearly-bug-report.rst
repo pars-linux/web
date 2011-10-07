@@ -1,7 +1,7 @@
 Yearly Bug Report
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-**Date Between:** June 2010 - June 2011
+**Between** September 2010/ September 2011
 
 Number of Bugs Fixed Since Last Year
 =====================================
@@ -10,3 +10,7 @@ Number of Bugs Fixed Since Last Year
 Number of Bugs Commented Since Last Year
 ========================================
 .. image:: commented_bugs_ly.png
+
+Number of Bugs Triaged Since Last Year
+========================================
+.. image:: triaged_bugs_ly.png
