@@ -5,17 +5,8 @@ Package Reviewing Process
 
 :Author: Semen Cirit, Ozan Çağlayan
 :Date: |today|
-:Version: 0.1
+:Version: 0.2
 
-
-Aim of Review
--------------
-
-Package review is a must before it is added to Pardus repositories. The aim of this
-process is to be ensure the package satisfies packaging rules.
-
-
-New packages, package renaming need review process.
 
 Package Review Guidelines
 -------------------------
@@ -103,6 +94,10 @@ The package reviewing process steps on `Pardus Bug Tracking System
    After the package maintainer has fixed the problem, the reviewer verifies
    the problem and gives an ``ACK`` as an approval comment.
 
+#. When supervisors give ACK, they will add keyword **ACKS** to the bug. After the bug
+    gets an **ACKS** it needs one more ACK from a developer.  When developers give ACK,
+    they will add keyword **ACKD** to the bug.
+
 #. The package that takes the necessary approvals, is taken into the package repositories,
    removed from the review directory and the bug status is changed to
    ``RESOLVED/FIXED``.
@@ -111,3 +106,10 @@ The package reviewing process steps on `Pardus Bug Tracking System
    is closed, package request bug will be closed too. ``RESOLVED/FIXED`` solution can
    also be applied for this bug. Ideally, closing both review and request bugs at
    the same commit is preferred.
+
+.. _stable repository: http://developer.pardus.org.tr/guides/releasing/repository_concepts/software_repository.html#stable-binary-repository
+.. _severity based fixing times: http://developer.pardus.org.tr/guides/bugtracking/howto_bug_triage.html#bug-importance
+.. _package review requirements: http://developer.pardus.org.tr/guides/packaging/reviewing_guidelines.html
+.. _obsolete: http://developer.pardus.org.tr/guides/packaging/packaging_guidelines.html?highlight=obsolete#renaming-replacing-existing-packages
+.. _security website: http://security.pardus.org.tr/
+
